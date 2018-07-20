@@ -12,7 +12,7 @@ categories:
 ---
 源码：[`AddressBook`](https://github.com/xiaofeng0325/AddressBook)
 
-<!-- more -->
+
 ```java
 package com.example.zm.addressbook;
 

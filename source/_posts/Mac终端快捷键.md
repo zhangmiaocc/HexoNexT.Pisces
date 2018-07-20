@@ -36,4 +36,3 @@ Command +W  |关闭当前标签页
 Command + S  |保存终端输出
 Command + D  |垂直分水平分隔当前标签页
 Command + shift +  {或} |向左/向右切换标签
-<!-- more -->

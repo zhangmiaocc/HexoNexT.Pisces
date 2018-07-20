@@ -31,7 +31,7 @@ header.post-header {
     width: auto !important;
   }
 }
-<!-- more -->
+
 .container .main-inner {
   +tablet() {
     width: auto !important;

@@ -33,4 +33,4 @@ dependencies {
      compile 'com.squareup.picasso:picasso:2.5.1'
 }
 ```
-<!-- more -->
+

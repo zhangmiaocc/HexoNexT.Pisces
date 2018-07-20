@@ -22,7 +22,7 @@ cd ~/.android/
 ```cmd
 keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
 ```
-<!-- more -->
+
 ### 结果如下图
 ![img](http://m.qpic.cn/psb?/V11BgY9M4abG72/yN2G49C4*PYlDiQPFshF3fXoEmAzM5jwb04B43RmAKE!/b/dC8BAAAAAAAA&bo=zgIrAgAAAAADB8c!&rf=viewer_4)
 

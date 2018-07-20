@@ -19,7 +19,7 @@ Command + Shift + P / F1 |显示命令面板
 Command + P |快速打开 
 Command + Shift + N |打开新窗口 
 Command + W |关闭窗口
-<!-- more -->
+
 ### 基本
 快捷键|描述
 ---|:--:
