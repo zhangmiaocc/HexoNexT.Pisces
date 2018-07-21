@@ -9,9 +9,10 @@ tags:
 - Mac
 categories:
 - VSCode
-- 快捷键
+- 快捷
 ---
 
+[官方快捷键](https://code.visualstudio.com/docs/getstarted/keybindings)
 ### 全局
 快捷键|描述
 ---|:--:
