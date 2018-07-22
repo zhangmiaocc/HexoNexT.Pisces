@@ -1,0 +1,187 @@
+---
+title: 【Android珍藏】推荐10个炫酷的开源库
+date: 2018-07-22 21:47:34
+tags:
+- blog
+- markdown
+- Android 
+- 开源库
+categories:
+- Android 
+- 开源库
+---
+
+#### 前言
+技术群里面经常有人问到一些炫酷的UI效果实现方法，有时候我都是给一个相同或者相似效果的Github链接，有同学私信给我说，大佬，怎么这些效果你都能找到？你是怎么搜索的，或者有其他什么秘方？会利用Google、百度等搜索工具搜索是一方面，另一个重要的方面是：记录搜藏，当看到一个炫酷的效果的时候，记得收藏起来，记录到自己云笔记或者收藏夹里，看得多了，印象就比较深刻，当遇到类似效果的时候，到自己记录收藏的地方找就是了。今天为大家推荐我所收藏的一些炫酷实用的效果的开源库（选择其中10个）。
+
+#### 1、 [DiscreteScrollView](https://github.com/yarolegovich/DiscreteScrollView) 
+
+**简介：**  DiscreteScrollView是基于RecyclerView 实现的一个横向滑动列表，当前Item显示在屏幕中央并且可以左右滑动，有点像ViewPager,但是可以快速滑动。提供了简单的API来实现炫酷的动画效果。
+
+##### 效果展示：
+
+![3b58fb9f1a05b73543f69f4f3a6179d9](https://user-gold-cdn.xitu.io/2018/7/19/164b299da85c9f67?imageslim)
+
+![3c9810ca0e4d4284e1f0be95dc53d746](https://user-gold-cdn.xitu.io/2018/7/19/164b299da84d0139?imageslim)
+
+#### 2、[MaterialViewPager](https://github.com/pinguo-zhouwei/MaterialViewPager)
+
+**简介：** 和名字一样，Material Design 效果的ViewPager, 效果很nice,请看gif
+
+##### 效果展示(有多重模式)：
+
+- Titlebar Logo
+
+![Titlebar Logo](https://user-gold-cdn.xitu.io/2018/7/19/164b299da7975f18?imageslim)
+
+- Fading Logo
+
+![Fading Logo](https://user-gold-cdn.xitu.io/2018/7/19/164b299da7ed3aa5?imageslim)
+
+- Hide Logo and Toolbar
+
+![Hide Logo and Toolbar](https://user-gold-cdn.xitu.io/2018/7/19/164b299da77a0edf?imageslim)
+
+- Sticky Toolbar
+
+![Sticky Toolbar](https://user-gold-cdn.xitu.io/2018/7/19/164b299da7f85f8c?imageslim)
+
+- Transparent Toolbar
+
+![Transparent Toolbar](https://user-gold-cdn.xitu.io/2018/7/19/164b299ddb558444?imageslim)
+
+- Standard
+
+![Standard](https://user-gold-cdn.xitu.io/2018/7/19/164b299e5c76b977?imageslim)
+
+#### 3、[BoomMenu](https://github.com/pinguo-zhouwei/BoomMenu)
+
+**简介：**  传统的菜单是不是看得有些厌倦了，boom ....爆炸效果的菜单了解一下？功能强大、效果炫酷，有很多种模式。
+
+##### 效果展示：
+
+![ham-button](https://user-gold-cdn.xitu.io/2018/7/19/164b299de6276c0f?imageslim)
+
+![text-inside-button](https://user-gold-cdn.xitu.io/2018/7/19/164b299e60c3ba0c?imageslim)
+
+![text-outside-button](https://user-gold-cdn.xitu.io/2018/7/19/164b299ec33a615c?imageslim)
+
+![test5](https://user-gold-cdn.xitu.io/2018/7/19/164b299ecd379e18?imageslim)
+
+#### 4、[LayoutManagerGroup](https://github.com/DingMouRen/LayoutManagerGroup)
+
+**简介：** 自定义RecyclerView 的LayoutManager实现几种炫酷的效果。
+
+##### 效果展示：
+
+- EchelonLayoutManager
+
+![EchelonLayoutManager](https://user-gold-cdn.xitu.io/2018/7/19/164b299ee9f8d20f?imageslim)
+
+- SkidRightLayoutManager
+
+![SkidRightLayoutManager](https://user-gold-cdn.xitu.io/2018/7/19/164b299f344cf516?imageslim)
+
+- SlideLayoutManager
+
+![SlideLayoutManager](https://user-gold-cdn.xitu.io/2018/7/19/164b299f3ba944db?imageslim)
+
+#### 5、[Android-SpinKit](https://github.com/ybq/Android-SpinKit)
+
+**简介：**  Android 自定义View 的方式实现的各种炫酷的动画，特别精致和优美，以前专门写文章介绍过。
+
+##### 效果展示：
+
+![Loading](https://user-gold-cdn.xitu.io/2018/7/19/164b299f53d69dcd?imageslim)
+
+#### 6、[Matisse](https://github.com/zhihu/Matisse)
+
+**简介：** Matisse是知乎开源的一个本地选择照片和视频的库，UI设计得非常精美。有如特性：
+
+- 可以在Fragment/Activity 中使用
+- 选择照片的格式包括：PNG、JPEG 、GIF.视频格式包括：MPEG, MP4
+- 支持不同的主题并且可以自定义主题
+- 支持不同的图片加载方式（Picasso、Glide等）
+- 自定义过滤规则
+
+**效果展示：**
+
+- Zhihu Style
+
+![img](https://user-gold-cdn.xitu.io/2018/7/19/164b299f75c6098d?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+- Dracula Style
+
+![screenshot_dracula](https://user-gold-cdn.xitu.io/2018/7/19/164b299f79c974c3?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+- Preview
+
+![screenshot_previe](https://user-gold-cdn.xitu.io/2018/7/19/164b299f8d953b82?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+#### 7、[CosmoCalendar](https://github.com/ApplikeySolutions/CosmoCalendar)
+
+**简介：**  一个高度自定义的日历库，UI精美，支持多种模式。
+
+**效果展示：**
+
+- 单个日期选择
+
+![img](https://user-gold-cdn.xitu.io/2018/7/19/164b299fa4d5c662?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+- 多个日期选择
+
+![img](https://user-gold-cdn.xitu.io/2018/7/19/164b299fb9f75cda?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+- 选择一个范围日期
+
+![Calendar-range-years_2](https://user-gold-cdn.xitu.io/2018/7/19/164b299fd18b7670?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+- 自定义
+
+![Calendar-dialogue-dark_2](https://user-gold-cdn.xitu.io/2018/7/19/164b299fd6b43abe?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+#### 8、[CardStackView](https://github.com/loopeer/CardStackView)
+
+
+**简介：** 三种炫酷的列表卡片滑动动画，分别为：alldown, updown, updownstack
+
+**效果展示：**
+
+![screenshot3](https://user-gold-cdn.xitu.io/2018/7/19/164b299fe71830fb?imageslim)
+
+![screenshot2](https://user-gold-cdn.xitu.io/2018/7/19/164b299fe7016d69?imageslim)
+
+#### 9、[CalendarExaple](https://github.com/codbking/CalendarExaple)
+
+**简介：** 这是一个高仿钉钉和小米的日历控件，支持快速滑动，界面缓存。想要定制化UI，使用起来非常简单，就像使用ListView一样
+
+一些特点：
+
+可以自定义日历控件UI 支持快速滑动 支持农历和阳历 界面UI缓存和日历数据缓存 扩展view支持listView的滑动
+
+**效果展示：**
+
+![img](https://user-gold-cdn.xitu.io/2018/7/19/164b299fe72a6cb2?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+![bbbb](https://user-gold-cdn.xitu.io/2018/7/19/164b29a007186453?imageslim)
+
+#### 10、[MZBannerView](https://github.com/pinguo-zhouwei/MZBannerView)
+
+
+**简介：** 仿魅族BannerView,图片轮播控件,支持多种模式切换：普通ViewPager使用，普通Banner使用，仿魅族Banner使用。
+
+**效果展示：**
+
+![MZBannerView](https://user-gold-cdn.xitu.io/2018/7/19/164b29a010de2abb?imageslim)
+
+![MZBannerView](https://user-gold-cdn.xitu.io/2018/7/19/164b29a037078a2b?imageslim)
+
+![MZBannerView](https://user-gold-cdn.xitu.io/2018/7/19/164b29a04330019d?imageslim)
+
+#### 结尾
+
+在我们平时的工作、学习中，要养成记笔记的好习惯、好记性不如烂笔头。平时自己遇到一些炫酷的效果，我都喜欢记录到笔记中，遇到相似的需求就好找了。本文这些炫酷的效果有兴趣的可以去对应的Github 查看使用方式，试试效果，都挺赞的。
+
+来源：掘金-[依然范特稀西](https://juejin.im/post/5b50898ef265da0fa21a7f0f)
+
+
