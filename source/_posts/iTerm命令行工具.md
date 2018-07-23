@@ -7,8 +7,8 @@ tags:
 - 博客 
 - 快捷键
 - Mac
-categories:
 - iTem2
+categories:
 - 快捷键
 ---
 

@@ -7,9 +7,9 @@ tags:
 - 博客 
 - 快捷键
 - Mac
-categories:
 - VSCode
-- 快捷
+categories:
+- 快捷键
 ---
 
 [官方快捷键](https://code.visualstudio.com/docs/getstarted/keybindings)

@@ -6,9 +6,9 @@ tags:
 - markdown
 - 博客 
 - 快捷键
+- Mac
 - git
 categories:
-- git
 - 快捷键
 ---
 
