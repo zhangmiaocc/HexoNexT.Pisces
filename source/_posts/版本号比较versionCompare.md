@@ -6,6 +6,7 @@ tags:
 - markdown
 - Android 
 - Java
+- 代码片段
 categories:
 - Android 
 - 代码片段

@@ -8,7 +8,6 @@ tags:
 - AndroidStudio
 categories:
 - Android
-- AndroidStudio
 ---
 
 ### 切换到debug.keystore目录

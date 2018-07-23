@@ -5,10 +5,10 @@ tags:
 - blog
 - markdown
 - Android 
-- 版本号
+- SDK
+- API
 categories:
 - Android
-- 版本号
 ---
 
 ### 一、Android各版本对应的SDK版本 
