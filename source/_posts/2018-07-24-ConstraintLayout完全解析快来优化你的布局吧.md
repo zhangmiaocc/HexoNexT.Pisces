@@ -30,9 +30,8 @@ ConstraintLayout出现有一段时间了，不过一直没有特别去关注，�
 
 首先需要引入我们的ConstraintLayout，在build.gradle中加入：
 
-```
+```java
 compile 'com.android.support.constraint:constraint-layout:1.0.2'
-12
 ```
 
 ## 二、来编写一个Feed Item
@@ -43,7 +42,7 @@ compile 'com.android.support.constraint:constraint-layout:1.0.2'
 
 看到这样的布局，大家条件反射应该就是使用RelativeLayout来做，当然了，本案例我们使用ConstraintLayout来写：
 
-```
+```html
 <android.support.constraint.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -91,7 +90,6 @@ compile 'com.android.support.constraint:constraint-layout:1.0.2'
         app:layout_constraintBottom_toBottomOf="@id/tv1" />
 
 </android.support.constraint.ConstraintLayout>
-123456789101112131415161718192021222324252627282930313233343536373839404142434445464748
 ```
 
 看上面的布局，我们好像看到了几个模式的属性：
@@ -102,9 +100,8 @@ compile 'com.android.support.constraint:constraint-layout:1.0.2'
 
 从字面上看，指的是让该控件的左侧与父布局对齐，当我们希望控件A与控件B左侧对齐时，就可以使用该属性。
 
-```
+```html
 app:layout_constraintLeft_toLeftOf="@id/viewB"
-12
 ```
 
 类似的还有个相似的属性为：
@@ -113,8 +110,8 @@ app:layout_constraintLeft_toLeftOf="@id/viewB"
 
 很好理解，即当前属性的左侧在谁的右侧，当我们希望控件A在控件B的右侧时，可以设置：
 
-```
-app:layout_constraintLeft_toRightOf="@id/viewB"1
+```html
+app:layout_constraintLeft_toRightOf="@id/viewB"
 ```
 
 与之类似的还有几个属性：
@@ -131,7 +128,7 @@ app:layout_constraintLeft_toRightOf="@id/viewB"1
 
 现在在头看刚才的布局：
 
-```
+```html
 tv1设置了：
 
 app:layout_constraintLeft_toLeftOf="parent"
@@ -147,7 +144,6 @@ tv3设置了：
 
 app:layout_constraintLeft_toRightOf="@id/tv1"
 app:layout_constraintBottom_toBottomOf="@id/tv1"
-12345678910111213141516
 ```
 
 按照我们刚才的理解，再次的解读下：
@@ -166,7 +162,7 @@ tv3在tv1的右侧，tv3和tv1底部对其。
 
 其实还是有很明显的区别的，我们通过一个例子来看一下：
 
-```
+```html
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
@@ -184,7 +180,7 @@ tv3在tv1的右侧，tv3和tv1底部对其。
         android:layout_alignParentRight="true"
         />
 
-</RelativeLayout>123456789101112131415161718
+</RelativeLayout>
 ```
 
 ![img](https://img-blog.csdn.net/20170917214107534?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -245,7 +241,7 @@ tv3在tv1的右侧，tv3和tv1底部对其。
 
 看一眼如何支持：
 
-```
+```html
 <android.support.constraint.ConstraintLayout 
     ...
     tools:context="com.zhy.constrantlayout_learn.MainActivity">
@@ -267,22 +263,22 @@ tv3在tv1的右侧，tv3和tv1底部对其。
         app:layout_constraintTop_toBottomOf="@id/banner"
         ></TextView>
      ...
-</...>12345678910111213141516171819202122
+</...>
 ```
 
 我们添加了一个banner，还记得我们刚才所说的么，不要使用`match_parent`了，而是设置`match_contraint`，即0，让约束来控制布局宽高。
 
 所以我们设置了宽、高都是`match_contraint`，然后这两个属性：
 
-```
+```html
 app:layout_constraintLeft_toLeftOf="parent"
-app:layout_constraintRight_toRightOf="parent"12
+app:layout_constraintRight_toRightOf="parent"
 ```
 
 让我们的宽度充满整个父布局，在添加一个：
 
-```
-app:layout_constraintDimensionRatio="16:6"1
+```html
+app:layout_constraintDimensionRatio="16:6"
 ```
 
 该属性指的是宽高比，所以16：6就可以完成我们的需求。
@@ -293,9 +289,9 @@ app:layout_constraintDimensionRatio="16:6"1
 
 这个宽高比属性，还支持这样的写法：
 
-```
+```html
 app:layout_constraintDimensionRatio="W,16:6"
-app:layout_constraintDimensionRatio="H,16:6"12
+app:layout_constraintDimensionRatio="H,16:6"
 ```
 
 可以自己试验下。
@@ -314,7 +310,7 @@ app:layout_constraintDimensionRatio="H,16:6"12
 
 看下如何实现：
 
-```
+```html
 <TextView
     android:id="@+id/tab1"
     android:layout_width="0dp"
@@ -348,7 +344,7 @@ app:layout_constraintDimensionRatio="H,16:6"12
     android:text="Tab3"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintLeft_toRightOf="@id/tab2"
-    app:layout_constraintRight_toRightOf="parent" />12345678910111213141516171819202122232425262728293031323334
+    app:layout_constraintRight_toRightOf="parent" />
 ```
 
 我们增加3个textview来冒充tab。我们看横向的依赖，3个tab两两设置了约束（即你在我们的左边，我在你的右边），最外层的设置了parent约束；再加上我们把宽度都设置为了`match_constraint`，so，这样我们就完成了3个tab等分。
@@ -363,8 +359,8 @@ app:layout_constraintDimensionRatio="H,16:6"12
 
 现在我们可以给每个tab设置一个属性：
 
-```
-app:layout_constraintHorizontal_weight1
+```html
+app:layout_constraintHorizontal_weight
 ```
 
 看到这个名字，应该就明白了吧，假设我们分别设置值为2，1，1。
@@ -385,8 +381,8 @@ app:layout_constraintHorizontal_weight1
 
 该属性为：
 
-```
-layout_constraintHorizontal_chainStyle1
+```html
+layout_constraintHorizontal_chainStyle
 ```
 
 我们已经见过一种效果了，即按照weight等分，可以成为`weighted chain`。设置条件为：
@@ -431,7 +427,7 @@ chainStyle=”spread”，所有控件宽度设置为`match_constraint`，因为
 
 看下如何实现：
 
-```
+```html
 <android.support.constraint.ConstraintLayout 
     ...
     tools:context="com.zhy.constrantlayout_learn.MainActivity">
@@ -447,7 +443,7 @@ chainStyle=”spread”，所有控件宽度设置为`match_constraint`，因为
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.9" />
 
-</....>12345678910111213141516
+</....>
 ```
 
 我们在最后追加一个TextView冒充我们的浮动按钮。可以看到我们设置了固定值，被设置约束为右下角。
@@ -456,9 +452,9 @@ chainStyle=”spread”，所有控件宽度设置为`match_constraint`，因为
 
 但是这里我们尝试使用量个新的属性：
 
-```
+```html
 layout_constraintHorizontal_bias
-layout_constraintVertical_bias12
+layout_constraintVertical_bias
 ```
 
 即设置上下两侧间隙比例分别为90%与10%。这个很好理解，我们之前说了，再没有bias这个属性的时候，这两侧的拉力大小是一样的，但是你可以通过bias来控制哪一侧的力要大一些~~明白了么~
@@ -473,7 +469,7 @@ layout_constraintVertical_bias12
 
 我们看一下：
 
-```
+```html
 layout_constraintLeft_toLeftOf 
 layout_constraintLeft_toRightOf
 layout_constraintRight_toLeftOf
@@ -508,7 +504,7 @@ layout_constraintVertical_chainStyle
 
 layout_constraintVertical_weight
 
-Guideline 1234567891011121314151617181920212223242526272829303132333435
+Guideline 
 ```
 
 好像，还有个比较特殊的，叫Guideline。
@@ -538,7 +534,7 @@ percent=0.8即为距离顶部80%。
 
 好了，下面看一个例子，刚才我们的浮点按钮，我决定通过两根辅助线来定位，一根横向距离底部80%，一个纵向距离顶部80%，浮点按钮就定位在他们交叉的地方。
 
-```
+```html
 <android.support.constraint.ConstraintLayout 
     ...
     tools:context="com.zhy.constrantlayout_learn.MainActivity">
@@ -565,7 +561,7 @@ percent=0.8即为距离顶部80%。
         app:layout_constraintLeft_toRightOf="@id/guideline_w"
         app:layout_constraintTop_toBottomOf="@id/guideline_h" />
 
-</....>123456789101112131415161718192021222324252627
+</....>
 ```
 
 我感觉都不用解释了~~看眼效果图吧：
