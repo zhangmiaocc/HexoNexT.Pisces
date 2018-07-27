@@ -9,8 +9,7 @@ categories:
 - Android 
 ---
 
-转载于：[张鸿洋的博客](https://blog.csdn.net/lmj623565791/article/details/78011599)
-
+Demo地址：[ConstraintLayout](https://github.com/xiaofeng0325/ConstraintLayout)
 
 ## 一、概述
 
@@ -579,3 +578,5 @@ percent=0.8即为距离顶部80%。
 所以，我建议还是尽可能手写，通过本文这样一个流程，虽然支持的属性有20多个，但是分类后并不难记，难记也可以拿出本文翻一翻~
 
 好了，思考了半天，如何通过一个案例介绍完所有的属性，总体来说还是完成了，给自己点个赞。
+
+转载于：[张鸿洋的博客](https://blog.csdn.net/lmj623565791/article/details/78011599)
