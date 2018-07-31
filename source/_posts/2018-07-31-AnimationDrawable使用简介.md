@@ -2,7 +2,6 @@
 title: AnimationDrawable使用简介
 date: 2018-07-31 14:46:16
 tags:
-tags:
 - blog
 - markdown
 - Android 
