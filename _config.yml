@@ -80,7 +80,7 @@ theme: hexo-theme-next-master
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/zhangmiaocc/xiaofeng0325.github.io
+  repo: https://github.com/zhangmiaocc/zm.blog
   branch: master
 
 search:
