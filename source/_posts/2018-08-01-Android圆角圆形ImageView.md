@@ -54,7 +54,7 @@ allprojects {
 
 ```java
 dependencies {
-    implementation 'com.github.xiaofeng0325:CircularImageView:1.0.0'
+    implementation 'com.github.zhangmiaocc:CircularImageView:1.0.0'
 }
 ```
 
@@ -76,5 +76,5 @@ dependencies {
 
 
 
-源码：[`CircularImageView`](https://github.com/xiaofeng0325/CircularImageView)
+源码：[`CircularImageView`](https://github.com/zhangmiaocc/CircularImageView)
 

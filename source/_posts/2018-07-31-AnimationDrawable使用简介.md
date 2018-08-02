@@ -56,6 +56,6 @@ private AnimationDrawable animationDrawable;
 
  
 
-Demo地址：https://github.com/xiaofeng0325/AnimationDrawable 
+Demo地址：https://github.com/zhangmiaocc/AnimationDrawable 
 
 Blog地址：https://zhangmiao.cc/

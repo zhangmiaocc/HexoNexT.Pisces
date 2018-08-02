@@ -13,7 +13,7 @@ categories:
 
 类似TextView的android:ellipsize="marquee"的跑马灯效果 任意View都可实现
 
-源码：[MarqueeView](https://github.com/xiaofeng0325/MarqueeView)
+源码：[MarqueeView](https://github.com/zhangmiaocc/MarqueeView)
 ```java
 package com.zm.marqueeview;
 

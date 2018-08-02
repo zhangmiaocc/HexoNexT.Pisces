@@ -215,6 +215,6 @@ Android PdfViewer依赖于PdfiumAndroid，它是许多架构的本机库集（�
     .pageFling（true）
 ```
 
-Demo地址：https://github.com/xiaofeng0325/AndroidPDFView
+Demo地址：https://github.com/zhangmiaocc/AndroidPDFView
 
 参考：[https://github.com/barteksc/AndroidPdfViewer](https://link.jianshu.com/?t=https://github.com/barteksc/AndroidPdfViewer)
