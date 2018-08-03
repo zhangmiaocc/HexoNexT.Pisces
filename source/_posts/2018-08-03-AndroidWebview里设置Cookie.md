@@ -48,18 +48,19 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP_MR1) {
     CookieSyncManager.getInstance().sync();
 }
 ```
-- ";Domain=.xxxx.xxx.com"+//作用域（在哪个域名下cookie起作用，例如http://www.baidu.com，写成Domain=.baidu.com即可）
-- ";Path=/";//Domain这个作用域下的哪个文件夹，“/”代表所有文件夹 
+`";Domain=.xxxx.xxx.com"+//作用域（在哪个域名下cookie起作用）`
+`";Path=/";//Domain这个作用域下的哪个文件夹，“/”代表所有文件夹 `
 
 ##### <span style="color:red">注意</span>
 > 在调用设置Cookie之后不能再设置这类属性，否则设置Cookie无效。
 > ```java
-> webView.getSettings().setBuiltInZoomControls(true);  
-> webView.getSettings().setJavaScriptEnabled(true);  
-> ```
+webView.getSettings().setBuiltInZoomControls(true);  
+webView.getSettings().setJavaScriptEnabled(true);  
+```
+
 
 #### 完整代码
-```java
+​```java
 public class WebviewUtil {
     public static void setWebCookie(Context context) {
         CookieManager.setAcceptFileSchemeCookies(true);
