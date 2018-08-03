@@ -9,7 +9,7 @@ categories:
 - Android 
 ---
 
-> Android中WebView加载网页，有时候需要通过cookie想网页传递信息，这时候这样操作。
+Android中WebView加载网页，有时候需要通过cookie想网页传递信息，这时候这样操作。
 
 
 #### Step 1 设置接收cookie
@@ -54,8 +54,9 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP_MR1) {
 ##### <span style="color:red">注意</span>
 > 在调用设置Cookie之后不能再设置这类属性，否则设置Cookie无效。
 > ```java
-webView.getSettings().setBuiltInZoomControls(true);  
-webView.getSettings().setJavaScriptEnabled(true);  
+> webView.getSettings().setBuiltInZoomControls(true);  
+> webView.getSettings().setJavaScriptEnabled(true);  
+> ```
 ```
 
 

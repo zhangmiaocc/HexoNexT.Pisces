@@ -58,7 +58,7 @@ dependencies {
 }
 ```
 
-**Step 3. 在布局文件中添加CornerLabelView**
+**Step 3. 在布局文件中添加 `CornerLabelView`
 
 ```html
   <com.zm.library.CircularImageView
