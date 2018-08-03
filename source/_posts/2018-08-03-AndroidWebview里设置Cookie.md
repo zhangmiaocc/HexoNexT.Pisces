@@ -9,8 +9,7 @@ categories:
 - Android 
 ---
 
-Android中WebView加载网页，有时候需要通过cookie想网页传递信息，这时候这样操作。
-
+> Android中WebView加载网页，有时候需要通过cookie想网页传递信息，这时候这样操作。
 
 #### Step 1 设置接收cookie
 ```java
