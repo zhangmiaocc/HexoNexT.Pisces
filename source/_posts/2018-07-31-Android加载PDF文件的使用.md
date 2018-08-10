@@ -67,17 +67,17 @@ categories:
 所有可用选项都带有默认值：
 
 ```java
-pdfView 。fromUri（Uri）
-要么
-pdfView 。fromFile（文件）
-要么
-pdfView 。fromBytes（byte []）
-要么
-pdfView 。fromStream（InputStream）//将流写入bytearray  - 本机代码不能使用Java Streams
-要么
-pdfView 。fromSource（DocumentSource）
-要么
-pdfView 。fromAsset（String）
+pdfView.fromUri（Uri）
+
+pdfView.fromFile（文件）
+
+pdfView.fromBytes（byte []）
+
+pdfView.fromStream（InputStream）//将流写入bytearray  - 本机代码不能使用Java Streams
+
+pdfView.fromSource（DocumentSource）
+
+pdfView.fromAsset（String）
     .PAGES（0，2，1，3，3，3）//所有页面默认显示 
     .enableSwipe（真）//允许阻止改变使用滑动页 
     .swipeHorizontal（假）
@@ -110,8 +110,8 @@ pdfView 。fromAsset（String）
     这样的单页进行一次更改 .nightMode（false）//切换夜间模式 
     .load（）;
 ```
-
-- `pages` 是可选的，它允许您根据需要过滤和排序PDF页面
+####  <span style="color:red">注意</span>
+`pages` 是可选的，它允许您根据需要过滤和排序PDF页面
 
 ## 滚动手柄
 
