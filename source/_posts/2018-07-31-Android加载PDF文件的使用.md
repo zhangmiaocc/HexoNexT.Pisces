@@ -55,7 +55,7 @@ categories:
 
 ## 在布局中包含PDFView
 
-```html
+```
 <com.github.barteksc.pdfviewer.PDFView
         android:id="@+id/pdfView"
         android:layout_width="match_parent"
@@ -67,50 +67,52 @@ categories:
 所有可用选项都带有默认值：
 
 ```java
-pdfView.fromUri（Uri）
-
-pdfView.fromFile（文件）
-
-pdfView.fromBytes（byte []）
-
-pdfView.fromStream（InputStream）//将流写入bytearray  - 本机代码不能使用Java Streams
-
-pdfView.fromSource（DocumentSource）
-
-pdfView.fromAsset（String）
-    .PAGES（0，2，1，3，3，3）//所有页面默认显示 
-    .enableSwipe（真）//允许阻止改变使用滑动页 
-    .swipeHorizontal（假）
-    .enableDoubletap（true）
-    .defaultPage（0）
-     //允许在当前页面上绘制一些东西，通常在屏幕中间可见
-    .onDraw（onDrawListener）
-    //允许在所有页面上绘制内容，分别为每个页面绘制。仅针对可见页面调用
-    .onDrawAll（onDrawListener）
-    .onLoad（onLoadCompleteListener）//在加载文档并开始渲染后调用
-    .onPageChange（onPageChangeListener）
-    .onPageScroll（onPageScrollListener）
-    .onError（onErrorListener）
-    .onPageError（onPageErrorListener）
-    .onRender（onRenderListener）//在第一次呈现文档后调用
-    //单击时调用，如果处理则返回true，false以切换滚动句柄可见性
-    .onTap（onTapListener）
-    .onLongPress（onLongPressListener）
-    .enableAnnotationRendering（false）//呈现注释（例如注释，颜色或表单） 
-    .password（null）
-    .scrollHandle（null）
-    .enableAntialiasing（true）//在低分辨率屏幕上改进渲染一点
-    //在dp中页面之间的间距。要定义间距颜色，请设置视图背景 
-    .spacing（0）
-    .autoSpacing（false）//在屏幕上添加动态间距以适应每个页面 
-    .linkHandler（DefaultLinkHandler）
-    .pageFitPolicy（FitPolicy 。 WIDTH）
-    .pageSnap（true）//将页面捕捉到屏幕边界 
-    .pageFling（false）//仅对像ViewPager 
-    这样的单页进行一次更改 .nightMode（false）//切换夜间模式 
-    .load（）;
+pdfView.fromUri(Uri)
+or
+pdfView.fromFile(File)
+or
+pdfView.fromBytes(byte[])
+or
+pdfView.fromStream(InputStream) // stream is written to bytearray - native code cannot use Java Streams
+or
+pdfView.fromSource(DocumentSource)
+or
+pdfView.fromAsset(String)
+    .pages(0, 2, 1, 3, 3, 3) // all pages are displayed by default
+    .enableSwipe(true) // allows to block changing pages using swipe
+    .swipeHorizontal(false)
+    .enableDoubletap(true)
+    .defaultPage(0)
+    // allows to draw something on the current page, usually visible in the middle of the screen
+    .onDraw(onDrawListener)
+    // allows to draw something on all pages, separately for every page. Called only for visible pages
+    .onDrawAll(onDrawListener)
+    .onLoad(onLoadCompleteListener) // called after document is loaded and starts to be rendered
+    .onPageChange(onPageChangeListener)
+    .onPageScroll(onPageScrollListener)
+    .onError(onErrorListener)
+    .onPageError(onPageErrorListener)
+    .onRender(onRenderListener) // called after document is rendered for the first time
+    // called on single tap, return true if handled, false to toggle scroll handle visibility
+    .onTap(onTapListener)
+    .onLongPress(onLongPressListener)
+    .enableAnnotationRendering(false) // render annotations (such as comments, colors or forms)
+    .password(null)
+    .scrollHandle(null)
+    .enableAntialiasing(true) // improve rendering a little bit on low-res screens
+    // spacing between pages in dp. To define spacing color, set view background
+    .spacing(0)
+    .autoSpacing(false) // add dynamic spacing to fit each page on its own on the screen
+    .linkHandler(DefaultLinkHandler)
+    .pageFitPolicy(FitPolicy.WIDTH)
+    .pageSnap(true) // snap pages to screen boundaries
+    .pageFling(false) // make a fling change only a single page like ViewPager
+    .nightMode(false) // toggle night mode
+    .load();
 ```
+
 ####  <span style="color:red">注意</span>
+
 `pages` 是可选的，它允许您根据需要过滤和排序PDF页面
 
 ## 滚动手柄
@@ -172,9 +174,9 @@ pdfView.fromAsset(String)
 可以使用以下方法更改缩放级别：
 
 ```java
-void setMinZoom（float zoom）;
-void setMidZoom（float zoom）;
-void setMaxZoom（float zoom）;
+void setMinZoom(float zoom);
+void setMidZoom(float zoom);
+void setMaxZoom(float zoom);
 ```
 
 ## 可能的问题
@@ -195,24 +197,24 @@ Android PdfViewer依赖于PdfiumAndroid，它是许多架构的本机库集（�
 
 `FitPolicy.WIDTH`如果要在具有不同页面大小的文档中放置所需页面，请使用策略或添加以下代码段：
 
-```
-配置器。onRender（new  OnRenderListener（）{
-     @ 
-    Override public  void  onInitiallyRendered（int  pages，float  pageWidth，float  pageHeight）{
-        pdfView 。fitToWidth（PageIndex的）;
+```java
+Configurator.onRender(new OnRenderListener() {
+    @Override
+    public void onInitiallyRendered(int pages, float pageWidth, float pageHeight) {
+        pdfView.fitToWidth(pageIndex);
     }
-}）;
+});
 ```
 
 ### 如何像ViewPager一样滚动浏览单个页面？
 
 您可以使用以下设置的组合来获得类似于ViewPager的滚动和拖动行为：
 
-```
-    .swipeHorizontal（true）
-    .pageSnap（true）
-    .autoSpacing（true）
-    .pageFling（true）
+```java
+    .swipeHorizontal(true)
+    .pageSnap(true)
+    .autoSpacing(true)
+    .pageFling(true)
 ```
 
 Demo地址：https://github.com/zhangmiaocc/AndroidPDFView
