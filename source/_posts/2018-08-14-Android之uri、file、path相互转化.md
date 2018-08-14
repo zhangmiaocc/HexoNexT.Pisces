@@ -10,22 +10,14 @@ categories:
 ---
 
 #### uri & file 互转
-
-uri转file:
-
 ```
-file = new File(new URI(uri.toString()));  
+File file = new File(new URI(uri.toString()));  
 ```
-
-file转uri:
-
 ```
 URI uri = file.toURI();  
 ```
 
 #### uri & path 互转
-uri转path:
-
 ```
 private String getPath(Uri uri) {  
        String[] projection = {MediaStore.Video.Media.DATA};  
@@ -35,22 +27,14 @@ private String getPath(Uri uri) {
        return cursor.getString(column_index);  
    }  
 ```
-
-path转uri:
-
 ```
 Uri uri = Uri.parse(path);  
 ```
 
 #### file & path 互转
-file转path:
-
 ```
 String path = file.getPath()  
 ```
-
-path转file:
-
 ```
 File file = new File(path)  
 ```
