@@ -19,7 +19,8 @@ ViewPager属于布局管理器，允许用户通过页面翻转查看左右的�
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![](https://ws2.sinaimg.cn/large/0069RVTdly1fubrstjvpxj30f00qo3ze.jpg) | ![](https://ws3.sinaimg.cn/large/0069RVTdly1fubru8skhlj30f00qojru.jpg) | ![](https://ws3.sinaimg.cn/large/0069RVTdly1fubrurmx05j30f00qoaau.jpg) |
 
-#### 一：布局文件 activity_main.xml
+
+#### 布局文件 activity_main.xml
 
 ``` html
 <?xml version="1.0" encoding="utf-8"?>
@@ -60,8 +61,10 @@ ViewPager属于布局管理器，允许用户通过页面翻转查看左右的�
 </RelativeLayout>
 ```
 
-### 二：在drawable目录下实现小圆点的enable两种不同状态时的选择器
-- point_enable.xml
+
+#### 小圆点选择器
+
+point_enable.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
@@ -72,7 +75,7 @@ ViewPager属于布局管理器，允许用户通过页面翻转查看左右的�
 
 ```
 
-- point_disable.xml
+point_disable.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
@@ -83,7 +86,7 @@ ViewPager属于布局管理器，允许用户通过页面翻转查看左右的�
 
 ```
 
-- point_selector.xml
+point_selector.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
@@ -93,7 +96,8 @@ ViewPager属于布局管理器，允许用户通过页面翻转查看左右的�
 
 ```
 
-#### 三：MainActivity
+
+#### MainActivity
 MianActivity的代码如下，下面的代码主要是实现图片轮播和手势滑动，同时也提供里一个解决图片轮播到最后一个或滑动到最后一个（或第一个时）停了下来的问题，这个问题对用户体验来说是很糟糕的，所以要解决。同时提供了温习了一下MVC开发模型，这种模型能够让代码显得结构清晰。为了保证代码的连贯性，把代码写在了一个类中。
 
 ```java
