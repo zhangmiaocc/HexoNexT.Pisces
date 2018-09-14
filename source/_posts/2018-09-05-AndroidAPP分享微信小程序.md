@@ -69,28 +69,41 @@ dependencies {
 
 ##### 分享小程序的核心代码
 
-```
-findViewById(R.id.send_mini).setOnClickListener(new View.OnClickListener(){
+```java
+public void shareMinP(ShareMiniPModel shareModel){
+    if (shareModel == null) return;
+    WXMiniProgramObject miniProgramObj = new WXMiniProgramObject();
+    miniProgramObj.webpageUrl = shareModel.getWebPageUrl();                 // 兼容低版本的网页链接
+    miniProgramObj.miniprogramType = shareModel.getMiniProgramType();       // 分享小程序版 正式版:0，测试版:1，体验版:2
+    miniProgramObj.userName = shareModel.getMiniId();                       // 小程序原始id
+    miniProgramObj.path = shareModel.getMiniPath();                         // 小程序页面路径
+    localWXMediaMessage = new WXMediaMessage(miniProgramObj);
+    localWXMediaMessage.title = shareModel.getTitle();                      // 小程序消息title
+    localWXMediaMessage.description = shareModel.getDescription();          // 详细描述
+
+    if (!TextUtils.isEmpty(shareModel.getImageUrl())){
+        inflateImage(shareModel.getImageUrl(), new Callback() {                 // 小程序图片
             @Override
-            public void onClick(View v) {
-                WXMiniProgramObject miniProgram = new WXMiniProgramObject();
-                miniProgram.webpageUrl="http://www.qq.com";//自定义
-                miniProgram.userName="xxxxxxxxx";//小程序端提供参数
-                miniProgram.path="pages/entry";//小程序端提供参数
-                WXMediaMessage mediaMessage = new WXMediaMessage(miniProgram);
-                mediaMessage.title = "cgw miniProgram";//自定义
-                mediaMessage.description = "this is miniProgram's description";//自定义
-                Bitmap bitmap = BitmapFactory.decodeResource(SendToWXActivity.this.getResources(),R.drawable.fightk);
-                Bitmap sendBitmap = Bitmap.createScaledBitmap(bitmap,200,200,true);
-                bitmap.recycle();
-                mediaMessage.thumbData = Util.bmpToByteArray(sendBitmap,true);
-                SendMessageToWX.Req req = new SendMessageToWX.Req();
-                req.transaction = "";
-                req.scene = SendMessageToWX.Req.WXSceneSession;
-                req.message = mediaMessage;
-                api.sendReq(req);
+            public void onLoadingComplete(String s, View view, Bitmap bitmap) {
+                thumbBmp = bitmap;
+                localWXMediaMessage.thumbData = bmpToByteArray(thumbBmp, true);
+                if (localWXMediaMessage.thumbData.length < 131072){
+                    WXsendReq(SendMessageToWX.Req.WXSceneSession, localWXMediaMessage);
+                } else {
+                    LogUtils.e("分享小程序，缩略图不得超过128kb");
+                }
             }
         });
+    } else if (shareModel.getImageBitmap() != null){
+        thumbBmp = shareModel.getImageBitmap();
+        localWXMediaMessage.thumbData = bmpToByteArray(thumbBmp, true);
+        if (localWXMediaMessage.thumbData.length < 131072){
+            WXsendReq(SendMessageToWX.Req.WXSceneSession, localWXMediaMessage);
+        } else {
+            LogUtils.e("分享小程序，缩略图不得超过128kb");
+        }
+    }
+}
 ```
 
 #### Demo演示
@@ -123,7 +136,7 @@ findViewById(R.id.send_mini).setOnClickListener(new View.OnClickListener(){
 
 ##### 修改APP_ID
 
-```
+```java
 public class Constants {
     // APP_ID 替换为你的应用从官方网站申请到的合法appId
     public static final String APP_ID = "wxf666676666636666";
