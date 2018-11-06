@@ -5,6 +5,7 @@ tags:
 - blog
 - markdown
 - Android 
+- GlobalDialog
 categories:
 - Android 
 ---

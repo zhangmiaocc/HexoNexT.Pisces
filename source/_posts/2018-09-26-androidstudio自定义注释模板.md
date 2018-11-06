@@ -5,8 +5,10 @@ tags:
 - blog
 - markdown
 - Android 
+- 注释模板
 categories:
 - Android 
+- 注释模板
 ---
 
 代码的注释是我们平时必须面对的问题，今天我们就来看看如何自定义属于自己的注释模板，提高我们的开发效率。

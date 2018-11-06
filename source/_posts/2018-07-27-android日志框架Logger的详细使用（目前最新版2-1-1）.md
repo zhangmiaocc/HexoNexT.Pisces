@@ -5,8 +5,12 @@ tags:
 - blog
 - markdown
 - Android 
+- Log
+- 框架
 categories:
 - Android 
+- Log
+- 框架
 ---
 
 # 前言

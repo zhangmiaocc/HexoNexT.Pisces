@@ -5,6 +5,7 @@ tags:
 - blog
 - markdown
 - Android 
+- CircleImageView
 categories:
 - Android 
 ---

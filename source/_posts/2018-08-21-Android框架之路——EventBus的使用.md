@@ -5,8 +5,10 @@ tags:
 - blog
 - markdown
 - Android 
+- EventBus
 categories:
 - Android 
+- 框架
 ---
 
 ### **一、简介**

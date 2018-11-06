@@ -8,6 +8,7 @@ tags:
 - 设计架构
 categories:
 - Android 
+- 设计架构
 ---
 
 和MVC框架模式一样，Model模型处理数据代码不变在Android的App开发中，很多人经常会头疼于App的架构如何设计：
