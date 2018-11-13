@@ -8,6 +8,7 @@ tags:
 - ViewPager
 categories:
 - Android 
+- View
 ---
 
 ViewPager常用来实现图片的轮播，比如淘宝首页，会把一些促销的商品的图片和描述信息来回的播放，这就是典型的使用ViewPager实现的。

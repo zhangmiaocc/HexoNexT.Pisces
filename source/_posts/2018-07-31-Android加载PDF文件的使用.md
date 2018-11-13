@@ -7,7 +7,8 @@ tags:
 - Android
 - PDF 
 categories:
-- Android 
+- Android
+- View
 ---
 
 # Android PdfViewer

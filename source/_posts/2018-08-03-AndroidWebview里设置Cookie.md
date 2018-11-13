@@ -1,5 +1,5 @@
 ---
-title: AndroidWebview里设置Cookie
+title: Android Webview里设置Cookie
 date: 2018-08-03 15:39:42
 tags:
 - blog
@@ -7,7 +7,8 @@ tags:
 - Android 
 - Webview
 categories:
-- Android 
+- Android
+- Webview 
 ---
 
 > Android中WebView加载网页，有时候需要通过cookie想网页传递信息，这时候这样操作。

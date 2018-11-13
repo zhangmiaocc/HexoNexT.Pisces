@@ -8,6 +8,7 @@ tags:
 - RecyclerView
 categories:
 - Android 
+- View
 ---
 
 转自：https://www.jianshu.com/p/4f9591291365

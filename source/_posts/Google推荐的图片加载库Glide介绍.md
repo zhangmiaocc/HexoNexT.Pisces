@@ -5,9 +5,10 @@ tags:
 - blog
 - markdown
 - Android 
-- 图片加载库
+- Glide
 categories:
 - Android
+- Glide
 ---
 
 英文原文  [ Introduction to Glide, Image Loader Library for Android, recommended by Google](https://inthecheesefactory.com/blog/get-to-know-glide-recommended-by-google/en)

@@ -7,7 +7,8 @@ tags:
 - Android 
 - Animation
 categories:
-- Android 
+- Android
+- Animation 
 ---
 
 Drawable animation可以加载Drawable资源实现帧动画。AnimationDrawable是实现Drawable animations的基本类。推荐用XML文件的方法实现Drawable动画，不推荐在代码中实现。这种XML文件存放在工程中res/drawable/目录下。XML文件的指令(即属性)为动画播放的顺序和时间间隔。

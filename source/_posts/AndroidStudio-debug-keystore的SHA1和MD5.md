@@ -8,6 +8,7 @@ tags:
 - AndroidStudio
 categories:
 - Android
+- 知识巩固
 ---
 
 ### 切换到debug.keystore目录
@@ -23,5 +24,5 @@ keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -sto
 ```
 
 ### 结果如下图
-![img](http://m.qpic.cn/psb?/V11BgY9M4abG72/yN2G49C4*PYlDiQPFshF3fXoEmAzM5jwb04B43RmAKE!/b/dC8BAAAAAAAA&bo=zgIrAgAAAAADB8c!&rf=viewer_4)
+![](https://ws4.sinaimg.cn/large/006tNbRwly1fx6h7i8nvjj30jy0ff0v8.jpg)
 

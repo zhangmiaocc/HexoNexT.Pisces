@@ -6,7 +6,8 @@ tags:
 - markdown
 - Android 
 categories:
-- Android 
+- Android
+- 知识巩固 
 ---
 
 #### Get请求与Post请求的区别

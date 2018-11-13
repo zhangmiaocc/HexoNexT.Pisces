@@ -6,7 +6,8 @@ tags:
 - markdown
 - Android 
 categories:
-- Android 
+- Android
+- 代码片段 
 ---
 
 #### uri & file 互转

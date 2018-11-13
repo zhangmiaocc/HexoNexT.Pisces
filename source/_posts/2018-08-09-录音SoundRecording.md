@@ -7,7 +7,8 @@ tags:
 - Android
 - 录音 
 categories:
-- Android 
+- Android
+- 代码片段 
 ---
 
 #### 效果图

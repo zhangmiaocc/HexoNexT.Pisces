@@ -7,6 +7,7 @@ tags:
 - Android 
 categories:
 - Android 
+- View
 ---
 
 ## 前言

@@ -7,7 +7,8 @@ tags:
 - Android 
 - 微信小程序
 categories:
-- Android 
+- Android
+- 代码片段 
 ---
 
 **需求：**APP端 将公司的微信小程序 分享至微信好友
@@ -37,7 +38,7 @@ categories:
 
 #### 小程序与APP主体账号绑定
 开发人员希望通过APP分享小程序，需要先将小程序与APP主体账号（即APP的微信开放平台账号）绑定，APP才具有分享对应小程序的能力。如果没有与主体账号绑定，分享时是报错的，如下图：
-    
+​    
 ![img](https://upload-images.jianshu.io/upload_images/10170988-41434fc8f9cde5e3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/468/format/webp)
 
 ##### 登录APP所在的微信开放平台：[https://open.weixin.qq.com/](https://link.jianshu.com?t=https%3A%2F%2Fopen.weixin.qq.com%2F)

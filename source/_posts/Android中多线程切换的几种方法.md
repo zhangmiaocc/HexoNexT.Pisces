@@ -6,7 +6,8 @@ tags:
 - markdown
 - Android 
 categories:
-- Android 
+- Android
+- 代码片段 
 ---
 
 我们知道，多线程是Android开发中必现的场景，很多原生API和开源项目都有多线程的内容，这里简单总结和探讨一下常见的多线程切换方式。

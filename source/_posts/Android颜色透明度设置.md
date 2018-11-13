@@ -8,6 +8,7 @@ tags:
 - color
 categories:
 - Android
+- View
 ---
 
 ### 颜色简介
