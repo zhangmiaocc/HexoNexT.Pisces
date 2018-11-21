@@ -18,7 +18,7 @@ categories:
 ### 实用命令
 - 多窗口切换 command + T
   ![](https://ws2.sinaimg.cn/large/006tNbRwly1fx6h4ezon3j314y0q0gp2.jpg)
-
+<!--more-->
 - 同个窗口横向分屏 command + d
   ![](https://ws3.sinaimg.cn/large/006tNbRwly1fx6h58r8goj31fm0oqgrr.jpg)
 

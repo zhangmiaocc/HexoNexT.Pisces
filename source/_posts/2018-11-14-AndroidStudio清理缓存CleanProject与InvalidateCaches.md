@@ -20,7 +20,10 @@ categories:
 
 ![](https://ws3.sinaimg.cn/large/006tNbRwly1fx7os2risbj307n09nabf.jpg)
 
+<!--more-->
+
 #### 2. 使用invalidate caches restart   
+
 选择工具栏  File  -->     Invalidate Caches /Restart...    ->   Invalidate and Restart        重启Android studio
 
 ![](https://ws4.sinaimg.cn/large/006tNbRwly1fx7ott249xj306p0esjt6.jpg)

@@ -21,7 +21,10 @@ Command + P |快速打开
 Command + Shift + N |打开新窗口 
 Command + W |关闭窗口
 
+<!--more-->
+
 ### 基本
+
 快捷键|描述
 ---|:--:
 Command + X |剪切（未选中文本的情况下，剪切光标所在行） 

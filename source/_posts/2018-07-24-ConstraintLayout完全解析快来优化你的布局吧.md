@@ -34,6 +34,8 @@ ConstraintLayout出现有一段时间了，不过一直没有特别去关注，�
 compile 'com.android.support.constraint:constraint-layout:1.0.2'
 ```
 
+<!--more-->
+
 ## 二、来编写一个Feed Item
 
 我们先看一个简单的新闻列表中常见的feed item。

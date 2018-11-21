@@ -18,7 +18,7 @@ Lottie支持API 14及以上。
 #### 一、预览
 
 [![Example1](https://github.com/airbnb/lottie-android/raw/master/gifs/Example1.gif)](https://github.com/airbnb/lottie-android/blob/master/gifs/Example1.gif)
-
+<!--more-->
 [![Example2](https://github.com/airbnb/lottie-android/raw/master/gifs/Example2.gif)](https://github.com/airbnb/lottie-android/blob/master/gifs/Example2.gif)
 
 [![Example3](https://github.com/airbnb/lottie-android/raw/master/gifs/Example3.gif)](https://github.com/airbnb/lottie-android/blob/master/gifs/Example3.gif)

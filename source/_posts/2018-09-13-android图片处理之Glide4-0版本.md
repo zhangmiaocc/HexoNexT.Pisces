@@ -33,6 +33,8 @@ categories:
 
 
 
+<!--more-->
+
 # 一：GitHub
 
 ##  [bumptech](https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Fbumptech)/**glide** 

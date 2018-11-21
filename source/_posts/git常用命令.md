@@ -35,3 +35,4 @@ git log |查看提交日志
 git reset --hard commit_id | 完成撤销,同时将代码恢复到前一commit_id 对应的版本
 git reset commit_id  |  完成Commit命令的撤销，但是不对代码修改进行撤销，可以直接通过git commit 重新提交对本地代码的修改
 
+<!--more-->

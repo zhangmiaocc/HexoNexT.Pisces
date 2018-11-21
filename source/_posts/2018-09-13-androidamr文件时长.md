@@ -26,7 +26,9 @@ public int getDurations(){
 }
 ```
 
-**二、文件时长转换**
+<!--more-->
+
+二、文件时长转换**
 
 ```java
 private static String getAudioDuration(int nDuration0) {

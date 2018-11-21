@@ -16,7 +16,10 @@ categories:
 
 ![](https://ws1.sinaimg.cn/large/006tNc79ly1ftjy3k8gyzg30yv0rhwpi.gif)
 
+<!--more-->
+
 #### 修改中间层包名
+
 ![](https://ws1.sinaimg.cn/large/006tNc79ly1ftjy490rqcg31040putn6.gif)
 
 看到没有，我们只需要在setting里面，把 compact empty middle packages 这个选项去掉，这样，我们的包的层次结构就分开了，这个时候我们就可以根据自己的需要去做相应的修改了。 

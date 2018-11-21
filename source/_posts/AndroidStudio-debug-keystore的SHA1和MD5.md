@@ -26,3 +26,4 @@ keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -sto
 ### 结果如下图
 ![](https://ws4.sinaimg.cn/large/006tNbRwly1fx6h7i8nvjj30jy0ff0v8.jpg)
 
+<!--more-->

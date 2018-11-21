@@ -20,13 +20,15 @@ categories:
 ## 新建类自动生成的注释
 
 1.打开相应的设置： 
-     File–>Settings–>Editor–>File and code Template。
+​     File–>Settings–>Editor–>File and code Template。
 
 选择Files中的Class
 
 在上面添加你想要添加的注释：
 
 ![image-20180926173840698](https://ws3.sinaimg.cn/large/006tNc79ly1fvn2vsyla0j31kw0q5go5.jpg)
+
+<!--more-->
 
 下面有一些变量可以选择：
 

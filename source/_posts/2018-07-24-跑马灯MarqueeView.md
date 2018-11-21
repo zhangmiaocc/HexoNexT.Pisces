@@ -135,4 +135,6 @@ public class MarqueeView extends HorizontalScrollView implements Runnable {
     }
 }
 ```
+<!--more-->
+
 [![效果图](https://github.com/GITbiubiubiu/MarqueeView/raw/master/screenshot/MarqueeView.gif)](https://github.com/GITbiubiubiu/MarqueeView/raw/master/screenshot/MarqueeView.gif)

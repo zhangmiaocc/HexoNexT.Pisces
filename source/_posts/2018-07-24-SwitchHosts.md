@@ -21,6 +21,8 @@ categories:
 
 [![Capture](https://raw.githubusercontent.com/oldj/SwitchHosts/master/assets/capture.png)](https://raw.githubusercontent.com/oldj/SwitchHosts/master/assets/capture.png)
 
+<!--more-->
+
 ## 功能特性
 
 - 快速切换 hosts

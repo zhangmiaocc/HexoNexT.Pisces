@@ -19,7 +19,10 @@ categories:
 
 这个时候我们又会发现qq分享用到的的一个AssistActivity 它的生命周期：.: --onActivityResult()---onStart()---onResume()
 
+<!--more-->
+
 #### 结论：
+
 至此，我们发现了原因，是这个AssistActivity的问题。
 
 #### 解决：

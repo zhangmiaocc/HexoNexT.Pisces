@@ -28,6 +28,8 @@ categories:
 	compile 'com.mcxiaoke.xbus:bus:1.0.+'
 ```
 
+### <!--more-->
+
 ### 接收事件
 
 ```

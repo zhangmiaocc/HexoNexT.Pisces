@@ -42,7 +42,9 @@ Drawable animation可以加载Drawable资源实现帧动画。AnimationDrawable�
 </animation-list>
 ```
 
- 设置[Android](http://lib.csdn.net/base/android):oneshot属性为true,表示此次动画只执行一次，最后停留在最后一帧。设置为false则动画循环播放。文件可以添加为Image背景，触发的时候播放。
+ <!--more-->
+
+设置[Android](http://lib.csdn.net/base/android):oneshot属性为true,表示此次动画只执行一次，最后停留在最后一帧。设置为false则动画循环播放。文件可以添加为Image背景，触发的时候播放。
 
 下面简单通过一个例子，来给ImageView设置次动画效果，具体实现方法为
 

@@ -33,7 +33,10 @@ $ npm install
 ```
 > `<folder>` 就是博客的本地文件夹
 
+<!--more-->
+
 #### 配置 Hexo
+
 `网站配置`： <folder>`/_config.yml`
 #####  网站
 参数|描述

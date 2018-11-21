@@ -30,6 +30,8 @@ categories:
 - 支持从日志跳转到源码
 - ......
 
+<!--more-->
+
 如下图（引用原作者）：
 
 [![img](https://github.com/orhanobut/logger/raw/master/art/logger_output.png)](https://github.com/orhanobut/logger/blob/master/art/logger_output.png)

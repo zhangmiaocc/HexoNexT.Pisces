@@ -28,6 +28,8 @@ categories:
 >
 > 但如果当前开发的App最终代码量在**10W**行以上，本地需要进行**复杂操作**，同时也需要考虑到与其余的Android开发者以及后台开发人员之间的**同步配合**，那就需要在架构上进行一些思考！
 
+<!--more-->
+
 # 2.MVC设计架构
 
 [![微信截图_20151201004323.png](http://assets.tianmaying.com/md-image/0f7bfc3b4bb89562737510b0af1f7ad0.png)](http://assets.tianmaying.com/md-image/0f7bfc3b4bb89562737510b0af1f7ad0.png)

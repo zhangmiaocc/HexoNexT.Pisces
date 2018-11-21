@@ -24,6 +24,8 @@ categories:
 
 录音主要是利用 `MediaRecoder` 这个类，进行声音的记录，接下来我们一起来看看具体的实现。
 
+<!--more-->
+
 ```java
 public class RecordingService extends Service {
 

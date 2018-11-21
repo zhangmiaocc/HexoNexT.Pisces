@@ -31,3 +31,5 @@ listView.addHeadView(parentView);
 //就可以实现以上所说的效果了。
 headView.setVisibility(View.GONE);
 ```
+
+<!--more-->

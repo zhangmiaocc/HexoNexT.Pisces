@@ -21,6 +21,8 @@ categories:
 
 > **当你的应用程序被创建出来的时候，主线程会专门运行一个message queue来管理最顶级的应用对象(如activities, broadcast receivers，等等)以及它们创建的任何其它窗口。你可以创建你自己的线程，通过Handler来与主线程建立联系**
 
+<!--more-->
+
 ### 2.源码分析
 
 #### 2.1 MessageQueue-消息队列

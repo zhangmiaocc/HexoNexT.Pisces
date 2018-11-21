@@ -27,6 +27,8 @@ categories:
 - 将编译SDK和支持库更新到26
 - 将最低SDK更改为14
 
+## <!--more-->
+
 ## 3.0 API的变化
 
 - 换成`Contants.PRELOAD_COUNT`了`PRELOAD_OFFSET`

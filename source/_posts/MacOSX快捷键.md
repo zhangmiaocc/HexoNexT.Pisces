@@ -38,8 +38,10 @@ Command+3                            | 以列表方式显示
 Command+4                             |以Cover Flow方式显示
 return或enter                           | 键可以编辑所选图像或文件夹的名称
 
+<!--more-->
 
 ### Mac OSX 命令行
+
 #### 目录操作
 命令名  |功能描述 |使用举例
 ---|:--: |

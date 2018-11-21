@@ -34,6 +34,8 @@ dependencies {
 }
 ```
 
+<!--more-->
+
 虽然两者看起来一样，但是Glide更易用，因为Glide的with方法不光接受Context，还接受Activity 和 Fragment，Context会自动的从他们获取。
 
 ![](https://ws1.sinaimg.cn/large/006tKfTcly1ftgq1x8p3cj30nd0bpjs6.jpg)

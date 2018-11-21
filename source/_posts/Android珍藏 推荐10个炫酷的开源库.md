@@ -21,7 +21,7 @@ categories:
 ##### 效果展示：
 
 ![3b58fb9f1a05b73543f69f4f3a6179d9](https://user-gold-cdn.xitu.io/2018/7/19/164b299da85c9f67?imageslim)
-
+<!--more-->
 ![3c9810ca0e4d4284e1f0be95dc53d746](https://user-gold-cdn.xitu.io/2018/7/19/164b299da84d0139?imageslim)
 
 #### 2、[MaterialViewPager](https://github.com/pinguo-zhouwei/MaterialViewPager)

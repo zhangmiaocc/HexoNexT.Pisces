@@ -27,7 +27,10 @@ cookies.add("app_key=" + App.getAppKey());
 cookies.add("os=" + "Android" + Build.VERSION.SDK_INT);
 ```
 
+#### <!--more-->
+
 #### Step 3 通过sync方法，将cookie同步
+
 ```java
 if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
     CookieSyncManager.createInstance(context);

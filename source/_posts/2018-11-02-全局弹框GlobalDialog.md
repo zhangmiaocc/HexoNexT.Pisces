@@ -42,6 +42,8 @@ categories:
 </manifest>
 ```
 
+<!--more-->
+
 #### styles.xml
 
 ```html
