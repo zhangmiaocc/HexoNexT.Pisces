@@ -12,6 +12,8 @@ categories:
 - 框架 
 ---
 
+Demo地址：[MyXBus](https://github.com/zhangmiaocc/MyXBus)
+
 基于发布订阅(Pub/Sub)模式的一个事件消息库，使用通用的 `register(target)`, `unregister(target)`, `post(event)` 消息通信接口，能有效的减少甚至消除Android应用中异步任务逻辑和界面更新之间的耦合，实现模块化，提高开发效率。
 
 [![Maven Central](https://camo.githubusercontent.com/4ddb8d8e07afe670998def4db4d438479bb217fe/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f323031352e30382e31382d636f6d2e6d637869616f6b652e786275733a6275733a312e302e322d627269676874677265656e2e737667)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.mcxiaoke.xbus%22)

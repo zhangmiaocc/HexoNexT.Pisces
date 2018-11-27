@@ -11,6 +11,8 @@ categories:
 - View
 ---
 
+Demo地址：[MyViewPager](https://github.com/zhangmiaocc/MyViewPager)
+
 ViewPager常用来实现图片的轮播，比如淘宝首页，会把一些促销的商品的图片和描述信息来回的播放，这就是典型的使用ViewPager实现的。
 
 ViewPager属于布局管理器，允许用户通过页面翻转查看左右的数据，下面通过一个实例来讲解ViewPager实现图片轮播和手势滑动。
