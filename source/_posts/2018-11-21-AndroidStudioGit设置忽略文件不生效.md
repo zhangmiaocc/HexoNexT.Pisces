@@ -5,9 +5,10 @@ tags:
 - blog
 - markdown
 - Android 
+- Android Tips
 categories:
 - Android
-- 知识巩固 
+- Android Tips
 ---
 
 在Android中git提交想忽略某些不想提交的文件，可以在项目目录中新建一个.gitignore，如果没有这个文件，可以手动建一个。里面匹配一下你不想提交的文件。

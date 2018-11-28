@@ -5,9 +5,10 @@ tags:
 - blog
 - markdown
 - Android 
+- Android Tips
 categories:
 - Android
-- 知识巩固 
+- Android Tips 
 ---
 
 > ####Android studio 有时找不到R文件、 导入的资源、布局 、 jar包 等  . 可能是studio 缓存造成的 .

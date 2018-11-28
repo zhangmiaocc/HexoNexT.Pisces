@@ -6,9 +6,10 @@ tags:
 - markdown
 - Android 
 - AndroidStudio
+- Android Tips
 categories:
 - Android
-- 知识巩固
+- Android Tips
 ---
 
 ### 切换到debug.keystore目录

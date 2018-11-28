@@ -5,9 +5,10 @@ tags:
 - blog
 - markdown
 - Android 
+- Android Tips
 categories:
 - Android 
-- 知识巩固
+- Android Tips
 ---
 
 > 2017 年google 后，Android studio版本更新至3.0，更新中，连带着com.android.tools.build:gradle 工具也升级到了3.0.0，在3.0.0中使用了最新的Gralde 4.0 里程碑版本作为gradle的编译版本，该版本gradle编译速度有所加速，更加欣喜的是，完全支持Java8。

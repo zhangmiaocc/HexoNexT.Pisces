@@ -7,9 +7,10 @@ tags:
 - Android 
 - SDK
 - API
+- Android Tips
 categories:
 - Android
-- 知识巩固
+- Android Tips
 ---
 
 ### 一、Android各版本对应的SDK版本 
