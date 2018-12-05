@@ -15,11 +15,11 @@ categories:
 > 在一些项目中会分拆app 和 lib , 这时候引用support的时候,一旦更改版本会出现需要同步更改两个地方的问题.这种情况,可以通过配置gradle.properties实现替换.
 在项目编译过程中,gradle.properties配置的值会被编译解析,其作为配置文件使用是很有必要的.
 
-### 1.概述
+### 1. 概述
 在Android Studio 创建一个项目的时候，Project下面会生成gradle.properties和local.properties文件，如下图:
 ![](https://ws3.sinaimg.cn/large/006tNbRwgy1fxvpia7sqzj308w09b0t7.jpg)
 
-### 2.properties的数据格式
+### 2. properties的数据格式
 properties里面的数据格式采用键值对的方式，大概有以下几种写法: 
 ```
 1. key=value 
@@ -32,9 +32,9 @@ https://docs.oracle.com/javase/8/docs/api/java/util/Properties.html
 **注意: **在Android Studio 中最好使用第一种写法，要不会有警告
 <!--more-->
 
-### 3.如何使用
+### 3. 如何使用
 
-#### 3.1在项目根目录的gradle.properties文件配置:
+#### 3.1 在项目根目录的gradle.properties文件配置:
 
 ```properties
 # Project-wide Gradle settings.
@@ -56,7 +56,7 @@ ANDROID_BUILD_SDK_VERSION=24
 ANDROID_BUILD_TOOLS_VERSION=24.0.3
 ```
 
-#### 3.2这时候配置app和lib的build.gradle可以这样写:
+#### 3.2 这时候配置app和lib的build.gradle可以这样写:
 
 ```xml
 android {
