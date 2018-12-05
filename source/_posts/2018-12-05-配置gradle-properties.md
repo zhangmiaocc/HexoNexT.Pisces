@@ -36,7 +36,7 @@ https://docs.oracle.com/javase/8/docs/api/java/util/Properties.html
 
 #### 3.1 在项目根目录的gradle.properties文件配置:
 
-```properties
+```groovy
 # Project-wide Gradle settings.
 #添加ndk支持(按需添加)
 android.useDeprecatedNdk=true
@@ -58,7 +58,7 @@ ANDROID_BUILD_TOOLS_VERSION=24.0.3
 
 #### 3.2 这时候配置app和lib的build.gradle可以这样写:
 
-```xml
+```groovy
 android {
     compileSdkVersion project.ANDROID_BUILD_SDK_VERSION as int
     buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
