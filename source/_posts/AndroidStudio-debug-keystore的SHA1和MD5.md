@@ -2,8 +2,6 @@
 title: debug.keystore的SHA1和MD5
 date: 2018-07-20 16:22:14
 tags:
-- blog
-- markdown
 - Android 
 - AndroidStudio
 - Android Tips

@@ -2,8 +2,6 @@
 title: SwitchHosts!
 date: 2018-07-24 18:06:52
 tags:
-- blog
-- markdown
 - Mac
 categories:
 - 工具

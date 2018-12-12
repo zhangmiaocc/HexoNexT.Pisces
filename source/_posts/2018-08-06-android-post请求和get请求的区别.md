@@ -2,8 +2,6 @@
 title: android get请求和post请求区别
 date: 2018-08-06 14:44:42
 tags:
-- blog
-- markdown
 - Android 
 - Android Tips
 categories:

@@ -2,8 +2,6 @@
 title: 版本号比较versionCompare
 date: 2018-07-18 15:35:45
 tags:
-- blog
-- markdown
 - Android 
 - Java
 - 代码片段

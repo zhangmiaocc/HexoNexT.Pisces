@@ -2,8 +2,6 @@
 title: 全局弹框GlobalDialog
 date: 2018-11-02 14:54:28
 tags:
-- blog
-- markdown
 - Android 
 - GlobalDialog
 categories:

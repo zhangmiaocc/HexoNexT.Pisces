@@ -2,8 +2,6 @@
 title: Android - 图片处理之Glide4.0版本
 date: 2018-09-14 17:40:16
 tags:
-- blog
-- markdown
 - Android 
 - Glide
 categories:

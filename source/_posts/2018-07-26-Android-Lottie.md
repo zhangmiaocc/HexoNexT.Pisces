@@ -2,8 +2,6 @@
 title: Lottie Android For Animation
 date: 2018-07-26 17:44:43
 tags:
-- blog
-- markdown
 - Android 
 - Animation
 categories:

@@ -2,8 +2,6 @@
 title: Android APP分享微信小程序
 date: 2018-09-05 14:40:51
 tags:
-- blog
-- markdown
 - Android 
 - 微信小程序
 categories:

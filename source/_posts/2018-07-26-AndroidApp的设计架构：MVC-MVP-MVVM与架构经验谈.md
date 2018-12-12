@@ -2,8 +2,6 @@
 title: Android App的设计架构：MVC,MVP,MVVM与架构经验谈
 date: 2018-07-26 15:30:44
 tags:
-- blog
-- markdown
 - Android 
 - 设计架构
 categories:

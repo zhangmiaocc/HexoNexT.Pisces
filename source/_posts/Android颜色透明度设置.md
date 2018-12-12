@@ -2,8 +2,6 @@
 title: Android颜色透明度设置
 date: 2018-07-18 15:18:02
 tags:
-- blog
-- markdown
 - Android 
 - color
 categories:

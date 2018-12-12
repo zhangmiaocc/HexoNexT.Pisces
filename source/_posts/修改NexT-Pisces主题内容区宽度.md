@@ -2,9 +2,7 @@
 title: 修改NexT_Pisces主题内容区宽度
 date: 2018-07-12 02:48:25
 tags:
-- hexo
-- blog
-- markdown
+- Hexo
 - 博客
 - 建站
 categories:

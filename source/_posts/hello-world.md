@@ -2,7 +2,7 @@
 title: Hello World
 date: 2018-07-11 16:01:27
 tags:
-- hexo
+- Hexo
 categories:
 - 建站
 ---

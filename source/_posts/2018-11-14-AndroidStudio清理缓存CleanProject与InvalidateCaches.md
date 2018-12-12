@@ -2,8 +2,6 @@
 title: AndroidStudio清理缓存CleanProject与InvalidateCaches
 date: 2018-11-14 16:32:10
 tags:
-- blog
-- markdown
 - Android 
 - Android Tips
 categories:

@@ -2,8 +2,6 @@
 title: android日志框架Logger的详细使用（目前最新版2.1.1）
 date: 2018-07-27 16:27:45
 tags:
-- blog
-- markdown
 - Android 
 - Log
 - 框架

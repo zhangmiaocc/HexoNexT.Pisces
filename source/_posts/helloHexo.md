@@ -2,10 +2,7 @@
 title: 使用Hexo搭建博客
 date: 2018-07-11 17:01:27
 tags:
-- hexo
-- blog
-- markdown
-- 博客
+- Hexo
 - 建站
 categories:
 - 建站

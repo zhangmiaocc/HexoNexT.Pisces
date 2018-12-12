@@ -2,12 +2,8 @@
 title: git常用命令
 date: 2018-07-18 16:05:02
 tags:
-- blog
-- markdown
-- 博客 
 - 快捷键
-- Mac
-- git
+- Git
 categories:
 - 快捷键
 ---

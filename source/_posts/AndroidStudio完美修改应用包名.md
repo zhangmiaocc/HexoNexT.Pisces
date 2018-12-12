@@ -2,8 +2,6 @@
 title: Android Studio 完美修改应用包名
 date: 2018-07-23 17:47:05
 tags:
-- blog
-- markdown
 - Android 
 - Android Tips
 categories:

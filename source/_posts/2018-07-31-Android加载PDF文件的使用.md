@@ -2,8 +2,6 @@
 title: Android加载PDF文件的使用
 date: 2018-07-31 14:26:59
 tags:
-- blog
-- markdown
 - Android
 - PDF 
 categories:

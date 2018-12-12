@@ -2,8 +2,6 @@
 title: AndroidStudioGit设置忽略文件不生效
 date: 2018-11-21 11:29:50
 tags:
-- blog
-- markdown
 - Android 
 - Android Tips
 categories:

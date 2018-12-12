@@ -2,8 +2,6 @@
 title: Google推荐的图片加载库Glide介绍
 date: 2018-07-20 18:59:51
 tags:
-- blog
-- markdown
 - Android 
 - Glide
 categories:

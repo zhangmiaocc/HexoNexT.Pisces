@@ -2,8 +2,6 @@
 title: Android 圆角圆形ImageView
 date: 2018-08-01 16:31:05
 tags:
-- blog
-- markdown
 - Android 
 - CircleImageView
 categories:

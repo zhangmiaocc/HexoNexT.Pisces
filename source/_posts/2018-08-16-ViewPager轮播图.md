@@ -2,8 +2,6 @@
 title: ViewPager轮播图（文字&图片）
 date: 2018-08-16 19:30:32
 tags:
-- blog
-- markdown
 - Android 
 - ViewPager
 categories:

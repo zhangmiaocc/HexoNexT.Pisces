@@ -2,8 +2,6 @@
 title: Android 控件 RecyclerView
 date: 2018-08-30 15:34:12
 tags:
-- blog
-- markdown
 - Android 
 - RecyclerView
 categories:

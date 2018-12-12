@@ -2,9 +2,8 @@
 title: Android Handler消息机制学习
 date: 2018-11-13 11:01:02
 tags:
-- blog
-- markdown
 - Android
+- Handler
 categories:
 - Android
 - 源码解析

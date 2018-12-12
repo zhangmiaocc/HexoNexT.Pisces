@@ -2,8 +2,6 @@
 title: 跑马灯MarqueeView（支持任何View）
 date: 2018-07-24 10:43:31
 tags:
-- blog
-- markdown
 - Android 
 - 代码片段
 categories:

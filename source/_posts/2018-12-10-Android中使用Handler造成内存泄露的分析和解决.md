@@ -2,8 +2,6 @@
 title: Android中使用Handler造成内存泄露的分析和解决
 date: 2018-12-10 17:11:33
 tags:
-- blog
-- markdown
 - Android 
 - Handler
 - 内存泄露

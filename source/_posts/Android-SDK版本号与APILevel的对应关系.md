@@ -2,8 +2,6 @@
 title: Android_SDK版本号与APILevel的对应关系
 date: 2018-07-18 16:51:29
 tags:
-- blog
-- markdown
 - Android 
 - SDK
 - API

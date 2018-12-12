@@ -2,11 +2,9 @@
 title: gradle.properties文件使用
 date: 2018-12-05 11:09:00
 tags:
-- blog
-- markdown
 - Android 
 - Android Tips
-- gradle
+- Gradle
 categories:
 - Android
 - Android Tips

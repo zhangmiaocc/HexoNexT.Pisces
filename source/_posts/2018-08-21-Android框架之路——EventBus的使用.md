@@ -2,8 +2,6 @@
 title: Android框架之路——EventBus的使用
 date: 2018-08-21 14:08:08
 tags:
-- blog
-- markdown
 - Android 
 - EventBus
 categories:

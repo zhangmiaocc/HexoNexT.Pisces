@@ -2,9 +2,6 @@
 title: Mac终端快捷键
 date: 2018-07-12 18:14:50
 tags:
-- blog
-- markdown
-- 博客 
 - 快捷键
 - Mac
 categories:

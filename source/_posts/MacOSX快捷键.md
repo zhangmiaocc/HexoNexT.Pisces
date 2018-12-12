@@ -2,9 +2,6 @@
 title: Mac_OSX快捷键以及命令行
 date: 2018-07-12 18:32:41
 tags:
-- blog
-- markdown
-- 博客 
 - 快捷键
 - Mac
 categories:

@@ -2,9 +2,6 @@
 title: Mac_iTerm2命令行工具
 date: 2018-07-18 14:17:42
 tags:
-- blog
-- markdown
-- 博客 
 - 快捷键
 - Mac
 - iTem2

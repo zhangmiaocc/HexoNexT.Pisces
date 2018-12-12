@@ -2,8 +2,6 @@
 title: Atom_For_ReactNative
 date: 2018-11-06 14:57:54
 tags:
-- blog
-- markdown
 - Android
 - ReactNative
 - Atom

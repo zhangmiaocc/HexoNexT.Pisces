@@ -2,10 +2,8 @@
 title: xBus-简洁的EventBus实现
 date: 2018-08-21 14:27:28
 tags:
-- blog
-- markdown
 - Android 
-- xBus
+- XBus
 - EventBus
 categories:
 - Android

@@ -2,8 +2,6 @@
 title: AndroidView的绘制流程
 date: 2018-11-30 10:57:59
 tags:
-- markdown 
-- blog
 - Android
 - View
 categories:

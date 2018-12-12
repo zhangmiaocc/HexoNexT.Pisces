@@ -2,8 +2,6 @@
 title: Android中多线程切换的几种方法
 date: 2018-07-22 22:26:54
 tags:
-- blog
-- markdown
 - Android 
 categories:
 - Android

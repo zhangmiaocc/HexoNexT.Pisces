@@ -2,9 +2,6 @@
 title: Mac_VSCode快捷键
 date: 2018-07-19 16:39:33
 tags:
-- blog
-- markdown
-- 博客 
 - 快捷键
 - Mac
 - VSCode

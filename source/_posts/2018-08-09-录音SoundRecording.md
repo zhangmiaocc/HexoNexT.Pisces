@@ -2,8 +2,6 @@
 title: 录音SoundRecording
 date: 2018-08-09 18:11:15
 tags:
-- blog
-- markdown
 - Android
 - 录音 
 categories:
