@@ -4,7 +4,6 @@ date: 2018-12-11 15:05:53
 tags:
 - Android 
 - Android Tips
-- setTextSize
 - TypedValue
 categories:
 - Android
