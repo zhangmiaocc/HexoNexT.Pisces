@@ -3,9 +3,9 @@ title: git常用命令
 date: 2018-07-18 16:05:02
 tags:
 - 快捷键
-- Git
+- git
 categories:
-- 快捷键
+- git
 ---
 
 #### 常用git命令
