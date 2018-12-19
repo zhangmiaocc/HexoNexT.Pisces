@@ -9,11 +9,11 @@ categories:
 - View
 ---
 
-[TextViewSpannableString](https://github.com/zhangmiaocc/TextViewSpannableString)
-
 ![](https://ws2.sinaimg.cn/large/006tNbRwly1fycgym99e1j30f00qogmi.jpg)
 
 <!--more-->
+
+#### [`TextViewSpannableString`](https://github.com/zhangmiaocc/TextViewSpannableString)
 
 ### 一：简介
 
