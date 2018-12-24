@@ -30,6 +30,8 @@ view.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlob
 
 但是要注意这个方法在每次有些view的Layout发生变化的时候被调用（比如某个View被设置为Invisible）,所以在得到你想要的宽高后，记得移除onGlobleLayoutListener：
 
+<!--more-->
+
 > 在 SDK Lvl < 16时使用
 > public void removeGlobalOnLayoutListener (ViewTreeObserver.OnGlobalLayoutListener victim)
 >
