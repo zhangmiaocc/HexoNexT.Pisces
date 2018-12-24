@@ -36,7 +36,7 @@ view.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlob
 > 在 SDK Lvl >= 16时使用
 > public void removeOnGlobalLayoutListener (ViewTreeObserver.OnGlobalLayoutListener victim)
 
-
+<!--more-->
 
 ## 2、将一个runnable添加到Layout队列中：View.post()
 
