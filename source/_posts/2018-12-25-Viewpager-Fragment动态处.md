@@ -139,7 +139,7 @@ Adapter.getItemPosition方法默认返回的是PagerAdapter.POSITION_UNCHANGED�
 ```java
 //FragmentPagerAdapter
 @Override
-    public void destroyItem(ViewGroup container, int position, Object object) {
+public void destroyItem(ViewGroup container, int position, Object object) {
         if (mCurTransaction == null) {
             mCurTransaction = mFragmentManager.beginTransaction();
         }
@@ -150,7 +150,7 @@ Adapter.getItemPosition方法默认返回的是PagerAdapter.POSITION_UNCHANGED�
     }
 //FragmentStatePagerAdapter 
 @Override
-    public void destroyItem(ViewGroup container, int position, Object object) {
+public void destroyItem(ViewGroup container, int position, Object object) {
         Fragment fragment = (Fragment) object;
 
         if (mCurTransaction == null) {
@@ -184,11 +184,8 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author zm
- * on 2018/08/28 18:07
-    */
-    public class DynamicFragmentAdapter extends FragmentStatePagerAdapter {
+
+public class DynamicFragmentAdapter extends FragmentStatePagerAdapter {
     private FragmentManager mFragmentManager;
     private List<Fragment> mFragments = new ArrayList<>();
 
