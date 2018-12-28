@@ -1,12 +1,13 @@
 ---
-title: Android App的设计架构：MVC,MVP,MVVM与架构经验谈
-date: 2018-07-26 15:30:44
+title: 'Android App的设计架构：MVC,MVP,MVVM与架构经验谈'
 tags:
-- Android 
-- 设计架构
+  - Android
+  - 设计架构
 categories:
-- Android 
-- 设计架构
+  - Android
+  - 设计架构
+abbrlink: af73114b
+date: 2018-07-26 15:30:44
 ---
 
 和MVC框架模式一样，Model模型处理数据代码不变在Android的App开发中，很多人经常会头疼于App的架构如何设计：

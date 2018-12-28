@@ -1,12 +1,13 @@
 ---
 title: Android解决qq分享后返回程序出现的Bug
-date: 2018-07-22 23:09:42
 tags:
-- Android 
-- 代码片段
+  - Android
+  - 代码片段
 categories:
-- Android 
-- 代码片段
+  - Android
+  - 代码片段
+abbrlink: a03cc66a
+date: 2018-07-22 23:09:42
 ---
 
 #### 问题：

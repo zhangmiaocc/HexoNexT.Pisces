@@ -1,16 +1,17 @@
 ---
 title: Android的.so文件、abi兼容，通用armeabi-v7a和arm64-v8a架构的方法
-date: 2018-12-11 18:26:37
 tags:
-- Android 
-- Android Tips
-- armeabi-v7a
-- arm64-v8a
-- abi兼容
-- .so文件
+  - Android
+  - Android Tips
+  - armeabi-v7a
+  - arm64-v8a
+  - abi兼容
+  - .so文件
 categories:
-- Android
-- Android Tips
+  - Android
+  - Android Tips
+abbrlink: 75a88a70
+date: 2018-12-11 18:26:37
 ---
 
 >了解完 armeabi、armeabi-v7a、arm64-v8a、mips、mips64、x86、x86_64等abi的原理后，很久以前一般都只是用armeabi在做兼容。

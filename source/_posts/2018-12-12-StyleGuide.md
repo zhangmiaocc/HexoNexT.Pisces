@@ -1,11 +1,12 @@
 ---
 title: Style Guide For 前端
-date: 2018-12-12 11:11:19
 tags:
-- 前端
+  - 前端
 categories:
-- 前端
-- 代码规范
+  - 前端
+  - 代码规范
+abbrlink: 16482fed
+date: 2018-12-12 11:11:19
 ---
 
 #  命名

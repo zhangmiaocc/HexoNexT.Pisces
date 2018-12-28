@@ -1,12 +1,13 @@
 ---
 title: AndroidStudio清理缓存CleanProject与InvalidateCaches
-date: 2018-11-14 16:32:10
 tags:
-- Android 
-- Android Tips
+  - Android
+  - Android Tips
 categories:
-- Android
-- Android Tips 
+  - Android
+  - Android Tips
+abbrlink: c7a76d2f
+date: 2018-11-14 16:32:10
 ---
 
 > ####Android studio 有时找不到R文件、 导入的资源、布局 、 jar包 等  . 可能是studio 缓存造成的 .

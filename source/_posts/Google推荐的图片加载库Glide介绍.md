@@ -1,12 +1,13 @@
 ---
 title: Google推荐的图片加载库Glide介绍
-date: 2018-07-20 18:59:51
 tags:
-- Android 
-- Glide
+  - Android
+  - Glide
 categories:
-- Android
-- Glide
+  - Android
+  - Glide
+abbrlink: 6abab605
+date: 2018-07-20 18:59:51
 ---
 
 英文原文  [ Introduction to Glide, Image Loader Library for Android, recommended by Google](https://inthecheesefactory.com/blog/get-to-know-glide-recommended-by-google/en)

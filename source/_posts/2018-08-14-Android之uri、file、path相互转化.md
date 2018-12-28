@@ -1,11 +1,12 @@
 ---
 title: Android之uri、file、path相互转化
-date: 2018-08-14 17:22:56
 tags:
-- Android 
+  - Android
 categories:
-- Android
-- 代码片段 
+  - Android
+  - 代码片段
+abbrlink: 6f91fcbd
+date: 2018-08-14 17:22:56
 ---
 
 #### uri & file 互转

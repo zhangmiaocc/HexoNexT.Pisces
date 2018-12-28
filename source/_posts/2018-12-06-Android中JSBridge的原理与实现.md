@@ -1,12 +1,13 @@
 ---
 title: Android中JSBridge的原理与实现
-date: 2018-12-06 15:12:08
 tags:
-- Android
-- Webview
+  - Android
+  - Webview
 categories:
-- Android
-- Webview
+  - Android
+  - Webview
+abbrlink: 88a3890e
+date: 2018-12-06 15:12:08
 ---
 
 Android中的JSBridge是H5与Native通信的桥梁，其作用是实现H5与Native间的双向通信。要实现H5与Native的双向通信，解决如下四个问题即可：

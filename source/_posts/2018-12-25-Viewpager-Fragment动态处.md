@@ -1,13 +1,14 @@
 ---
 title: Viewpager+Fragment动态处理（添加、删除）
-date: 2018-12-25 15:26:35
 tags:
-- Android 
-- Viewpager
-- Fragment
+  - Android
+  - Viewpager
+  - Fragment
 categories:
-- Android 
-- View
+  - Android
+  - View
+abbrlink: bcdbaf4f
+date: 2018-12-25 15:26:35
 ---
 
 ### 问题

@@ -1,12 +1,13 @@
 ---
 title: HelloWord Vue项目创建
-date: 2018-12-12 15:08:50
 tags:
-- 前端
-- Vue
+  - 前端
+  - Vue
 categories:
-- 前端
-- Vue
+  - 前端
+  - Vue
+abbrlink: '55860431'
+date: 2018-12-12 15:08:50
 ---
 
 # 准备

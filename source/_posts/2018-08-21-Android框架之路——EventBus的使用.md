@@ -1,12 +1,13 @@
 ---
 title: Android框架之路——EventBus的使用
-date: 2018-08-21 14:08:08
 tags:
-- Android 
-- EventBus
+  - Android
+  - EventBus
 categories:
-- Android 
-- 框架
+  - Android
+  - 框架
+abbrlink: 6037db63
+date: 2018-08-21 14:08:08
 ---
 
 ### **一、简介**

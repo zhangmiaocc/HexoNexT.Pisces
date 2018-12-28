@@ -1,13 +1,14 @@
 ---
 title: debug.keystore的SHA1和MD5
-date: 2018-07-20 16:22:14
 tags:
-- Android 
-- AndroidStudio
-- Android Tips
+  - Android
+  - AndroidStudio
+  - Android Tips
 categories:
-- Android
-- Android Tips
+  - Android
+  - Android Tips
+abbrlink: 1a48ee1
+date: 2018-07-20 16:22:14
 ---
 
 ### 切换到debug.keystore目录

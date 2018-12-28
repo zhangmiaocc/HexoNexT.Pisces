@@ -1,14 +1,15 @@
 ---
 title: Android中使用Handler造成内存泄露的分析和解决
-date: 2018-12-10 17:11:33
 tags:
-- Android 
-- Handler
-- 内存泄露
-- Android Tips
+  - Android
+  - Handler
+  - 内存泄露
+  - Android Tips
 categories:
-- Android
-- Android Tips 
+  - Android
+  - Android Tips
+abbrlink: 91b033d9
+date: 2018-12-10 17:11:33
 ---
 
 > Java使用有向图机制，通过GC自动检查内存中的对象（什么时候检查由虚拟机决定），如果GC发现一个或一组对象为不可到达状态，则将该对象从内存中回收。也就是说，一个对象不被任何引用所指向，则该对象会在被GC发现的时候被回收；另外，如果一组对象中只包含互相的引用，而没有来自它们外部的引用（例如有两个对象A和B互相持有引用，但没有任何外部对象持有指向A或B的引用），这仍然属于不可到达，同样会被GC回收。

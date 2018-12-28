@@ -1,12 +1,13 @@
 ---
 title: Mac_iTerm2命令行工具
-date: 2018-07-18 14:17:42
 tags:
-- 快捷键
-- Mac
-- iTem2
+  - 快捷键
+  - Mac
+  - iTem2
 categories:
-- 快捷键
+  - 快捷键
+abbrlink: c16bcf6c
+date: 2018-07-18 14:17:42
 ---
 
 ### 下载地址

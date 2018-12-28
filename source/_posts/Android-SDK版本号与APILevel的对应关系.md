@@ -1,14 +1,15 @@
 ---
 title: Android_SDK版本号与APILevel的对应关系
-date: 2018-07-18 16:51:29
 tags:
-- Android 
-- SDK
-- API
-- Android Tips
+  - Android
+  - SDK
+  - API
+  - Android Tips
 categories:
-- Android
-- Android Tips
+  - Android
+  - Android Tips
+abbrlink: 46f6283e
+date: 2018-07-18 16:51:29
 ---
 
 ### 一、Android各版本对应的SDK版本 

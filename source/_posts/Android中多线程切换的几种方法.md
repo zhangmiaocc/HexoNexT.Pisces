@@ -1,11 +1,12 @@
 ---
 title: Android中多线程切换的几种方法
-date: 2018-07-22 22:26:54
 tags:
-- Android 
+  - Android
 categories:
-- Android
-- 代码片段 
+  - Android
+  - 代码片段
+abbrlink: fbda19a9
+date: 2018-07-22 22:26:54
 ---
 
 我们知道，多线程是Android开发中必现的场景，很多原生API和开源项目都有多线程的内容，这里简单总结和探讨一下常见的多线程切换方式。

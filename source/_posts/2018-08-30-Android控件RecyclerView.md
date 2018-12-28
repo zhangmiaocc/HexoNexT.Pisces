@@ -1,12 +1,13 @@
 ---
 title: Android 控件 RecyclerView
-date: 2018-08-30 15:34:12
 tags:
-- Android 
-- RecyclerView
+  - Android
+  - RecyclerView
 categories:
-- Android 
-- View
+  - Android
+  - View
+abbrlink: 4fcbe74a
+date: 2018-08-30 15:34:12
 ---
 
 转自：https://www.jianshu.com/p/4f9591291365

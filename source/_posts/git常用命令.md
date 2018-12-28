@@ -1,11 +1,12 @@
 ---
 title: git常用命令
-date: 2018-07-18 16:05:02
 tags:
-- 快捷键
-- git
+  - 快捷键
+  - git
 categories:
-- git
+  - git
+abbrlink: 423abe9e
+date: 2018-07-18 16:05:02
 ---
 
 #### 常用git命令

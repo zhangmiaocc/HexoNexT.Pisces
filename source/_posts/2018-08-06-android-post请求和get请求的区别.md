@@ -1,12 +1,13 @@
 ---
 title: android get请求和post请求区别
-date: 2018-08-06 14:44:42
 tags:
-- Android 
-- Android Tips
+  - Android
+  - Android Tips
 categories:
-- Android
-- Android Tips 
+  - Android
+  - Android Tips
+abbrlink: cec09649
+date: 2018-08-06 14:44:42
 ---
 
 #### Get请求与Post请求的区别

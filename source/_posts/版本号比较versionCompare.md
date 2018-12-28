@@ -1,13 +1,14 @@
 ---
 title: 版本号比较versionCompare
-date: 2018-07-18 15:35:45
 tags:
-- Android 
-- Java
-- 代码片段
+  - Android
+  - Java
+  - 代码片段
 categories:
-- Android 
-- 代码片段
+  - Android
+  - 代码片段
+abbrlink: d2f8db9f
+date: 2018-07-18 15:35:45
 ---
 
 ``` java

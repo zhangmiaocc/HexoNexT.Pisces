@@ -1,13 +1,14 @@
 ---
 title: gradle.properties文件使用
-date: 2018-12-05 11:09:00
 tags:
-- Android 
-- Android Tips
-- Gradle
+  - Android
+  - Android Tips
+  - Gradle
 categories:
-- Android
-- Android Tips
+  - Android
+  - Android Tips
+abbrlink: fb76c4ba
+date: 2018-12-05 11:09:00
 ---
 
 > 在一些项目中会分拆app 和 lib , 这时候引用support的时候,一旦更改版本会出现需要同步更改两个地方的问题.这种情况,可以通过配置gradle.properties实现替换.

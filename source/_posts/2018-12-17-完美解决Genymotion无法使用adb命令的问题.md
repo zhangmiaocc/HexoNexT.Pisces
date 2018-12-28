@@ -1,13 +1,14 @@
 ---
 title: 完美解决Genymotion无法使用adb命令的问题
-date: 2018-12-17 16:11:52
 tags:
-- Android 
-- Android Tips
-- Genymotion
+  - Android
+  - Android Tips
+  - Genymotion
 categories:
-- Android
-- Android Tips
+  - Android
+  - Android Tips
+abbrlink: c3520239
+date: 2018-12-17 16:11:52
 ---
 
 

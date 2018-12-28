@@ -1,11 +1,12 @@
 ---
 title: Android-仪表盘控件仿芝麻信用
-date: 2018-07-22 22:42:57
 tags:
-- Android 
+  - Android
 categories:
-- Android 
-- View
+  - Android
+  - View
+abbrlink: 8a91974c
+date: 2018-07-22 22:42:57
 ---
 
 ## 前言

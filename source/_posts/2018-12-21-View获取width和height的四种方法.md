@@ -1,12 +1,13 @@
 ---
 title: View获取width和height的四种方法
-date: 2018-12-21 16:55:12
 tags:
-- Android 
-- Android Tips
+  - Android
+  - Android Tips
 categories:
-- Android
-- Android Tips
+  - Android
+  - Android Tips
+abbrlink: dd1673d3
+date: 2018-12-21 16:55:12
 ---
 
 > 很经常当我们动态创建某些View时，需要通过获取他们的width和height来确定别的view的布局，但是在onCreate()获取view的width和height会得到0.view.getWidth()和view.getHeight()为0的根本原因是控件还没有完成绘制，你必须等待系统将绘制完View时，才能获得。这种情况当你需要使用动态布局（使用wrap_content或match_parent）就会出现。一般来讲在Activity.onCreate(...)、onResume()方法中都没有办法获取到View的实际宽高。所以，我们必须用一种变通的方法，等到View绘制完成后去获取width和Height。下面有一些可行的解决方案。

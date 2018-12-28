@@ -1,13 +1,14 @@
 ---
 title: Atom_For_ReactNative
-date: 2018-11-06 14:57:54
 tags:
-- Android
-- ReactNative
-- Atom
+  - Android
+  - ReactNative
+  - Atom
 categories:
-- Android
-- ReactNative 
+  - Android
+  - ReactNative
+abbrlink: 321ed7e5
+date: 2018-11-06 14:57:54
 ---
 
 #### Atom下载链接

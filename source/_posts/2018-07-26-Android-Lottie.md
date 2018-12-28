@@ -1,12 +1,13 @@
 ---
 title: Lottie Android For Animation
-date: 2018-07-26 17:44:43
 tags:
-- Android 
-- Animation
+  - Android
+  - Animation
 categories:
-- Android 
-- Animation
+  - Android
+  - Animation
+abbrlink: 1444979e
+date: 2018-07-26 17:44:43
 ---
 
 Lottie是一个支持[Android](https://link.jianshu.com?t=https://github.com/airbnb/lottie-android)、[iOS](https://link.jianshu.com?t=https://github.com/airbnb/lottie-ios)、[React Native](https://link.jianshu.com?t=https://github.com/airbnb/lottie-react-native)，并由 [Adobe After Effects](https://link.jianshu.com?t=http://www.adobe.com/cn/products/aftereffects.html)制作aep格式的动画，然后经由[bodymovin](https://link.jianshu.com?t=https://github.com/bodymovin/bodymovin)插件转化渲染为json格式可被移动端本地识别解析的[Airbnb](https://link.jianshu.com?t=https://github.com/airbnb)开源库。

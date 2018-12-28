@@ -1,11 +1,12 @@
 ---
 title: Mac_OSX快捷键以及命令行
-date: 2018-07-12 18:32:41
 tags:
-- 快捷键
-- Mac
+  - 快捷键
+  - Mac
 categories:
-- 快捷键
+  - 快捷键
+abbrlink: 81828d81
+date: 2018-07-12 18:32:41
 ---
 
 ### Mac OSX 快捷键

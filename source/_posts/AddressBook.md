@@ -1,12 +1,13 @@
 ---
 title: 通讯录获取/添加信息 AddressBook
-date: 2018-07-19 17:48:17
 tags:
-- Android 
-- 代码片段
+  - Android
+  - 代码片段
 categories:
-- Android 
-- 代码片段
+  - Android
+  - 代码片段
+abbrlink: e1546149
+date: 2018-07-19 17:48:17
 ---
 源码：[`AddressBook`](https://github.com/zhangmiaocc/AddressBook)
 

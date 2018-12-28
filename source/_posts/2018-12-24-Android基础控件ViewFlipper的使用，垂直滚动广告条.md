@@ -1,12 +1,13 @@
 ---
 title: Android基础控件ViewFlipper的使用，垂直滚动广告条
-date: 2018-12-24 17:05:11
 tags:
-- Android 
-- ViewFlipper
+  - Android
+  - ViewFlipper
 categories:
-- Android 
-- View
+  - Android
+  - View
+abbrlink: ced0f833
+date: 2018-12-24 17:05:11
 ---
 
 > 学习，学习，学以致用

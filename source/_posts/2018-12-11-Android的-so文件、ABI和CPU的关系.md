@@ -1,15 +1,16 @@
 ---
 title: Android的.so文件、ABI和CPU的关系
-date: 2018-12-11 18:10:31
 tags:
-- Android 
-- Android Tips
-- ABI
-- CPU
-- .so文件
+  - Android
+  - Android Tips
+  - ABI
+  - CPU
+  - .so文件
 categories:
-- Android
-- Android Tips
+  - Android
+  - Android Tips
+abbrlink: b9d5fd68
+date: 2018-12-11 18:10:31
 ---
 
 早期的Android系统几乎只支持ARMv5的CPU架构，你知道现在它支持多少种吗？

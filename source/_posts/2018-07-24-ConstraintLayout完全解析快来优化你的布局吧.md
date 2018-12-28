@@ -1,11 +1,12 @@
 ---
-title: ConstraintLayout完全解析,快来优化你的布局吧
-date: 2018-07-24 15:33:18
+title: 'ConstraintLayout完全解析,快来优化你的布局吧'
 tags:
-- Android 
+  - Android
 categories:
-- Android 
-- View
+  - Android
+  - View
+abbrlink: a495ccb1
+date: 2018-07-24 15:33:18
 ---
 
 Demo地址：[ConstraintLayout](https://github.com/zhangmiaocc/ConstraintLayout)

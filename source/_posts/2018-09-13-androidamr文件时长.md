@@ -1,11 +1,12 @@
 ---
 title: android 音频amr文件时长
-date: 2018-09-13 10:18:43
 tags:
-- Android 
+  - Android
 categories:
-- Android 
-- 代码片段
+  - Android
+  - 代码片段
+abbrlink: '45412865'
+date: 2018-09-13 10:18:43
 ---
 
 **一、文件时长获取**

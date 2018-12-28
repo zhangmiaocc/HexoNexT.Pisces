@@ -1,12 +1,13 @@
 ---
 title: Android颜色透明度设置
-date: 2018-07-18 15:18:02
 tags:
-- Android 
-- color
+  - Android
+  - color
 categories:
-- Android
-- View
+  - Android
+  - View
+abbrlink: 54d6d461
+date: 2018-07-18 15:18:02
 ---
 
 ### 颜色简介

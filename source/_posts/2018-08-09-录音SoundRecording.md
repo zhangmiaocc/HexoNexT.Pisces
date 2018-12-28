@@ -1,12 +1,13 @@
 ---
 title: 录音SoundRecording
-date: 2018-08-09 18:11:15
 tags:
-- Android
-- 录音 
+  - Android
+  - 录音
 categories:
-- Android
-- 代码片段 
+  - Android
+  - 代码片段
+abbrlink: 58d30177
+date: 2018-08-09 18:11:15
 ---
 
 #### 效果图

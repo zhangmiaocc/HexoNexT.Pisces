@@ -1,12 +1,13 @@
 ---
 title: Android加载PDF文件的使用
-date: 2018-07-31 14:26:59
 tags:
-- Android
-- PDF 
+  - Android
+  - PDF
 categories:
-- Android
-- View
+  - Android
+  - View
+abbrlink: 44884a58
+date: 2018-07-31 14:26:59
 ---
 
 # Android PdfViewer

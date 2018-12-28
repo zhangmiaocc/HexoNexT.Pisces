@@ -1,12 +1,13 @@
 ---
 title: AndroidView的绘制流程
-date: 2018-11-30 10:57:59
 tags:
-- Android
-- View
+  - Android
+  - View
 categories:
-- Android
-- View
+  - Android
+  - View
+abbrlink: d94c207f
+date: 2018-11-30 10:57:59
 ---
 
 本文主要是梳理 View 绘制的整体流程，帮助开发者对 View 的绘制有一个更深层次的理解。

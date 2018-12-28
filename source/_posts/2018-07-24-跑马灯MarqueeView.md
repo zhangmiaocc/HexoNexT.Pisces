@@ -1,12 +1,13 @@
 ---
 title: 跑马灯MarqueeView（支持任何View）
-date: 2018-07-24 10:43:31
 tags:
-- Android 
-- 代码片段
+  - Android
+  - 代码片段
 categories:
-- Android 
-- 代码片段
+  - Android
+  - 代码片段
+abbrlink: 553b92de
+date: 2018-07-24 10:43:31
 ---
 
 类似TextView的android:ellipsize="marquee"的跑马灯效果 任意View都可实现

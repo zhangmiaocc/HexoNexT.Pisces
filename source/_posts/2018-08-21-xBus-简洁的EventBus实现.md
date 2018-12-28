@@ -1,13 +1,14 @@
 ---
 title: xBus-简洁的EventBus实现
-date: 2018-08-21 14:27:28
 tags:
-- Android 
-- XBus
-- EventBus
+  - Android
+  - XBus
+  - EventBus
 categories:
-- Android
-- 框架 
+  - Android
+  - 框架
+abbrlink: 9105b80c
+date: 2018-08-21 14:27:28
 ---
 
 Demo地址：[MyXBus](https://github.com/zhangmiaocc/MyXBus)

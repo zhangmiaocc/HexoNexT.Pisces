@@ -1,14 +1,15 @@
 ---
 title: Android跳转权限设置界面的终极适配（支持各大定制ROM）
-date: 2018-12-19 17:38:15
 tags:
-- Android 
-- Android Tips
-- 权限
-- 代码片段
+  - Android
+  - Android Tips
+  - 权限
+  - 代码片段
 categories:
-- Android
-- Android Tips
+  - Android
+  - Android Tips
+abbrlink: 559aa4a0
+date: 2018-12-19 17:38:15
 ---
 
 ### 前言：

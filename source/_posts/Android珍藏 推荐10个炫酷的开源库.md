@@ -1,12 +1,13 @@
 ---
 title: 【Android珍藏】推荐10个炫酷的开源库
-date: 2018-07-22 21:47:34
 tags:
-- Android 
-- 开源库
+  - Android
+  - 开源库
 categories:
-- Android 
-- 开源库
+  - Android
+  - 开源库
+abbrlink: 78b41fa0
+date: 2018-07-22 21:47:34
 ---
 
 #### 前言

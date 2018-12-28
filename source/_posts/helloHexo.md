@@ -1,11 +1,12 @@
 ---
 title: 使用Hexo搭建博客
-date: 2018-07-11 17:01:27
 tags:
-- Hexo
-- 建站
+  - Hexo
+  - 建站
 categories:
-- 建站
+  - 建站
+abbrlink: eb656981
+date: 2018-07-11 17:01:27
 ---
 
 ### 准备工作

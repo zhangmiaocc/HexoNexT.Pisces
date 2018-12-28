@@ -1,12 +1,13 @@
 ---
 title: SpannableString之富文本显示效果
-date: 2018-12-19 22:21:46
 tags:
-- Android 
-- SpannableString
+  - Android
+  - SpannableString
 categories:
-- Android 
-- View
+  - Android
+  - View
+abbrlink: 9e398b2
+date: 2018-12-19 22:21:46
 ---
 
 ![](https://ws2.sinaimg.cn/large/006tNbRwly1fycgym99e1j30f00qogmi.jpg)

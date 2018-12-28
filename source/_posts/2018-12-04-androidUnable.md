@@ -1,12 +1,13 @@
 ---
-title: Unable to resolve dependency for ':trunk@debug/compileClasspath' 
-date: 2018-12-04 16:50:17
+title: 'Unable to resolve dependency for '':trunk@debug/compileClasspath'''
 tags:
-- Android 
-- Android Tips
+  - Android
+  - Android Tips
 categories:
-- Android
-- Android Tips
+  - Android
+  - Android Tips
+abbrlink: 4cae3fd9
+date: 2018-12-04 16:50:17
 ---
 
 ```

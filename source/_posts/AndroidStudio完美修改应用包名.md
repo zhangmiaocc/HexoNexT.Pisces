@@ -1,12 +1,13 @@
 ---
 title: Android Studio 完美修改应用包名
-date: 2018-07-23 17:47:05
 tags:
-- Android 
-- Android Tips
+  - Android
+  - Android Tips
 categories:
-- Android 
-- Android Tips
+  - Android
+  - Android Tips
+abbrlink: 9b574dca
+date: 2018-07-23 17:47:05
 ---
 
 我们平时新建项目有些朋友可能当时就是随意写的一个包名，然后在项目过程中， 又感觉这个包名不太好，所以就要对包名进行修改。

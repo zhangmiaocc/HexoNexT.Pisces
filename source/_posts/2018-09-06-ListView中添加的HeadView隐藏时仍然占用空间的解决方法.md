@@ -1,11 +1,12 @@
 ---
 title: ListView中添加的HeadView隐藏时仍然占用空间的解决方法
-date: 2018-09-06 16:59:04
 tags:
-- Android 
+  - Android
 categories:
-- Android 
-- View
+  - Android
+  - View
+abbrlink: df7e47f7
+date: 2018-09-06 16:59:04
 ---
 
 今天在开发的时候遇到了一个ListView中添加的HeadView隐藏时仍然占用空间的解决方法；

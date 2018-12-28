@@ -1,13 +1,14 @@
 ---
 title: Android下setTextSize的正确使用姿势
-date: 2018-12-11 15:05:53
 tags:
-- Android 
-- Android Tips
-- TypedValue
+  - Android
+  - Android Tips
+  - TypedValue
 categories:
-- Android
-- Android Tips
+  - Android
+  - Android Tips
+abbrlink: 99d586fa
+date: 2018-12-11 15:05:53
 ---
 
 ### 问几个问题先

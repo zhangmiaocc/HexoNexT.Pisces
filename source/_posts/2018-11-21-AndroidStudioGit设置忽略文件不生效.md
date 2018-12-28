@@ -1,12 +1,13 @@
 ---
 title: AndroidStudioGit设置忽略文件不生效
-date: 2018-11-21 11:29:50
 tags:
-- Android 
-- Android Tips
+  - Android
+  - Android Tips
 categories:
-- Android
-- Android Tips
+  - Android
+  - Android Tips
+abbrlink: 40a53d12
+date: 2018-11-21 11:29:50
 ---
 
 在Android中git提交想忽略某些不想提交的文件，可以在项目目录中新建一个.gitignore，如果没有这个文件，可以手动建一个。里面匹配一下你不想提交的文件。

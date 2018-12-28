@@ -1,12 +1,13 @@
 ---
 title: Mac_VSCode快捷键
-date: 2018-07-19 16:39:33
 tags:
-- 快捷键
-- Mac
-- VSCode
+  - 快捷键
+  - Mac
+  - VSCode
 categories:
-- 快捷键
+  - 快捷键
+abbrlink: 550c573
+date: 2018-07-19 16:39:33
 ---
 
 [官方快捷键](https://code.visualstudio.com/docs/getstarted/keybindings)

@@ -1,13 +1,14 @@
 ---
 title: Genymotion上不能安装APK软件的问题
-date: 2018-12-17 16:28:52
 tags:
-- Android 
-- Android Tips
-- Genymotion
+  - Android
+  - Android Tips
+  - Genymotion
 categories:
-- Android
-- Android Tips
+  - Android
+  - Android Tips
+abbrlink: f1cdd64c
+date: 2018-12-17 16:28:52
 ---
 
 > Genymotion模拟器不能安装APK的原因

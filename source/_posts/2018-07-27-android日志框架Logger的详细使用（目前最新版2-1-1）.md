@@ -1,13 +1,14 @@
 ---
 title: android日志框架Logger的详细使用（目前最新版2.1.1）
-date: 2018-07-27 16:27:45
 tags:
-- Android 
-- Log
-- 框架
+  - Android
+  - Log
+  - 框架
 categories:
-- Android 
-- 框架
+  - Android
+  - 框架
+abbrlink: e28061de
+date: 2018-07-27 16:27:45
 ---
 
 # 前言

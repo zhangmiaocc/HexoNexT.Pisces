@@ -1,12 +1,13 @@
 ---
 title: Android - 图片处理之Glide4.0版本
-date: 2018-09-14 17:40:16
 tags:
-- Android 
-- Glide
+  - Android
+  - Glide
 categories:
-- Android 
-- Glide
+  - Android
+  - Glide
+abbrlink: af2ff32e
+date: 2018-09-14 17:40:16
 ---
 
 # 前言

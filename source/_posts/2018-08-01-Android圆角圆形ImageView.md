@@ -1,12 +1,13 @@
 ---
 title: Android 圆角圆形ImageView
-date: 2018-08-01 16:31:05
 tags:
-- Android 
-- CircleImageView
+  - Android
+  - CircleImageView
 categories:
-- Android 
-- View
+  - Android
+  - View
+abbrlink: 494f41c5
+date: 2018-08-01 16:31:05
 ---
 #### 效果预览
 ![](https://ws4.sinaimg.cn/large/006tKfTcly1ftua9ykgs7j30u01hcdit.jpg)

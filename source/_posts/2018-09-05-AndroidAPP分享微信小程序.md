@@ -1,12 +1,13 @@
 ---
 title: Android APP分享微信小程序
-date: 2018-09-05 14:40:51
 tags:
-- Android 
-- 微信小程序
+  - Android
+  - 微信小程序
 categories:
-- Android
-- 代码片段 
+  - Android
+  - 代码片段
+abbrlink: 83fb494f
+date: 2018-09-05 14:40:51
 ---
 
 **需求：**APP端 将公司的微信小程序 分享至微信好友

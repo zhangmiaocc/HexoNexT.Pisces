@@ -1,11 +1,12 @@
 ---
 title: Mac终端快捷键
-date: 2018-07-12 18:14:50
 tags:
-- 快捷键
-- Mac
+  - 快捷键
+  - Mac
 categories:
-- 快捷键
+  - 快捷键
+abbrlink: c7dcd830
+date: 2018-07-12 18:14:50
 ---
 
 ### 常用的快捷键

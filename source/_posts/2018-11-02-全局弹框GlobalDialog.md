@@ -1,12 +1,13 @@
 ---
 title: 全局弹框GlobalDialog
-date: 2018-11-02 14:54:28
 tags:
-- Android 
-- GlobalDialog
+  - Android
+  - GlobalDialog
 categories:
-- Android 
-- View
+  - Android
+  - View
+abbrlink: 5bbd3c9c
+date: 2018-11-02 14:54:28
 ---
 
 Demo地址：[GlobalDialogDemo](https://github.com/zhangmiaocc/GlobalDialogDemo)
