@@ -10,7 +10,7 @@ abbrlink: f0cf7486
 date: 2019-01-14 20:29:35
 ---
 
-> 获取视频第一帧图片，这种需求不多，项目中用到了这个功能踩了点坑，很骚。
+**获取视频第一帧图片，这种需求不多，项目中用到了这个功能踩了点坑，很骚。**
 
 ![](https://ws3.sinaimg.cn/large/006tNc79ly1fz6e0eyendj305c05cglq.jpg)
 
@@ -18,7 +18,7 @@ date: 2019-01-14 20:29:35
 
 ### 获取网络视频
 
-```
+```java
 MediaMetadataRetriever mmr = new MediaMetadataRetriever();
 //后面这个是传请求Headers，如果有需要可以添加
 mmr.setDataSource(url, new HashMap());
@@ -26,7 +26,7 @@ mmr.setDataSource(url, new HashMap());
 
 ### 获取本地视频(`setDataSource`中不需要传第二个参数，直接传路径就好)
 
-```
+```java
 MediaMetadataRetriever mmr = new MediaMetadataRetriever();
 //后面这个是传请求Headers，如果有需要可以添加
 mmr.setDataSource(path, new HashMap());
@@ -34,7 +34,7 @@ mmr.setDataSource(path, new HashMap());
 
 ### 封装的代码如下：
 
-```
+```java
 public class MediaUtils
 {
     public static final int MEDIA_TYPE_IMAGE = 1;
