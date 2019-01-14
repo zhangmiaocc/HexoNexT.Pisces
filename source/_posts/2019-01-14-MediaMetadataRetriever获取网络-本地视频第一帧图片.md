@@ -35,8 +35,7 @@ mmr.setDataSource(path, new HashMap());
 ### 封装的代码如下：
 
 ```java
-public class MediaUtils
-{
+public class MediaUtils {
     public static final int MEDIA_TYPE_IMAGE = 1;
     public static final int MEDIA_TYPE_VIDEO = 2;
     public static File file;
@@ -44,15 +43,12 @@ public class MediaUtils
     /**
      * Create a file Uri for saving an image or video
      */
-    public static Uri getOutputMediaFileUri(Context context, int type)
-    {
+    public static Uri getOutputMediaFileUri(Context context, int type) {
         Uri uri = null;
         //适配Android N
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N)
-        {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             return FileProvider.getUriForFile(context, context.getApplicationContext().getPackageName() + ".provider", getOutputMediaFile(type));
-        } else
-        {
+        } else {
             return Uri.fromFile(getOutputMediaFile(type));
         }
     }
@@ -60,8 +56,7 @@ public class MediaUtils
     /**
      * Create a File for saving an image or video
      */
-    public static File getOutputMediaFile(int type)
-    {
+    public static File getOutputMediaFile(int type) {
         // To be safe, you should check that the SDCard is mounted
         // using Environment.getExternalStorageState() before doing this.
         File mediaStorageDir = new File(Environment.getExternalStoragePublicDirectory(
@@ -69,26 +64,21 @@ public class MediaUtils
         // This location works best if you want the created images to be shared
         // between applications and persist after your app has been uninstalled.
         // Create the storage directory if it does not exist
-        if (!mediaStorageDir.exists())
-        {
-            if (!mediaStorageDir.mkdirs())
-            {
+        if (!mediaStorageDir.exists()) {
+            if (!mediaStorageDir.mkdirs()) {
                 return null;
             }
         }
         // Create a media file name
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         File mediaFile;
-        if (type == MEDIA_TYPE_IMAGE)
-        {
+        if (type == MEDIA_TYPE_IMAGE) {
             mediaFile = new File(mediaStorageDir.getPath() + File.separator +
                     "IMG_" + timeStamp + ".jpg");
-        } else if (type == MEDIA_TYPE_VIDEO)
-        {
+        } else if (type == MEDIA_TYPE_VIDEO) {
             mediaFile = new File(mediaStorageDir.getPath() + File.separator +
                     "VID_" + timeStamp + ".mp4");
-        } else
-        {
+        } else {
             return null;
         }
         file = mediaFile;
@@ -98,24 +88,20 @@ public class MediaUtils
     /**
      * 获取视频的第一帧图片
      */
-    public static void getImageForVideo(String videoPath, OnLoadVideoImageListener listener)
-    {
+    public static void getImageForVideo(String videoPath, OnLoadVideoImageListener listener) {
         LoadVideoImageTask task = new LoadVideoImageTask(listener);
         task.execute(videoPath);
     }
 
-    public static class LoadVideoImageTask extends AsyncTask<String, Integer, File>
-    {
+    public static class LoadVideoImageTask extends AsyncTask<String, Integer, File> {
         private OnLoadVideoImageListener listener;
 
-        public LoadVideoImageTask(OnLoadVideoImageListener listener)
-        {
+        public LoadVideoImageTask(OnLoadVideoImageListener listener) {
             this.listener = listener;
         }
 
         @Override
-        protected File doInBackground(String... params)
-        {
+        protected File doInBackground(String... params) {
             MediaMetadataRetriever mmr = new MediaMetadataRetriever();
             String path = params[0];
             if (path.startsWith("http"))
@@ -127,21 +113,17 @@ public class MediaUtils
             Bitmap bitmap = mmr.getFrameAtTime();
             //保存图片
             File f = getOutputMediaFile(MEDIA_TYPE_IMAGE);
-            if (f.exists())
-            {
+            if (f.exists()) {
                 f.delete();
             }
-            try
-            {
+            try {
                 FileOutputStream out = new FileOutputStream(f);
                 bitmap.compress(Bitmap.CompressFormat.JPEG, 90, out);
                 out.flush();
                 out.close();
-            } catch (FileNotFoundException e)
-            {
+            } catch (FileNotFoundException e) {
                 e.printStackTrace();
-            } catch (IOException e)
-            {
+            } catch (IOException e) {
                 e.printStackTrace();
             }
             mmr.release();
@@ -149,18 +131,15 @@ public class MediaUtils
         }
 
         @Override
-        protected void onPostExecute(File file)
-        {
+        protected void onPostExecute(File file) {
             super.onPostExecute(file);
-            if (listener != null)
-            {
+            if (listener != null) {
                 listener.onLoadImage(file);
             }
         }
     }
 
-    public interface OnLoadVideoImageListener
-    {
+    public interface OnLoadVideoImageListener {
         void onLoadImage(File file);
     }
 }
