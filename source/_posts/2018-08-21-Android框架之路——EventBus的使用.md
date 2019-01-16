@@ -25,7 +25,7 @@ EventBus是由greenrobot 组织贡献的一个Android事件发布/订阅轻量�
 
 ### **二、添加依赖**
 
-```
+```properties
 compile 'org.greenrobot:eventbus:3.0.0'
 ```
 
@@ -54,7 +54,7 @@ compile 'org.greenrobot:eventbus:3.0.0'
 
    - **构造发送消息类**：
 
-     ```
+     ```java
        public class MessageEvent {
            public String name;
            public String password;
@@ -70,7 +70,7 @@ compile 'org.greenrobot:eventbus:3.0.0'
 
    - **接收消息**：可以有四种线程模型选择
 
-     ```
+     ```java
        @Subscribe(threadMode = ThreadMode.MAIN)
        public void messageEventBus(MessageEvent event){
            tv_result.setText("name:"+event.name+" passwrod:"+event.password);
@@ -84,7 +84,7 @@ compile 'org.greenrobot:eventbus:3.0.0'
 
    - **构造发送信息类**：
 
-     ```
+     ```java
        public class StickyEvent {
            public String msg;
        
@@ -98,7 +98,7 @@ compile 'org.greenrobot:eventbus:3.0.0'
 
    - **接收消息**：和之前的方法一样，只是多了一个 sticky = true 的属性。
 
-     ```
+     ```java
        @Subscribe(threadMode = ThreadMode.MAIN, sticky = true)
        public void onEvent(StickyEvent event){
            tv_c_result.setText(event.msg);
@@ -107,13 +107,13 @@ compile 'org.greenrobot:eventbus:3.0.0'
 
    - **注册**：
 
-     ```
+     ```java
        EventBus.getDefault().register(CActivity.this);
      ```
 
    - **解注册**：
 
-     ```
+     ```java
        EventBus.getDefault().removeAllStickyEvents();
        EventBus.getDefault().unregister(CActivity.class);
      ```
@@ -126,7 +126,7 @@ compile 'org.greenrobot:eventbus:3.0.0'
 
    - 自定义事件（类似定义JavaBean），包含用户的姓名和密码；
 
-     ```
+     ```java
        public class UserEvent {
            private String name;
            private String password;
@@ -167,7 +167,7 @@ compile 'org.greenrobot:eventbus:3.0.0'
 
    - 在onCreate方法中注册订阅者，在onDestroy中解注册。
 
-     ```
+     ```java
        public class MainActivity extends AppCompatActivity {
        
            @BindView(R.id.jump)
@@ -214,7 +214,7 @@ compile 'org.greenrobot:eventbus:3.0.0'
 
    - 在另一个activity中发送事件，让订阅者能够接收；
 
-     ```
+     ```java
        @OnClick({R.id.sendData, R.id.receive})
        public void onViewClicked(View view) {
            switch (view.getId()) {
@@ -237,7 +237,7 @@ compile 'org.greenrobot:eventbus:3.0.0'
 
 - MainActivity中发送粘性事件；
 
-  ```
+  ```java
     case R.id.send:
             EventBus.getDefault().postSticky(new MessageEvent("粘性事件", "urgent"));
             startActivity(new Intent(MainActivity.this, SecActivity.class));
@@ -246,7 +246,7 @@ compile 'org.greenrobot:eventbus:3.0.0'
 
 - SecActivity中接受注册并处理；
 
-  ```
+  ```java
     public class SecActivity extends AppCompatActivity {
         @BindView(R.id.sendData)
         Button mSendData;

@@ -57,14 +57,14 @@ date: 2018-09-05 14:40:51
 #### 代码实现
 ##### 小程序端提供参数：
 
-```
+```java
 miniProgram.userName="xxx"; //小程序ID
 miniProgram.path="pages/xxx/xxx"; //小程序路径
 ```
 
 ##### 配置gradle
 
-```
+```java
 dependencies {
     compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
 }

@@ -25,7 +25,7 @@ Demo地址：[MyXBus](https://github.com/zhangmiaocc/MyXBus)
 
 ### Gradle集成
 
-```
+```properties
 	compile 'com.mcxiaoke.xbus:bus:1.0.+'
 ```
 
@@ -33,7 +33,7 @@ Demo地址：[MyXBus](https://github.com/zhangmiaocc/MyXBus)
 
 ### 接收事件
 
-```
+```java
 public class SimpleActivity extends Activity {
 
     @Override
@@ -76,7 +76,7 @@ public class SimpleActivity extends Activity {
 
 然后在需要的地方调用 `post(event)` 发送事件通知，如 `Service` 或某个线程里，可以在任何地方发送事件：
 
-```
+```java
 // 比如在IntentService里
 public class SimpleService extends IntentService {
 
@@ -100,7 +100,7 @@ public class SimpleService extends IntentService {
 
 你还可以选择在 `onStart()` 里注册，在 `onStop()` 里取消注册。你完全可以在任何地方注册和取消注册，没有任何限制。但是建议你在生命周期事件方法里注册和取消注册，如 `Activity/Fragment/Service` 的 `onCreate/onDestroy` 方法里， `register()` 和 `unregister()` 建议配对使用，避免内存泄露。
 
-```
+```java
     @Override
     protected void onStart() {
         super.onStart();
@@ -120,7 +120,7 @@ public class SimpleService extends IntentService {
 
 你也可以不使用默认的 `Bus.getDefault()`，改用自己创建的 `Bus` 对象：
 
-```
+```java
 public class MainApp extends Application {
 
     private Bus mBus = new Bus();
@@ -140,7 +140,7 @@ public class MainApp extends Application {
 
 默认不输出任何LOG信息，可以这样启用调试模式：
 
-```
+```java
 public Bus setDebug(final boolean debug)
 ```
 
@@ -148,7 +148,7 @@ public Bus setDebug(final boolean debug)
 
 默认使用注解(`@BusReceiver`)识别事件接收器方法，可以这样修改 ：
 
-```
+```java
 public Bus setMethodFinder(final MethodFinder finder)
 ```
 
@@ -160,7 +160,7 @@ public Bus setMethodFinder(final MethodFinder finder)
 
 你还可以实现 `MethodFinder` 接口，自定义其它的事件接收器方法匹配模式：
 
-```
+```java
 interface MethodFinder {
 
     Set<MethodInfo> find(final Bus bus, final Class<?> targetClass);
@@ -173,7 +173,7 @@ interface MethodFinder {
 
 默认情况下， `Bus` 使用宽泛的事件类型匹配模式，事件参数会匹配它的父类和接口，如果你调用 `post(String)`，那么这几个方法都会收到举例：
 
-```
+```java
 // 如果你调用这个方法，发送一个StringBuilder类型的事件
 Bus.getDefault().post(new StringBuilder("Event"));
 
@@ -194,13 +194,13 @@ public void onEvent6(String event) // 不匹配，StringBuilder不能转换成St
 
 可以使用下面的方法更改默认行为，使用严格的事件类型匹配模式：
 
-```
+```java
 public Bus setStrictMode(final boolean strictMode)
 ```
 
 启用严格匹配模式后，发送和接受方法的参数类型必须严格匹配才能收到事件，举例：
 
-```
+```java
 // setStrictMode(true) 启用严格模式后：
 Bus.getDefault().post(new StringBuilder("Event"));
 
@@ -220,7 +220,7 @@ public void onEvent6(String event)
 
 可以使用下面的方法发送 `Sticky` 事件，这种事件会保留在内存中，当下一个注册者注册时，会立即收到上一次发送的该类型事件，每种类型的事件只会保留一个， `Sticky` 事件使用严格匹配模式。
 
-```
+```java
 public <E> void postSticky(E event)
 ```
 

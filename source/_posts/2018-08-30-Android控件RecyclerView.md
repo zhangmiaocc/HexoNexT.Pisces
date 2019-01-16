@@ -47,7 +47,7 @@ RecylerView相对于ListView的优点罗列如下：
 
 ### 基本使用
 
-```
+```java
 recyclerView = (RecyclerView) findViewById(R.id.recyclerView);  
 LinearLayoutManager layoutManager = new LinearLayoutManager(this );  
 //设置布局管理器  
@@ -72,7 +72,7 @@ recyclerView.setItemAnimator( new DefaultItemAnimator());
 
 在build.gradle文件中**引入该类**。
 
-```
+```properties
     compile 'com.android.support:recyclerview-v7:23.4.0'
 ```
 
@@ -96,13 +96,13 @@ Item的布局文件item_1.xml
 
 需要**注意**的是在`onCreateViewHolder()`中，映射**Layout必须为**
 
-```
+```java
 View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_1, parent, false);
 ```
 
 而不能是：
 
-```
+```java
 View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_1, null);
 ```
 
@@ -115,7 +115,7 @@ View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_1, null)
 
 基本的Adapter实现如下：
 
-```
+```java
 // ① 创建Adapter
 public class NormalAdapter extends RecyclerView.Adapter<NormalAdapter.VH>{
     //② 创建ViewHolder
@@ -169,7 +169,7 @@ public class NormalAdapter extends RecyclerView.Adapter<NormalAdapter.VH>{
 
 如果要实现ListView的效果，只需要设置Adapter和Layout Manager，如下：
 
-```
+```java
 List<String> data = initData();
 RecyclerView rv = (RecyclerView) findViewById(R.id.rv);
 rv.setLayoutManager(new LinearLayoutManager(this));
@@ -203,7 +203,7 @@ RecyclerView提供了**三种布局管理器**：
 
 关于 LayoutManager 的使用有下面一些常见的 API（有些在 LayoutManager 实现的子类中）
 
-```
+```java
     canScrollHorizontally();//能否横向滚动
     canScrollVertically();//能否纵向滚动
     scrollToPosition(int position);//滚动到指定位置
@@ -234,7 +234,7 @@ RecyclerView提供了**三种布局管理器**：
 
 `onLayoutChildren()`的核心实现如下：
 
-```
+```java
 public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
     detachAndScrapAttachedViews(recycler); //将原来所有的Item View全部放到Recycler的Scrap Heap或Recycle Pool
     fill(recycler, mLayoutState, state, false); //填充现在所有的Item View
@@ -245,7 +245,7 @@ RecyclerView的回收机制有个重要的概念，即将回收站分为Scrap He
 
 `fill()`是对剩余空间不断地调用`layoutChunk()`，直到填充完为止。`layoutChunk()`的核心实现如下：
 
-```
+```java
 public void layoutChunk() {
     View view = layoutState.next(recycler); //调用了getViewForPosition()
     addView(view);  //加入View
@@ -276,7 +276,7 @@ Adapter的使用方式前面已经介绍了，功能就是为RecyclerView提供�
 
 首先介绍QuickAdapter.VH的实现：
 
-```
+```java
 static class VH extends RecyclerView.ViewHolder{
     private SparseArray<View> mViews;
     private View mConvertView;
@@ -312,7 +312,7 @@ static class VH extends RecyclerView.ViewHolder{
 
 **QuickAdapter的实现**如下：
 
-```
+```java
 public abstract class QuickAdapter<T> extends RecyclerView.Adapter<QuickAdapter.VH>{
     private List<T> mDatas;
     public QuickAdapter(List<T> datas){
@@ -379,7 +379,7 @@ public abstract class QuickAdapter<T> extends RecyclerView.Adapter<QuickAdapter.
 
 通过万能适配器能通过以下方式快捷地创建一个Adapter：
 
-```
+```java
 mAdapter = new QuickAdapter<String>(data) {
     @Override
     public int getLayoutId(int viewType) {
@@ -396,7 +396,7 @@ mAdapter = new QuickAdapter<String>(data) {
 
 是不是很方便。当然复杂情况也可以轻松解决。
 
-```
+```java
 mAdapter = new QuickAdapter<Model>(data) {
     @Override
     public int getLayoutId(int viewType) {

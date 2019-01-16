@@ -18,7 +18,7 @@ date: 2018-11-21 11:29:50
 
 下面这是Android Studio的忽略规则
 
-```
+```properties
 # OSX
 
 *.DS_Store
@@ -62,7 +62,7 @@ local.properties
 *.log
 ```
 规则网上很多，可以自己搜下，或者自己写一个也行。但是当我们提交的时候，却发现这些规则并没有失效，原因就是因为.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。解决方法就是先把本地缓存删除（改变成未track状态），然后再提交：
-```
+```properties
 git rm -r --cached .
 git add .
 git commit -m 'update .gitignore'

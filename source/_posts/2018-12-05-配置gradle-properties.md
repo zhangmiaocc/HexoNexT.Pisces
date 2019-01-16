@@ -57,7 +57,7 @@ ANDROID_BUILD_TOOLS_VERSION=24.0.3
 
 #### 3.2 这时候配置app和lib的build.gradle可以这样写:
 
-```groovy
+```properties
 android {
     compileSdkVersion project.ANDROID_BUILD_SDK_VERSION as int
     buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION

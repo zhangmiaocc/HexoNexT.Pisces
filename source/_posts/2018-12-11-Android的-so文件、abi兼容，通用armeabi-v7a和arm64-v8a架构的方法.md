@@ -28,7 +28,7 @@ date: 2018-12-11 18:26:37
 综上所述建议大家兼容armeabi-v7a和arm64-v8a这两个，其他架构少之又少，armeabi基本淘汰所以现在就不怎么考虑了。对于一般项目来说，足够了。
 
 在build.gradle的android里的defaultConfig内添加如下内容:
-```js
+```properties
 defaultConfig {  
     ndk {
         abiFilters "armeabi-v7a"

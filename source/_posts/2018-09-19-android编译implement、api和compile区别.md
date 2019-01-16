@@ -15,7 +15,7 @@ date: 2018-09-19 17:34:00
 
 我们来看看新建一个项目在`Moudle`中的 `dependencies` 中的变化。
 
-```
+```properties
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
@@ -53,7 +53,7 @@ dependencies {
 
 `LibraryA` 中引用了 `LibraryC` 的库，如果对 `LibraryC` 的依赖用的是 `implementation` 关键字。 如下：
 
-```
+```properties
 dependencies {
     . . . . 
     implementation project（path：'：libraryC'）
