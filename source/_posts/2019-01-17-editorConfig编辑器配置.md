@@ -29,8 +29,8 @@ date: 2019-01-17 11:08:32
 - （6）**max_line_length**  疑似最大行宽
 
 ### 使用方法
-- （1）下载编辑器的相关插件。
-- （2）在项目根目录下，新建.editorconfig文件。
+- （1）下载相关编辑器的**editorconfig**插件。
+- （2）在项目根目录下，新建**.editorconfig**文件。
 - （3）配置规范，如下图所示：
 
 ```
@@ -38,15 +38,25 @@ date: 2019-01-17 11:08:32
 root = true
 
 [*]
-indent_style = space                    # 输入的 tab 都用空格代替
-indent_size = 2                         # 一个 tab 用 2 个空格代替
-# end_of_line = lf                      # 换行符使用 unix 的换行符 \n
-charset = utf-8                         # 字符编码 utf-8
-trim_trailing_whitespace = true         # 去掉每行末尾的空格
-insert_final_newline = true             # 每个文件末尾都加一个空行
+#缩进风格：空格
+indent_style = space
+#缩进大小2
+indent_size = 2
+#换行符lf
+end_of_line = lf
+#字符集utf-8
+charset = utf-8
+#是否删除行尾的空格
+trim_trailing_whitespace = true
+#是否在文件的最后插入一个空行
+insert_final_newline = true
 
 [*.md]
-trim_trailing_whitespace = false        # .md 文件不去掉每行末尾的空格
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab
+
 ```
 
 ### 官方网站
