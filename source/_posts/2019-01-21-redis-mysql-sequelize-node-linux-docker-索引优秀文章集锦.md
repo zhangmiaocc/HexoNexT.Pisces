@@ -19,6 +19,7 @@ date: 2019-01-21 17:28:00
 - [Redis 键(Key)的操作命令](https://itbilu.com/database/redis/VywBUaSab.html)
 - [redis - Node.js Redis客户端模块](https://itbilu.com/nodejs/npm/EkiI9PG4-.html)
 
+<!--more-->
 ## mysql
 
 - [Linux 源码编译安装MySQL 5.7](https://itbilu.com/database/mysql/VJVOut01M.html)
