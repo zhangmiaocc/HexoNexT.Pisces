@@ -61,7 +61,8 @@ date: 2019-03-08 14:48:10
 #### BOM浏览器对象模型
 ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190428181851.png)
 
-
+#### javascript正则表达式
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.gif)
 
 是的，没有高深的知识，没有进阶的技巧。
 
