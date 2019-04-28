@@ -23,7 +23,7 @@ date: 2019-04-12 18:02:49
 - Obeject 对象  o
 - Function 函数  fn
 - Regular Expression 正则 re
-<!--more-->
+  <!--more-->
 
 #### b、驼峰命名法
 - 全部小写
