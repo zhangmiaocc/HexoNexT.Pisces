@@ -122,7 +122,7 @@ TC39的成员包括各个主流浏览器厂商以及业务与浏览器紧密相�
 
 为什么会发生这一切？在ES2015诞生的过程中，名称由ES6更改为ES2015，但由于最终完成太晚，人们仍然称其为ES6，社区也没有将版本号完全抛之于后 — 世界仍然使用 ES 来定义版本号。
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1g2cd2tlhoej30ll0d6aao.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190428175944.png)
 
 接下来，我们来深入了解 JavaScript 自 ES5 以来增加的特性。
 
@@ -1771,7 +1771,7 @@ Math.pow(4, 2) == 4 ** 2
 
 对于需要进行密集数学运算的程序来说，这个特性是个很好的增强，在很多语言中，**运算符都是标准(包括Python、Ruby、MATLAB、Perl等其它多种语言)。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/meG6Vo0Meviac0Jv4WVAlibeaSBib1Hh1Y019JXyUEnB5HXEdoX0pA7ibBnpNH5WNnYHqWoPcA84SZSicwkxV2poaeg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](http://5b0988e595225.cdn.sohucs.com/images/20190318/29ddbe9d6db84099ba7c67597ac82c0b.png)
 
 这些都是2016年引入的特性，现在让我们进入2017年。
 
@@ -1788,7 +1788,7 @@ padEnd(targetLength [, padString])
 
 使用例子：
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1g2cdcqoczij30ll0d6aao.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190428180419.png)
 
 #### Object.values() 
 

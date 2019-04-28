@@ -232,7 +232,7 @@ public interface Type {
 
 哦，原来就是一个接口，并且只有一个方法，我们再来看看它的实现类
 
-![](https://ws4.sinaimg.cn/large/006tNc79ly1g2ckpd1gnyj30yk06smz6.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190428180503.png)
 
 发现有5个实现类，其中4个是接口，另外一个是Class类，我们再来看看Class类的声明
 
