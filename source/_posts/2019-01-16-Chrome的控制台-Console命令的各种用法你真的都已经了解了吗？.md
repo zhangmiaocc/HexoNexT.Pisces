@@ -20,7 +20,7 @@ date: 2019-01-16 10:38:50
 
 大部分常用浏览器都有各自的控制台，不过小肆用着最习惯的还是Chrome的控制台，打开chrome，win系统按F12，mac系统按command+option+J就可以呼出控制台了，切换到Console标签就能看到如下信息：
 
-![](https://ws3.sinaimg.cn/large/006tNc79ly1fz88a3ltgkj30u00h4djj.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190430173111.png)
 
 我们可以看到，baidu还在控制台给我们留了个小彩蛋，我想这个彩蛋也是为我们程序员同学留的吧。让我们先学第一个命令清除控制台来开始吧。
 
@@ -50,11 +50,11 @@ console.debug('技术放肆聊')   // 输出调试信息
 `console.error`输出错误信息，信息前带有红色错误符号，表示出错，同时会显示错误发生的堆栈。
 上段代码在chrome控制台输出效果如下:
 
-![](https://ws4.sinaimg.cn/large/006tNc79ly1fz88bksxt9j30u00e9ju0.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190430173133.png)
 
 在safari输出效果如下:
 
-![](https://ws1.sinaimg.cn/large/006tNc79ly1fz88byuqgsj30u00lzn00.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190430173226.png)
 
 ### 占位符
 
@@ -80,41 +80,41 @@ console.log("PI=%f",3.1415926);
 
 显示效果如下：
 
-![图4](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)![](https://ws2.sinaimg.cn/large/006tNc79ly1fz88chd4skj30u00bqgnj.jpg)
+![图4](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190430173607.png)
 
 %o、%O 都是用来输出 Object 对象的，对普通的 Object 对象，两者没区别，但是打印dom节点时就不一样了：
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1fz88cq3p2ij30u00yuq8s.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190430173629.png)
 
 %c 占位符是最常用的。使用 %c 占位符时，对应的后面的参数必须是 CSS 语句，用来对输出内容进行 CSS 渲染。常见的输出方式有两种：文字样式、图片输出。
 
-![](https://ws1.sinaimg.cn/large/006tNc79ly1fz88d2bedjj30u00ebwh3.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190430173651.png)
 
 ## 信息分组
 
 `console.group()`用于将显示的信息分组，可以把信息进行折叠和展开。
 `console.groupEnd()`结束内联分组
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1fz88dc5tlqj30u00hymzs.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190430173716.png)
 
 ## 将对象以树状结构展现
 
 `console.dir()`可以显示一个对象所有的属性和方法.
 
-![图8](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)![](https://ws4.sinaimg.cn/large/006tNc79ly1fz88dmdyo1j30u00mftbg.jpg)
+![图8](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190430173757.png)
 
 ## 显示某个节点的内容
 
 `console.dirxml()`用来显示网页的某个节点(node)所包含的html/xml代码
 
-![图9](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)![](https://ws2.sinaimg.cn/large/006tNc79ly1fz88dtj362j30u00adq4k.jpg)
+![图9](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190430174030.png)
 
 ## 判断变量是否是真
 
 `console.assert()`用来判断一个表达式或变量是否为真，
 此方法接受两个参数，第一个参数是表达式，第二个参数是字符串。只有当第一个参数为false，才会输出第二个参数，否则不会有任何结果。
 
-![图10](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)![](https://ws4.sinaimg.cn/large/006tNc79ly1fz88dyzrcwj30u00ad0ue.jpg)
+![图10](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190430174454.png)
 
 ## 计时功能
 
@@ -128,7 +128,7 @@ for(var i = 0; i < 10000; i++){
 console.timeEnd("控制台计时器");
 ```
 
-![](https://ws3.sinaimg.cn/large/006tNc79ly1fz88erog6vj30u00bjdhl.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190430174653.png)
 
 ## 性能分析performance profile
 
@@ -167,7 +167,7 @@ myFunction();       //myFunction 被执行的次数: 3
 
 ## console.table表格显示方法
 
-![](https://ws4.sinaimg.cn/large/006tNc79ly1fz88gtaf7hj30u00gedhh.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190430174712.png)
 
 ## 总结
 

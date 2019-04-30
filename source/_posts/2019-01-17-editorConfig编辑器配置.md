@@ -68,6 +68,6 @@ indent_style = tab
 
 ### 支持的编辑器
 
-![](https://ws1.sinaimg.cn/large/006tNc79ly1fz9etxvjxzj30el0kaq4n.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190430172555.png)
 
 虽然editor编辑器的可用配置并不多，但目前现有的一些配置也差不多能满足最基本格式需求。
