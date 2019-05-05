@@ -12,7 +12,7 @@ date: 2019-01-14 20:29:35
 
 **获取视频第一帧图片，这种需求不多，项目中用到了这个功能踩了点坑，很骚。**
 
-![](https://ws3.sinaimg.cn/large/006tNc79ly1fz6e0eyendj305c05cglq.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190505173807.png)
 
 <!--more-->
 
