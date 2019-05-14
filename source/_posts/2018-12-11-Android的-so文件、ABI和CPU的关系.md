@@ -31,7 +31,7 @@ Android应用支持的ABI取决于APK中位于lib/ABI目录中的.so文件，其
 ### 本地库监视器
 
 [Native Libs Monitor](https://play.google.com/store/apps/details?id=com.xh.nativelibsmonitor.app)这个应用可以帮助我们理解手机上安装的APK用到了哪些.so文件，以及.so文件来源于哪些函数库或者框架。
-![](https://ws1.sinaimg.cn/large/006tNbRwgy1fy2z17ti0sj30yg0ljjty.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190514142122.png)
 
 ### ABI和CPU的关系
 很多设备都支持多于一种的ABI。

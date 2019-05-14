@@ -23,7 +23,7 @@ This probably means that the app contains ARM native code and your Genymotion de
 
 <!--more-->
 
-![](https://ws4.sinaimg.cn/large/006tNbRwgy1fy9tpcgr68j30s00fu0uv.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190514141331.png)
 
 ### 解决方法
 1.用Android Studio 创建一个ARM的虚拟机；（当然这个不是你想要的）
@@ -34,4 +34,4 @@ This probably means that the app contains ARM native code and your Genymotion de
 将下载号的工具包直接拖拽到Genymotion中，然后提示重启模拟器；
 
 
-![](https://ws1.sinaimg.cn/large/006tNbRwgy1fy9tp61icbj30nc08ct9j.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190514141414.png)

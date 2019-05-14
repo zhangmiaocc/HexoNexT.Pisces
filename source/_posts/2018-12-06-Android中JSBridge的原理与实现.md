@@ -47,7 +47,7 @@ jsbridge://className:port/methodName?jsonObj
 
 当js调用native功能时，应当指定native层要完成某个功能调用的类名（className）和方法名（methodName），以及js传递过来的参数（jsonObj）。port值是指当native需要将操作结果返回给js时，在js中定义一个callback，并将这个callback存储在指定的位置上，这个port就定义了callback的存储位置。
 
-![](https://ws2.sinaimg.cn/large/006tNbRwgy1fxx1qq1vwij30o30gxgn5.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190514142203.png)
 
 ### JSBridge的具体工作流程图如上所示：
 
@@ -190,7 +190,7 @@ JSBridge.register("bridge", BridgeImpl.class);
 JSBridge的基本原理为：
 H5->通过某种方式触发一个url->Native捕获到url,进行分析->原生做处理->Native调用H5的JSBridge对象传递回调。如下图
 
-![](https://ws1.sinaimg.cn/large/006tNbRwgy1fxx1u5dkwaj30oa0c53zg.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190514142221.png)
 
 ### 三、安全性：
 
