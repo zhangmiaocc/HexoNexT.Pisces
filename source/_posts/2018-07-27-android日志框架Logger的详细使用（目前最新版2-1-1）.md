@@ -84,7 +84,7 @@ Logger.d("hello");
 
 如图：
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1ftojbvjvjaj30zw06zq3a.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190520162644.png)
 
 当然，如果还有追求，继续往下看看它的其他功能。
 
@@ -100,7 +100,7 @@ Logger.d("hello");
     }
 ```
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1ftojcixwjij316r0iygna.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190520162658.png)
 
 ## Format类型
 
@@ -110,7 +110,7 @@ public void testFormat(){
     }
 ```
 
-![](https://ws4.sinaimg.cn/large/006tKfTcly1ftojczoadkj30zk06yt92.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190520162714.png)
 
 ## 集合类型
 
@@ -123,7 +123,7 @@ list.add("world");
 Logger.d(list);
 ```
 
-![](https://ws3.sinaimg.cn/large/006tKfTcly1ftojdc9v1ij312806xdgc.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190520162731.png)
 
 ```java
 Log.d(TAG, list.toString());
@@ -218,7 +218,7 @@ public void testCollections(){
     }
 ```
 
- ![](https://ws3.sinaimg.cn/large/006tKfTcly1ftoje24wx7j315r0iztax.jpg)
+ ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190520162749.png)
 
 **\*注**：打印集合的时候，特别是数组时，前面不要添加其他字符，如：Logger.d("数组集合"+strs);这样会把整体当做一个参数，导致判断错误，不能正常输出数组类型。其次是，作者提示，打印集合时，使用DEBUG等级。*
 
@@ -233,7 +233,7 @@ public void testJson(){
     }
 ```
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1ftojeckteuj313s0hvmz7.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190520162809.png)
 
 ## XML数据
 
@@ -254,7 +254,7 @@ public void testXml() {
     }
 ```
 
-![](https://ws4.sinaimg.cn/large/006tKfTcly1ftojeqewdzj310r0i8jto.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190520162848.png)
 
 # 修改默认配置
 
@@ -282,7 +282,7 @@ FormatStrategy formatStrategy = PrettyFormatStrategy.newBuilder()
 Logger.addLogAdapter(new AndroidLogAdapter(formatStrategy)); 
 ```
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1ftojfbmppqj31100dj0to.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190520162913.png)
 
 2.修改局部的TAG，哪里打印就在哪里修改，只对当前打印有效，如：
 
@@ -293,7 +293,7 @@ public void testNormal(){
     }
 ```
 
-![](https://ws3.sinaimg.cn/large/006tKfTcly1ftojfse0vfj31120dq75f.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190520162932.png)
 
 **\*注**：如果尝试用局部的方法，在application初始化时修改。当然，这是有效果的，但只能用一次，其他打印还是会用全局的，可自行测试。*
 
@@ -329,7 +329,7 @@ Logger.addLogAdapter(new DiskLogAdapter());
 
 logg框架的整体流程如图（作者原图）：
 
-![](https://ws2.sinaimg.cn/large/006tKfTcly1ftojg9atm0j31fq0vwdgw.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190520162948.png)
 
 # 其他
 
@@ -341,6 +341,6 @@ Disable：设置user soft wraps，即设置换行
 
 Setting：设置log头部的信息，比如时间、线程PID、包名、TAG等开关设置
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1ftojgm3picj31je0fg75g.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190520163011.png)
 
 好了，对于Logger框架的介绍就到这里了。有时会更新，记得使用时看看GitHub升级了没有，同时在使用是否和以前兼容。对于一些其他的方法，可以直接看源码，具体是干什么用的。

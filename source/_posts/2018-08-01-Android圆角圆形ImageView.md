@@ -10,7 +10,7 @@ abbrlink: 494f41c5
 date: 2018-08-01 16:31:05
 ---
 #### 效果预览
-![](https://ws4.sinaimg.cn/large/006tKfTcly1ftua9ykgs7j30u01hcdit.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190520162613.png)
 
 ### 特点
 

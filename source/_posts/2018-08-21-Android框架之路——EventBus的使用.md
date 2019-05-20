@@ -17,9 +17,7 @@ EventBus是由greenrobot 组织贡献的一个Android事件发布/订阅轻量�
 官网地址：[http://greenrobot.org/eventbus/](https://link.jianshu.com?t=http://greenrobot.org/eventbus/)
 翻译：[http://blog.csdn.net/poorkick/article/details/55099311](https://link.jianshu.com?t=http://blog.csdn.net/poorkick/article/details/55099311)
 
- ![img](https://raw.githubusercontent.com/greenrobot/EventBus/master/EventBus-Publish-Subscribe.png)
-
- 
+ ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190520162153.png)
 
 ### **<!--more-->**
 
