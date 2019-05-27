@@ -7,7 +7,7 @@ categories:
   - Android
   - Flutter
 abbrlink: 5da6faeb
-date: 2019-05-22 11:30:42
+date: 2019-04-27 11:30:42
 ---
 
 前面的小节把常用的一些部件都介绍了，这节介绍下 `Flutter` 中的一些操作提示。`Flutter` 中的操作提示主要有这么几种 `SnackBar`、`BottomSheet`、`Dialog`，因为 `Dialog` 样式比较多，放最后讲好了
