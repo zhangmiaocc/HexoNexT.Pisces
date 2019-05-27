@@ -22,6 +22,8 @@ Flutter 说到底只是一个 UI 框架，很多功能都需要通过原生的 A
 
 ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190527154756.png)
 
+<!--more-->
+
 接着切换到 module 下的 .android 文件夹，接着有坑来了，官网提供的方法是 `./gradlew flutter:assembleDebug` 可能会提示命令不存在，那么直接通过 `gradlew flutter:assembleDebug` 来运行，等它自动跑完后，打开根目录下的 `settings.gradle` 文件，加入官网提供的 gradle 代码
 
 ```dart
