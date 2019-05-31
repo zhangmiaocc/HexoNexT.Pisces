@@ -10,16 +10,6 @@ abbrlink: 10965f08
 date: 2018-07-20 15:42:36
 ---
 
-- 1. 设置gradle依赖
-- 2. 配置混淆规则
-- 3. 声明权限
-- 4. 初始化sdk
-- 5. 创建WXSDKInstance
-- 6. 运行app
-- 7. 扩展Android能力
-
-<!--more-->
-
 > 在执行以下步骤之前，请先确认您的Android开发环境是ok的。
 >
 > [JAVA环境, jdk7+](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
@@ -43,7 +33,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.1'
 }
 ```
-
+<!--more-->
 ## 2. 配置混淆规则
 
 混淆规则如下，建议参考[**最新的源码配置**](https://github.com/apache/incubator-weex/blob/master/android/sdk/proguard-rules.pro)
