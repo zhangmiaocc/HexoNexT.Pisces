@@ -7,7 +7,7 @@ categories:
   - Android
   - Glide
 abbrlink: 6abab605
-date: 2018-07-20 18:59:51
+date: 2018-07-23 18:59:51
 ---
 
 英文原文  [ Introduction to Glide, Image Loader Library for Android, recommended by Google](https://inthecheesefactory.com/blog/get-to-know-glide-recommended-by-google/en)

@@ -8,7 +8,7 @@ categories:
   - Android
   - Android Tips
 abbrlink: 1a48ee1
-date: 2018-07-20 16:22:14
+date: 2018-07-23 16:22:14
 ---
 
 ### 切换到debug.keystore目录
