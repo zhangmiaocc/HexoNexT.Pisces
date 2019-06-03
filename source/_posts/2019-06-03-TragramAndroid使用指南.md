@@ -16,14 +16,14 @@ date: 2018-11-08 17:02:46
 
 ## 1.引入依赖
 
-```
+```properties
 // gradle
 compile 'com.alibaba.android:tangram:1.0.0@aar'
 ```
 
 或者
 
-```
+```xml
 // maven
 <dependency>
   <groupId>com.alibaba.android</groupId>
@@ -39,7 +39,7 @@ compile 'com.alibaba.android:tangram:1.0.0@aar'
 
 应用全局只需要初始化一次，提供一个通用的图片加载器，一个应用内通用的ImageView类型（通常情况下每个应用都有自定义的 ImageView，如果没有的话就提供系统的 ImageView 类）。
 
-```
+```java
 TangramBuilder.init(context, new IInnerImageSetter() {
 	@Override
 	public <IMAGE extends ImageView> void doLoadImageUrl(@NonNull IMAGE view,
@@ -62,6 +62,16 @@ TangramBuilder.InnerBuilder builder = TangramBuilder.newInnerBuilder(TangramActi
 
 ## 4.注册自定义的卡片和组件
 
+```java
+//TangramBuilder中已经预先注册了许多组件及卡片，可直接使用；此处只需要注册自定义的组件及卡片即可
+builder = TangramBuilder.newInnerBuilder(this);
+builder.registerCell("自定义名字1", 自定义组件1.class);
+builder.registerCell("自定义名字2", 自定义组件2.class);
+builder.registerCard("自定义名字3", 自定义卡片3.class);
+builder.registerCell(数字, 自定义组件4.class);
+builder.registerVirtualView("VirtualView名字");//Tangram对VirtualView的支持
+```
+
 一般情况下，内置卡片的类型已经满足大部分场景了，业务方主要是注册一下自定义组件。注册组件有3种方式：
 
 - 注册绑定组件类型和自定义`View`，比如`builder.registerCell(1, TestView.class);`。意思是类型为1的组件渲染时会被绑定到`TestView`的实例上，这种方式注册的组件使用通用的组件模型`BaseCell`。
@@ -74,7 +84,7 @@ TangramBuilder.InnerBuilder builder = TangramBuilder.newInnerBuilder(TangramActi
 
 在上述基础上调用：
 
-```
+```java
 TangramEngine engine = builder.build();
 ```
 
@@ -82,7 +92,7 @@ TangramEngine engine = builder.build();
 
 Tangram 内部提供了一些常用的 support 类辅助业务开发，业务方也可以自定义所需要的功能模块注册进去。以下常用三个常用的support，分别处理点击、卡片数据加载、曝光逻辑，详情请参考[文档](http://tangram.pingguohe.net/docs/android/access-tangram)。
 
-```
+```java
 engine.register(SimpleClickSupport.class, new XXClickSupport());
 engine.register(CardLoadSupport.class, new XXCardLoadSupport());
 engine.register(ExposureSupport.class, new XXExposureSuport());
@@ -90,7 +100,7 @@ engine.register(ExposureSupport.class, new XXExposureSuport());
 
 ## 7.绑定 recyclerView
 
-```
+```java
 setContentView(R.layout.main_activity);
 RecyclerView recyclerView = (RecyclerView) findViewById(R.id.main_view);
 ...
@@ -99,7 +109,7 @@ engine.bindView(recyclerView);
 
 ## 8.监听 recyclerView 的滚动事件
 
-```
+```java
 recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
 	@Override
 	public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
@@ -114,7 +124,7 @@ recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
 
 如果你的 recyclerView 上方还覆盖有其他 view，比如底部的 tabbar 或者顶部的 actionbar，为了防止悬浮类 view 和这些外部 view 重叠，可以设置一个偏移量。
 
-```
+```java
 engine.getLayoutManager().setFixOffset(0, 40, 0, 0);
 ```
 
@@ -122,7 +132,7 @@ engine.getLayoutManager().setFixOffset(0, 40, 0, 0);
 
 在页面滚动过程中触发`engine.onScrolled()`方法，会去寻找屏幕外需要异步加载数据的卡片，默认往下寻找5个，让数据预加载出来，可以修改这个偏移量。
 
-```
+```java
 engine.setPreLoadNumber(3)
 ```
 
@@ -130,7 +140,7 @@ engine.setPreLoadNumber(3)
 
 数据一般是调用接口加载远程数据，这里演示的是 mock 加载本地的数据：
 
-```
+```java
 String json = new String(getAssertsFile(this, "data.json"));
         JSONArray data = null;
         try {
@@ -143,7 +153,7 @@ String json = new String(getAssertsFile(this, "data.json"));
 
 # 12.退出的时候销毁 engine
 
-```
+```java
 engine.destroy();
 ```
 
