@@ -396,7 +396,7 @@ draw 过程中一共分成7步，其中两步我们直接直接跳过不分析�
 
 第一步：drawBackground(canvas)： 作用就是绘制 View 的背景。
 
-第三步：onDraw(canvas) ：绘制 View 的内容。View 的内容是根据自己需求自己绘制的，所以方法是一个空方法，View的继承类自己复写实现绘制内容。
+第二步：onDraw(canvas) ：绘制 View 的内容。View 的内容是根据自己需求自己绘制的，所以方法是一个空方法，View的继承类自己复写实现绘制内容。
 
 第三步：dispatchDraw（canvas）：遍历子View进行绘制内容。在 View 里面是一个空实现，ViewGroup 里面才会有实现。在自定义 ViewGroup 一般不用复写这个方法，因为它在里面的实现帮我们实现了子 View 的绘制过程，基本满足需求。
 
@@ -404,6 +404,6 @@ draw 过程中一共分成7步，其中两步我们直接直接跳过不分析�
 
 第五步：drawDefaultFocusHighlight(canvas)：绘制默认焦点高亮。
 
-![](https://ws1.sinaimg.cn/large/006tNbRwly1fxpx8qnkskj30sy0xy0vx.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190705093454.png)
 
 好了，整个绘制流程就分析完毕了！

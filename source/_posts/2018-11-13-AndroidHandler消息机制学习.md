@@ -10,6 +10,10 @@ abbrlink: 7a63eeca
 date: 2018-11-13 11:01:02
 ---
 
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190628123319.png)
+
+<!--more-->
+
 ### 1.概述
 
 ####   **Handler允许你发送和处理Message，以及和线程相关联的Runnable对象。每一个Handler实例都与一个线程及该线程的MessageQueue相关联。既当你创建一个Handler时，该Handler必须绑定一个线程以及该线程的消息队列，一旦它被创建，它能把messages和runnables传送到message queue，并在它们从message queue中出来的时候执行它们。**
@@ -20,8 +24,6 @@ date: 2018-11-13 11:01:02
 > - **将要在不同线程上执行的操作加入队列**
 
 > **当你的应用程序被创建出来的时候，主线程会专门运行一个message queue来管理最顶级的应用对象(如activities, broadcast receivers，等等)以及它们创建的任何其它窗口。你可以创建你自己的线程，通过Handler来与主线程建立联系**
-
-<!--more-->
 
 ### 2.源码分析
 
@@ -518,7 +520,5 @@ boolean enqueueMessage(Message msg, long when) {
 }
 ```
 
-### 3.总结
-
-![](https://ws1.sinaimg.cn/large/006tNbRwly1fx697hdsfrj31kw0y7e3q.jpg)
+### 
 
