@@ -65,7 +65,7 @@ date: 2018-07-18 16:51:29
 | [8.1](https://developer.android.com/about/versions/oreo/android-8.1.html) | Oreo               |27                 | 0.8%  |              |
 
 <!--more-->
-![img](https://chart.googleapis.com/chart?chs=500x250&cht=p&chco=c4df9b%2C6fad0c&chf=bg%2Cs%2C00000000&chd=t%3A0.3%2C0.4%2C4.3%2C10.3%2C22.4%2C25.6%2C31.1%2C5.7&chl=Gingerbread%7CIce%20Cream%20Sandwich%7CJelly%20Bean%7CKitKat%7CLollipop%7CMarshmallow%7CNougat%7COreo)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190716110502.png)
 
 *以 7 天为周期收集的数据（截止于 2018 年 1 月 8 日）。 未显示任何分布份额不足 0.1% 的版本。*
 
