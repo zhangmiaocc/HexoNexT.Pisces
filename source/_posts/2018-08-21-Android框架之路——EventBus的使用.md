@@ -228,8 +228,8 @@ compile 'org.greenrobot:eventbus:3.0.0'
      ```
 
    - 实现结果：
-
-![img](https://upload-images.jianshu.io/upload_images/5735230-6ff7db612aeb5c22?imageMogr2/auto-orient/strip%7CimageView2/2/w/286)
+   
+     ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/5735230-6ff7db612aeb5c22.gif)
 
 2. **发送粘性事件：**
 
@@ -293,7 +293,7 @@ compile 'org.greenrobot:eventbus:3.0.0'
 
 - 实现效果
 
-![img](https://upload-images.jianshu.io/upload_images/5735230-7cfdaad8449a9837?imageMogr2/auto-orient/strip%7CimageView2/2/w/274) 
+  ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/5735230-7cfdaad8449a9837.gif) 
 
  
 
