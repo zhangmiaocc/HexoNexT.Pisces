@@ -13,6 +13,11 @@ date: 2018-07-24 10:43:31
 类似TextView的android:ellipsize="marquee"的跑马灯效果 任意View都可实现
 
 源码：[MarqueeView](https://github.com/zhangmiaocc/MarqueeView)
+
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/123sdsnas.gif)
+
+<!--more-->
+
 ```java
 package com.zm.marqueeview;
 
@@ -134,6 +139,3 @@ public class MarqueeView extends HorizontalScrollView implements Runnable {
     }
 }
 ```
-<!--more-->
-
-[![效果图](https://github.com/GITbiubiubiu/MarqueeView/raw/master/screenshot/MarqueeView.gif)](https://github.com/GITbiubiubiu/MarqueeView/raw/master/screenshot/MarqueeView.gif)

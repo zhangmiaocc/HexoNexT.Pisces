@@ -37,18 +37,18 @@ dependencies {
 
 虽然两者看起来一样，但是Glide更易用，因为Glide的with方法不光接受Context，还接受Activity 和 Fragment，Context会自动的从他们获取。
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1ftgq1x8p3cj30nd0bpjs6.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190719155620.png)
 
 同时将Activity/Fragment作为with()参数的好处是：图片加载会和Activity/Fragment的生命周期保持一致，比如Paused状态在暂停加载，在Resumed的时候又自动重新加载。所以我建议传参的时候传递Activity 和 Fragment给Glide，而不是Context。
 
 #### 默认Bitmap格式是RGB_565
 下面是加载图片时和Picasso的比较（1920x1080 像素的图片加载到768x432的ImageView中）
 
-![](https://ws3.sinaimg.cn/large/006tKfTcly1ftgq5gns7kj30uj0inq9i.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190719155644.png)
 
 可以看到Glide加载的图片质量要差于Picasso（ps：我看不出来哈），为什么？这是因为Glide默认的Bitmap格式是RGB_565 ，比ARGB_8888格式的内存开销要小一半。下面是Picasso在ARGB8888下与Glide在RGB565下的内存开销图（应用自身占用了8m，因此以8为基准线比较）：
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1ftgq63otsmj30z70fqgmw.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190719155701.png)
 
 如果你对默认的RGB_565效果还比较满意，可以不做任何事，但是如果你觉得难以接受，可以创建一个新的GlideModule将Bitmap格式转换到ARGB_8888：
 
@@ -74,12 +74,12 @@ public class GlideConfiguration implements GlideModule {
 <meta-data android:name="com.inthecheesefactory.lab.glidepicasso.GlideConfiguration"  android:value="GlideModule"/>  
 ```
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1ftgq9t20o9j30v60ipafy.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190719155728.png)
 
 这样看起来就会好很多。
 我们再来看看内存开销图，这次貌似Glide花费了两倍于上次的内存，但是Picasso的内存开销仍然远大于Glide。
 
-![](https://ws4.sinaimg.cn/large/006tKfTcly1ftgqanefb9j30yv0fudh6.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190719155752.png)
 
 原因在于Picasso是加载了全尺寸的图片到内存，然后让GPU来实时重绘大小。而Glide加载的大小和ImageView的大小是一致的，因此更小。当然，Picasso也可以指定加载的图片大小的：
 
@@ -102,14 +102,14 @@ Picasso.with(this)
 
 现在Picasso的内存开销就和Glide差不多了。
 
-![](https://ws3.sinaimg.cn/large/006tKfTcly1ftgqdy63jgj30ym0fd75n.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190719155828.png)
 
 虽然内存开销差距不到，但是在这个问题上Glide完胜Picasso。因为Glide可以自动计算出任意情况下的ImageView大小。
 
 #### Image质量的细节
 这是将ImageView还原到真实大小时的比较。
 
-![](https://ws3.sinaimg.cn/large/006tKfTcly1ftgqet94pfj30yy0iugrs.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190719155844.png)
 
 你可以看到，Glide加载的图片没有Picasso那么平滑，我还没有找到一个可以直观改变图片大小调整算法的方法。
 但是这并不算什么坏事，因为很难察觉。
@@ -117,7 +117,7 @@ Picasso.with(this)
 #### 磁盘缓存
 Picasso和Glide在磁盘缓存策略上有很大的不同。Picasso缓存的是全尺寸的，而Glide缓存的是跟ImageView尺寸相同的。
 
-![](https://ws2.sinaimg.cn/large/006tKfTcly1ftgqg4fssrj30z60evakp.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190719155905.png)
 
 上面提到的平滑度的问题依然存在，而且如果加载的是RGB565图片，那么缓存中的图片也是RGB565。
 我尝试将ImageView调整成不同大小，但不管大小如何Picasso只缓存一个全尺寸的。Glide则不同，它会为每种大小的ImageView缓存一次。尽管一张图片已经缓存了一次，但是假如你要在另外一个地方再次以不同尺寸显示，需要重新下载，调整成新尺寸的大小，然后将这个尺寸的也缓存起来。
@@ -137,7 +137,7 @@ Glide的这种方式优点是加载显示非常快。而Picasso的方式则因�
 .noFade();  
 ```
 
-![](https://ws3.sinaimg.cn/large/006tKfTcly1ftgqsfs056g30l40iwb2a.gif)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/sdsxcsxcsd.gif)
 
 Picasso和Glide各有所长，你根据自己的需求选择合适的。
 对我而言，我更喜欢Glide，因为它远比Picasso快，虽然需要更大的空间来缓存。（从上图也可以看出，Glide加载速度远快于Picasso）
@@ -187,7 +187,7 @@ Picasso和Glide各有所长，你根据自己的需求选择合适的。
 #### 有什么Glide可以做而Picasso做不到
 Glide可以加载GIF动态图，而Picasso不能。
 
-![](https://ws1.sinaimg.cn/large/006tNc79ly1ftgquaun7ag30l40iw14q.gif)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/006tNc79ly1ftgquaun7ag30l40iw14q.gif)
 
 同时因为Glide和Activity/Fragment的生命周期是一致的，因此gif的动画也会自动的随着Activity/Fragment的状态暂停、重放。Glide 的缓存在gif这里也是一样，调整大小然后缓存。
 但是从我的一次测试结果来看Glide 动画会消费太多的内存，因此谨慎使用。
@@ -202,13 +202,13 @@ Glide可以加载GIF动态图，而Picasso不能。
 #### 库的大小
 Picasso (v2.5.1)的大小约118kb，而Glide (v3.5.2)的大小约430kb。
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1ftgqx8rc9lj30yr0dywf1.jpg)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190719160413.png)
 
 Anyway 312KB difference might not be that significant.
 不过312kb的差距并不是很重要。
 Picasso和Glide的方法个数分别是840和2678个。
 
-![](http://m.qpic.cn/psb?/V11BgY9M4abG72/Quv1zYN9fl3UNubL7jW8e9VLqzOs3uezKQcBim3O9GM!/b/dDIBAAAAAAAA&bo=uQQ2AgAAAAADB6s!&rf=viewer_4)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190719160430.png)
 
 必须指出，对于DEX文件65535个方法的限制来说，2678是一个相当大的数字了。建议在使用Glide的时候开启ProGuard。
 
