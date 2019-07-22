@@ -15,7 +15,7 @@ date: 2019-05-12 13:40:05
 ### flutter go
 
 
-| 首页                                                         | 录音                                                         | 播放                                                         |
+|                                                              |                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190722135152.png) | ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190722135724.png) | ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20190722135809.png) |
 
