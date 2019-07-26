@@ -734,8 +734,6 @@ private void showGoogleMapDownloadView() {
 
 ### 当前位置及附近地点
 
-#### [前提](https://zhangmiao.cc/posts/50fe3b5b.html/#GoogleAPiClientBefore)
-
 #### API
 
 ```java
