@@ -47,7 +47,7 @@ Weex 提供了多端一致的技术方案。
 ### Android 嵌入weex
 
 #### 集成weex
-有两种模式，一种是源码集成，另一种sdk依赖。这里没有坑，就按照[接入文档](https://link.jianshu.com?t=http://weex.apache.org/cn/guide/integrate-to-your-app.html)接入就行，有一点注意一下，用源码依赖可以拿到最新版本，但通过源码依赖拿的版本就会落后一些，但比较稳定。
+有两种模式，一种是源码集成，另一种sdk依赖。这里没有坑，就按照[接入文档](https://weex.apache.org/zh/guide/develop/integrate-to-android-app.html)接入就行，有一点注意一下，用源码依赖可以拿到最新版本，但通过源码依赖拿的版本就会落后一些，但比较稳定。
 
 ```properties
 dependencies {
