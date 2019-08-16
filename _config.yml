@@ -8,13 +8,17 @@ subtitle: select * from learn
 description: Change for the Better
 keywords:
 author: ZhangMiao
+# language: zh-CN
 language: zh-Hans
 timezone: 
 avatar: https://avatars0.githubusercontent.com/u/4081078?s=460&v=4
 
+# Baidu Analytics
+baidu_analytics: 64a1d6b8fd3f610a210ef1ef8372bd3d
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://zhangmiao.cc
 root: /
 # permalink: :year/:month/:day/:title/
 # permalink_defaults:
@@ -79,6 +83,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-next-master
+# theme: next+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

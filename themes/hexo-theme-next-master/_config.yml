@@ -122,8 +122,8 @@ menu_icons:
 # Schemes
 # scheme: Muse
 #scheme: Mist
-scheme: Pisces
-#scheme: Gemini
+# scheme: Pisces
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -157,7 +157,7 @@ social_icons:
 
 # Blog rolls
 links_icon: link
-links_title: links
+links_title: 友情链接
 # links_layout: block
 links_layout: inline
 links:
@@ -270,7 +270,7 @@ alipay: /images/alipay.jpg
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -496,8 +496,8 @@ needmoreshare2:
 # See: https://webmaster.yandex.ru/
 #yandex_site_verification:
 
-# CNZZ count
-#cnzz_siteid:
+CNZZ count:
+  cnzz_siteid: 1277928793
 
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
@@ -570,7 +570,7 @@ firestore:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: 本站访客数
@@ -580,7 +580,7 @@ busuanzi_count:
   site_pv_header: 本站总访问量
   site_pv_footer: 次
   # custom pv span for one page only
-  page_pv: true
+  page_pv: false
   page_pv_header: 本文总阅读量
   page_pv_footer: 次
 
