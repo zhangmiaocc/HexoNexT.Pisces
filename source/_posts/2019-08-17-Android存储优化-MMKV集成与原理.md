@@ -33,7 +33,6 @@ dependencies {
     implementation 'com.tencent:mmkv:1.0.22'
     // replace "1.0.22" with any available version
 }
-复制代码
 ```
 
 <!--more-->
