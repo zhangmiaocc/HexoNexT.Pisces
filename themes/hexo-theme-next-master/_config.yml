@@ -496,8 +496,8 @@ needmoreshare2:
 # See: https://webmaster.yandex.ru/
 #yandex_site_verification:
 
-CNZZ count: true
-cnzz_siteid: 1277928793
+#CNZZ count
+cnzz_siteid: true
 
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
