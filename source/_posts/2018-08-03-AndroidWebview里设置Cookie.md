@@ -25,8 +25,7 @@ List<String> cookies = new ArrayList<>();
 cookies.add("app_key=" + App.getAppKey());
 cookies.add("os=" + "Android" + Build.VERSION.SDK_INT);
 ```
-
-#### <!--more-->
+<!--more-->
 
 #### Step 3 通过sync方法，将cookie同步
 
@@ -55,16 +54,14 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP_MR1) {
 `";Path=/";//Domain这个作用域下的哪个文件夹，“/”代表所有文件夹 `
 
 ##### <span style="color:red">注意</span>
-> 在调用设置Cookie之后不能再设置这类属性，否则设置Cookie无效。
-> ```java
-> webView.getSettings().setBuiltInZoomControls(true);  
-> webView.getSettings().setJavaScriptEnabled(true);  
-> ```
+在调用设置Cookie之后不能再设置这类属性，否则设置Cookie无效。
+```java
+webView.getSettings().setBuiltInZoomControls(true);  
+webView.getSettings().setJavaScriptEnabled(true);  
 ```
 
 
-#### 完整代码
-​```java
+```java
 public class WebviewUtil {
     public static void setWebCookie(Context context) {
         CookieManager.setAcceptFileSchemeCookies(true);
