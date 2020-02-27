@@ -1,5 +1,5 @@
 ---
-title: AndroidDebug调试
+title: 一文读懂 Android Debug 调试
 tags:
   - Android
   - Android Tips
@@ -36,7 +36,7 @@ date: 2020-02-27 13:47:43
 
 这个按钮的意思：程序向下一步执行，但是要注意，这个按钮不会主动进入方法体内，而是会直接运行完整个方法后直接运行下一步。 
 例如：我当前运行的debug，如果一直点击这个按钮的话，他会在onCreate()方法内，执行完add(),再执行完sub(),然后直接结束，并不会进add和sub方法内去打印。 
- 
+
 
 ### 2.2、Step Into（F7）
 
