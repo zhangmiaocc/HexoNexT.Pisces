@@ -18,7 +18,7 @@ class AppBar extends StatefulWidget implements PreferredSizeWidget
 ```
 
 那么我们也可以从这进行入手，自定义一个实现了 `PreferredSizeWidget`的Widget
-具体代码并不多，比你想象的简单，直接上代码，
+具体代码并不多，比你想象的简单，直接上代码：
 
 ```dart
 import 'package:flutter/material.dart';
@@ -110,6 +110,7 @@ class _CustomAppbarState extends State<CustomAppbar> {
 
 ```
 
+<!--more-->
 
 ### 引用的地方:
 
