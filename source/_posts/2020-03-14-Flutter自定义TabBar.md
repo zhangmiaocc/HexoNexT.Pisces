@@ -10,7 +10,7 @@ abbrlink: 251aa72f
 date: 2020-03-14 11:07:37
 ---
 
-custom_tabbar.dart
+### custom_tabbar.dart
 
 ```dart
 import 'package:ajbaby/res/colors.dart';
@@ -97,8 +97,8 @@ class _CustomTabBarState extends State<CustomTabBar> with AutomaticKeepAliveClie
 }
 ```
 
+### 引用
 
-引用
 ```dart
 body: CustomTabBar(
   tabsList: _tabsList,

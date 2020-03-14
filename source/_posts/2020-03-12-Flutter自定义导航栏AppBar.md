@@ -110,8 +110,6 @@ class _CustomAppbarState extends State<CustomAppbar> {
 
 ```
 
-<!--more-->
-
 ### 引用的地方:
 
 ```dart
@@ -123,3 +121,5 @@ appBar: new CustomAppbar(
 ```
 
 `leftBarButtonItemWidget() ` `rightBarButtonItemsWidget()`两个方法是我自定义的导航栏按钮，实现自己需要的即可。值得说的是，可以将leadingWidget设置为非@required的，在自定义的AppBar里面做好处理即可,另外在上面的代码中并没有限制导航栏上每个Widget所占用的最大空间，如果你的导航栏子组件可能很宽，提前进行妥善处理是个好主意。
+
+<!--more-->

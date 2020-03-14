@@ -10,7 +10,7 @@ abbrlink: 2f3abe95
 date: 2020-03-14 14:16:21
 ---
 
-widget_banner.dart
+### widget_banner.dart
 
 ```dart
 import 'dart:async';
@@ -201,7 +201,7 @@ class _CustomBannerState extends State<CustomBanner> {
 
 ```
 
-引用
+### 引用
 
 ```dart
 child: CustomBanner(
@@ -211,3 +211,4 @@ child: CustomBanner(
 ),
 ```
 
+<!--more-->
