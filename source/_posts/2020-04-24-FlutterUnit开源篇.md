@@ -10,267 +10,241 @@ abbrlink: d75d6183
 date: 2020-04-24 17:36:43
 ---
 
-#### 零、前言
 
-> `FlutterUnit`终于和大家见面了，这将是`【张风捷特烈】`长期维护的一个项目
->  [欢迎star](https://github.com/toly1994328/FlutterUnit) : [github.com/toly1994328…](https://github.com/toly1994328/FlutterUnit)
->  [可以在github 仓库里下载apk体验 : ](https://github.com/toly1994328/FlutterUnit/releases)
+[![GitHub stars](https://img.shields.io/github/stars/toly1994328/FlutterUnit)](https://github.com/toly1994328/FlutterUnit/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/toly1994328/FlutterUnit)](https://github.com/toly1994328/FlutterUnit/network)
+[![GitHub license](https://img.shields.io/github/license/toly1994328/FlutterUnit)](https://github.com/toly1994328/FlutterUnit/blob/master/LICENSE)
 
-| FlutterUnit.apk 下载                                         | Github仓库地址                                               |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/24/171a9911d22d34a8?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/18/1718af8fec8c62e2?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
+### FlutterUnit 下载体验:
 
-------
 
-<!--more-->
+
+| FlutterUnit.apk 下载  | FlutterUnit mac版 下载 | Github仓库地址 |
+|------|------------|------------|
+|![](https://user-gold-cdn.xitu.io/2020/5/10/171fc4325dbf90b0?w=300&h=390&f=png&s=23688)|![](https://user-gold-cdn.xitu.io/2020/5/4/171e051a0d2cbf37?w=300&h=390&f=png&s=24001)| ![](https://user-gold-cdn.xitu.io/2020/5/4/171e051a0cd9efd7?w=300&h=390&f=png&s=7596)|
+
+- Android下载链接: http://photo.toly1994.com/release/FlutterUnit.apk
+- Mac下载链接: http://photo.toly1994.com/release$flutter_unit_mac.zip
+
+- ✨ [Flutter Unit mac版支持 ](https://github.com/toly1994328/FlutterUnit/tree/flutter_unit_mac)
+
+---
+
+> 当前Flutter 版本
+
+```
+a1@toly ~ % flutter --version
+Flutter 1.17.0 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision e6b34c2b5c (5 days ago) • 2020-05-02 11:39:18 -0700
+Engine • revision 540786dd51
+Tools • Dart 2.8.1
+```
+
+#### Flutter Unit 周边
+
+- 🔥 [Flutter Unit 更新记录 ](http://king.toly1994.com/FlutterUnit_update.html)
+
+---
+
 
 ### 一、组件的展示页面
 
 #### 1. `210+组件收录`
 
 > Flutter源码中的可用的组件一共350个左右，纷繁复杂，也没有明确的分类标准
->  FlutterUnit 对`大大小小，常用不常用`的组件能收的尽量收录。并`根据个人感觉进行评星`
->  `目前收录组件211个`，每个都有至少一个演示展现和代码展示。
+FlutterUnit 对`大大小小，常用不常用`的组件能收的尽量收录。并`根据个人感觉进行评星 `
+`目前收录组件213个`，每个都有至少一个演示展现和代码展示。
 
-| .                                                            | .                                                            | .                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175af35f63c8fb?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175b0c1c92a004?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175b0a95d5c549?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175af9b09f76f6?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175b0766ed455b?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175af6b9523083?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
+| . | . | . |
+|------|------------|------------|
+| ![](https://user-gold-cdn.xitu.io/2020/4/14/17175af35f63c8fb?w=1080&h=2340&f=jpeg&s=158267)|  ![](https://user-gold-cdn.xitu.io/2020/4/14/17175b0c1c92a004?w=1080&h=2340&f=jpeg&s=161619)|     ![](https://user-gold-cdn.xitu.io/2020/4/14/17175b0a95d5c549?w=1080&h=2340&f=jpeg&s=150406)       |
+|  ![](https://user-gold-cdn.xitu.io/2020/4/14/17175af9b09f76f6?w=1080&h=2340&f=jpeg&s=153575)   | ![](https://user-gold-cdn.xitu.io/2020/4/14/17175b0766ed455b?w=1080&h=2340&f=jpeg&s=166128)        |![](https://user-gold-cdn.xitu.io/2020/4/14/17175af6b9523083?w=1080&h=2340&f=jpeg&s=163290)      |
 
-------
+---
 
 #### 2. 组件详情页
 
-> ```
-> 207个组件`全部都有详情页。对于重要的组件会详细展现
->  一般都会有某个演示对应的组件和属性,尽量做到细致，如果有需要补充，欢迎联系我。
->  `最重要的是: 所有的演示展现都是Flutter的组件形成的，而非图片，这就意味着可操作性更高。
-> ```
+> `213个组件`全部都有详情页。对于重要的组件会详细展现
+一般都会有某个演示对应的组件和属性,尽量做到细致，如果有需要补充，欢迎联系我。
+`最重要的是: 所有的演示展现都是Flutter的组件形成的，而非图片，这就意味着可操作性更高。`
 
-| .                                                            | .                                                            | .                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175c3f21476fc5?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175c44a1cfa94c?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175c4a7cd90126?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175c5171d0373f?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175c56ce136676?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175c61623c6462?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/171775f429e77628?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175d050c8ebdac?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175d09ac9ebd06?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
+| . | . | . |
+|------|------------|------------|
+| ![](https://user-gold-cdn.xitu.io/2020/4/14/17175c3f21476fc5?w=1080&h=2340&f=jpeg&s=67728)| ![](https://user-gold-cdn.xitu.io/2020/4/14/17175c44a1cfa94c?w=1080&h=2340&f=jpeg&s=92664)|    ![](https://user-gold-cdn.xitu.io/2020/4/14/17175c4a7cd90126?w=1080&h=2340&f=jpeg&s=114306) |
+|  ![](https://user-gold-cdn.xitu.io/2020/4/14/17175c5171d0373f?w=1080&h=2340&f=jpeg&s=159437)  | ![](https://user-gold-cdn.xitu.io/2020/4/14/17175c56ce136676?w=1080&h=2340&f=jpeg&s=87311)       |![](https://user-gold-cdn.xitu.io/2020/4/14/17175c61623c6462?w=1080&h=2340&f=jpeg&s=108215)|
 
-------
+
+
+
+
+---
 
 #### 3. 组件的可操作性
 
 > 对一些操作交互的组件或有可操作性的某些组件，`提供操作演示`
 
-| .                                                            | .                                                            | .                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175df98f83e05c?imageslim) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175dcce9022ddc?imageslim) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175de9b348a26a?imageslim) |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175e07aeb7c5db?imageslim) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175e14f00bacd6?imageslim) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175e2353306a37?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
+| . | . | . |
+|------|------------|------------|
+| ![](https://user-gold-cdn.xitu.io/2020/4/14/17175df98f83e05c?w=362&h=724&f=gif&s=1061771)| ![](https://user-gold-cdn.xitu.io/2020/4/14/17175dcce9022ddc?w=362&h=724&f=gif&s=232124)|   ![](https://user-gold-cdn.xitu.io/2020/4/14/17175de9b348a26a?w=362&h=724&f=gif&s=946647)|
 
-------
+---
 
 #### 4. 相关组件的关联切换
-
 > `相关组件通过link to 可以进行切换, 满足你的探索欲。`
->  如果有的关联未加入，欢迎联系我，对我来说，加个数字就行了。
+如果有的关联未加入，欢迎联系我，对我来说，加个数字就行了。
 
+![](https://user-gold-cdn.xitu.io/2020/4/14/17175ea0ea610669?w=610&h=226&f=png&s=37961)
 
+| . | . | . |
+|------|------------|------------|
+|![](https://user-gold-cdn.xitu.io/2020/4/14/17175e8c2a46e1f3?w=362&h=724&f=gif&s=471182)|![](https://user-gold-cdn.xitu.io/2020/4/14/17175e921dfc5c81?w=362&h=724&f=gif&s=658708)|   ![](https://user-gold-cdn.xitu.io/2020/4/14/17175e968c4f68e4?w=362&h=724&f=gif&s=300803)|
 
-![img](https://user-gold-cdn.xitu.io/2020/4/14/17175ea0ea610669?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
-
-
-
-| .                                                            | .                                                            | .                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175e8c2a46e1f3?imageslim) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175e921dfc5c81?imageslim) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17175e968c4f68e4?imageslim) |
-
-------
+---
 
 #### 5. 代码的查看和分享
-
 > 激动人心的是，你可以通过右侧的图标`展开/隐藏 实现下面效果的代码`
->  并且`支持分享`，如果你想亲自体验，so，easy ! 而且`代码高亮样式可以自定义`。
+并且`支持分享`，如果你想亲自体验，so，easy ! 而且`代码高亮样式可以自定义`。
 
-| .                                                            | .                                                            | .                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/171760369b9ae9d6?imageslim) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/1717603ad9119f2a?imageslim) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/1717604b10154271?imageslim) |
+| . | . | . |
+|------|------------|------------|
+| ![](https://user-gold-cdn.xitu.io/2020/4/14/171760369b9ae9d6?w=362&h=724&f=gif&s=1207409)| ![](https://user-gold-cdn.xitu.io/2020/4/14/1717603ad9119f2a?w=362&h=724&f=gif&s=1064037)|   ![](https://user-gold-cdn.xitu.io/2020/4/14/1717604b10154271?w=362&h=724&f=gif&s=2849830)|
 
-------
+---
+
 
 ### 二、全局配置
 
 #### 1. 颜色主题
-
 > 只提供八种颜色，可在`右滑菜单页`的`我的主题`配置,`可以拓展`
 
-| .                                                            | .                                                            | .                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/171760c51633383d?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/171760cbc7d0ddba?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/171760b8c24c188f?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/171760e274f4bbd4?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/171760e5a8ef180d?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/171760fd8bb60a8f?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
+| . | . | . |
+|------|------------|------------|
+| ![](https://user-gold-cdn.xitu.io/2020/4/14/171760c51633383d?w=1080&h=2340&f=jpeg&s=94977)| ![](https://user-gold-cdn.xitu.io/2020/4/14/171760cbc7d0ddba?w=1080&h=2340&f=jpeg&s=89001) |    ![](https://user-gold-cdn.xitu.io/2020/4/14/171760b8c24c188f?w=1080&h=2340&f=jpeg&s=168263) |
 
-------
+
+
+---
+
 
 #### 2.字体配置
 
 > 支持全局字体设置,`可以拓展`
 
-| .                                                            | .                                                            | .                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/1717615741f8d2e3?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/171761667bbf6051?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/1717617b8ab59421?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
+| . | . | . |
+|------|------------|------------|
+| ![](https://user-gold-cdn.xitu.io/2020/4/14/1717615741f8d2e3?w=1080&h=2340&f=png&s=167438)| ![](https://user-gold-cdn.xitu.io/2020/4/14/171761667bbf6051?w=1080&h=2340&f=png&s=808002) |   ![](https://user-gold-cdn.xitu.io/2020/4/14/1717617b8ab59421?w=1080&h=2340&f=png&s=796618)|
 
-------
+---
+
 
 #### 3.item样式设置
 
 > 支持item样式设置，`可以拓展，支持征集`，详见`Flutter Unit 1.0 征集方案`
 
-| .                                                            | .                                                            | .                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/1717620037fd9a50?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/1717620161fa89ec?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/171762026eb8656d?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
+| . | . | . |
+|------|------------|------------|
+|![](https://user-gold-cdn.xitu.io/2020/4/14/1717620037fd9a50?w=1080&h=2340&f=jpeg&s=105051)| ![](https://user-gold-cdn.xitu.io/2020/4/14/1717620161fa89ec?w=1080&h=2340&f=jpeg&s=158327)| ![](https://user-gold-cdn.xitu.io/2020/4/14/171762026eb8656d?w=1080&h=2340&f=jpeg&s=146688)|
 
-------
+---
 
 #### 4.代码面板风格设置
 
 > 支持代码风格设置，`可以拓展，支持征集`，详见`Flutter Unit 1.0 征集方案`
 
-| .                                                            | .                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/1717628b5fe1591c?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/1717629001ade9b0?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/17176298797c49a7?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/171762a2e5534237?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/171762a5db361ce9?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/171762aad1c14ce7?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
+| . | . |
+|------|------------|
+|![](https://user-gold-cdn.xitu.io/2020/4/14/1717628b5fe1591c?w=1080&h=759&f=png&s=105023)| ![](https://user-gold-cdn.xitu.io/2020/4/14/1717629001ade9b0?w=1080&h=773&f=png&s=102672)|
 
-------
+---
+
+
 
 ### 三、搜索与收藏功能
+
 
 #### 1.搜索功能
 
 > 由于Flutter中Widget比较杂乱，不太好分类，所以搜索是非常重要的
->  另外可以根据星级进行过滤，支持多选。目前正在考虑根据功能分类，之后会有所完善。
+另外可以根据星级进行过滤，支持多选。目前正在考虑根据功能分类，之后会有所完善。
 
-| .                                                            | .                                                            | .                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/171775fc594e4605?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/171775fd99268a78?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/171775fefef50fb9?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
 
-------
+| . | . | . |
+|------|------------|------------|
+| ![](https://user-gold-cdn.xitu.io/2020/4/14/171775fc594e4605?w=1080&h=2340&f=png&s=265281)| ![](https://user-gold-cdn.xitu.io/2020/4/14/171775fd99268a78?w=1080&h=2340&f=png&s=424599)|    ![](https://user-gold-cdn.xitu.io/2020/4/14/171775fefef50fb9?w=1080&h=2340&f=png&s=414437) |
+
+---
 
 #### 2.搜藏功能
 
 > 搜藏页做得比较简陋，后面打算做收藏夹，可以自己创建的那种。
 
-| .                                                            | .                                                            | .                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/17177668aa7fd135?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/17177665c53256b4?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/1717765ec688731c?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
+| . | . | . |
+|------|------------|------------|
+|![](https://user-gold-cdn.xitu.io/2020/4/14/17177668aa7fd135?w=1080&h=2340&f=png&s=640245)|![](https://user-gold-cdn.xitu.io/2020/4/14/17177665c53256b4?w=1080&h=2340&f=png&s=797902)|     ![](https://user-gold-cdn.xitu.io/2020/4/14/1717765ec688731c?w=1080&h=2340&f=png&s=272421)|
 
-> `FlutterUnit 1.0`目前基本就是这么多功能，可以在Github中下载打包后的apk玩玩
->  希望能对你的Flutter学习有所帮助。
+> `FlutterUnit 1.0 `目前基本就是这么多功能，可以在Github中下载打包后的apk玩玩
+希望能对你的Flutter学习有所帮助。
 
-------
+---
 
 #### 3.关于我与项目
-
 > 不多说，都在图里。
 
-| .                                                            | .                                                            | .                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/171777c67ed0c205?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/171777c8ccfce16b?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/171777caed85b26a?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
-|                                                              |                                                              |                                                              |
+| . | . | . |
+|------|------------|------------|
+|![](https://user-gold-cdn.xitu.io/2020/4/14/171777c67ed0c205?w=1080&h=2340&f=png&s=1272888)|![](https://user-gold-cdn.xitu.io/2020/4/14/171777c8ccfce16b?w=1080&h=2340&f=png&s=1105006)|     ![](https://user-gold-cdn.xitu.io/2020/4/14/171777caed85b26a?w=1080&h=2340&f=png&s=1190414)
+|
 
-------
 
-### 四、FlutterUnit 2.0 展望
 
-> 后面将是一些集录，需要更多的Flutter爱好者参与，计划方案将陆续发布。
+---
 
-| .                                                            | .                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/171777f2cf762719?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/1717799a14c22a11?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
-| ![img](https://user-gold-cdn.xitu.io/2020/4/14/1717799eb0f01c6f?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) | ![img](https://user-gold-cdn.xitu.io/2020/4/14/171779a42e429ce1?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) |
 
-------
+###  Flutter Unit  Bug - Feature
 
-#### 尾声
+ - `2020-4-16`
 
-> 欢迎[Star和关注FlutterUnit](https://github.com/toly1994328/FlutterUnit) 的发展，让我们一起携手，成为Unit一员。
->  另外本人有一个Flutter微信交流群，欢迎小伙伴加入，共同探讨Flutter的问题，期待与你的交流与切磋。
+```
+fixed "     修改样式无法点击的问题。
+fixed "     一些已知文案的错误。
+fixed "     hero动画闪现不同步问题。
+```
 
-> ```
-> @张风捷特烈 2019.04.04 未允禁转`
->  `我的公众号:编程之王`
->  `联系我--邮箱:1981462002@qq.com --微信:zdl1994328`
->  `~ END ~
-> ```
+---
 
-------
+ - `2020-4-17`
 
-#### 最后， `Flutter Widget 图鉴` 奉上
+```
+fixed "     进入收藏页，再回到首页，顶部显示不同步的问题。
+fixed "     主页item双击黑屏问题。
 
-> 目前只画了十张，大概100多个组件，过过眼也好。后面有时间会更新。
->  原图资源也放在[ FlutterUnit 中 ](https://github.com/toly1994328/FlutterUnit/tree/master/widgets_unity): 如发现错误欢迎联系我及时改正。
 
+feature "   支持详情页【相关链接的栈管理】,
+        "   即: 点击多个链接，不直接返回主页.
+```
 
+---
 
-![img](https://user-gold-cdn.xitu.io/2020/4/14/17177a0620c2e259?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+ - `2020-4-18`
 
+```
+feature "   小彩蛋: 【长按】底部栏【最左侧按钮】,打开左边菜单栏
+        "   【长按】底部栏【最右侧按钮】,打开右边菜单栏
 
+fixed "     收藏集的AppBar背景色同主页选中色。
+```
 
+---
 
 
-![img](https://user-gold-cdn.xitu.io/2020/4/14/17177a08357b00ec?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+ - `2020-4-19`
 
-
-
-
-
-![img](https://user-gold-cdn.xitu.io/2020/4/14/17177a0990f44709?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
-
-
-
-
-
-![img](https://user-gold-cdn.xitu.io/2020/4/14/17177a0b2519089d?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
-
-
-
-
-
-![img](https://user-gold-cdn.xitu.io/2020/4/14/17177a0c8ccc1b7a?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
-
-
-
-
-
-![img](https://user-gold-cdn.xitu.io/2020/4/14/17177a0ea141bd92?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
-
-
-
-
-
-![img](https://user-gold-cdn.xitu.io/2020/4/14/17177a0fe343d674?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
-
-
-
-
-
-![img](https://user-gold-cdn.xitu.io/2020/4/14/17177a126bddafd8?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
-
-
-
-
-
-![img](https://user-gold-cdn.xitu.io/2020/4/14/17177a13b9553260?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
-
-
-
-
-
-![img](https://user-gold-cdn.xitu.io/2020/4/14/17177a23ecaf0fca?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
-
-
-
-------
-
-
-
-![img](https://user-gold-cdn.xitu.io/2020/4/19/17190d67e6f1bd39?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+```
+optimize "   添加收录【LayoutBuilder】组件
+optimize "   添加收录【IgnorePointer】组件
+optimize "   添加收录【AbsorbPointer】组件
+optimize "   添加收录【BackdropFilter】组件
+```
 
 作者：张风捷特烈
 
