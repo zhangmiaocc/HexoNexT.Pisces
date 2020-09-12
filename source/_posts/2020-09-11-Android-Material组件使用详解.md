@@ -42,9 +42,7 @@ MaterialButton继承AppCompatButton，在原来Button的基础上做了一些扩
 
 公开属性如下：
 
-
-
-![img](https://mmbiz.qpic.cn/mmbiz_png/v1LbPPWiaSt5LyCzHkhgibXhq6PCdFbg68ouJE4Ipp04HYVGacHzBAo9Rl0N77ib83I1mhlqicqbsNDumzDaWibmaKQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20200912103257.png)
 
 
 
@@ -286,8 +284,6 @@ github有人反馈了类似问题(*https://github.com/material-components/materi
 
 ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20200911110158.png)
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/v1LbPPWiaSt5LyCzHkhgibXhq6PCdFbg688whba795fOS1KL389JzIdVxPAmmDmKoOhw4AhcP2Rx4qcl3frBWic0w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
-
 ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20200911110241.png)
 
 
@@ -298,7 +294,7 @@ Slider可以实现滑块头部数字变化效果，还可以实现类似刻度�
 
 常用属性如下：
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/v1LbPPWiaSt5LyCzHkhgibXhq6PCdFbg68wibGNyysJicGjU6EuuDAqxCpsKQIgtuqb7uajJ2ibD7iaZNhq6ibNAoZqOA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20200912103410.png)
 
 
 其他属性还有haloColor、haloRadius、thumbColor等，用来配置一些外观
