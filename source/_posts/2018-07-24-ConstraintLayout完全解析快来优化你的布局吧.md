@@ -39,7 +39,7 @@ compile 'com.android.support.constraint:constraint-layout:1.0.2'
 
 我们先看一个简单的新闻列表中常见的feed item。
 
-![img](https://img-blog.csdn.net/20170917170606240?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112514.png)
 
 看到这样的布局，大家条件反射应该就是使用RelativeLayout来做，当然了，本案例我们使用ConstraintLayout来写：
 
@@ -184,7 +184,7 @@ tv3在tv1的右侧，tv3和tv1底部对其。
 </RelativeLayout>
 ```
 
-![img](https://img-blog.csdn.net/20170917214107534?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112534.png)
 
 那么经过我们刚才的学习，把：
 
@@ -196,11 +196,11 @@ tv3在tv1的右侧，tv3和tv1底部对其。
 
 是不是觉得so easy ，但是我们看一下效果图：
 
-![img](https://img-blog.csdn.net/20170917214154980?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112550.png)
 
 是不是和预期有一定的区别，假设你将Btn02的宽度设置的非常大，你会发现更加诡异的事情：
 
-![img](https://img-blog.csdn.net/20170917215116471?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112605.png)
 
 你会发现Btn02，好像疯了一样，我们设置的在btn01右侧，和与parent右侧对齐完全失效了！！！
 
@@ -220,7 +220,7 @@ tv3在tv1的右侧，tv3和tv1底部对其。
 
 对！当我们将btn02的宽度设置为0时，一切又变得很完美。
 
-![img](https://img-blog.csdn.net/20170917215609788?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112623.png)
 
 那么这里，你可能会问0值是什么含义，其实在ConstraintLayout中0代表：`MATCH_CONSTRAINT`，看到这个常量，是不是瞬间觉得好理解了一点。
 
@@ -286,7 +286,7 @@ app:layout_constraintDimensionRatio="16:6"
 
 好了看下效果图：
 
-![img](https://img-blog.csdn.net/20170917220438545?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112645.png)
 
 这个宽高比属性，还支持这样的写法：
 
@@ -352,7 +352,7 @@ app:layout_constraintDimensionRatio="H,16:6"
 
 看一眼效果图：
 
-![img](https://img-blog.csdn.net/20170917220838802?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112703.png)
 
 你可能会说，LL配合weight更加灵活，可以单个设置占据的比例。
 
@@ -368,7 +368,7 @@ app:layout_constraintHorizontal_weight
 
 效果图为：
 
-![img](https://img-blog.csdn.net/20170917221104407?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112719.png)
 
 是不是很惊喜，别急，刚才你说我不如LL，现在我要让你再看一些LL配合weight做不到的。
 
@@ -376,7 +376,7 @@ app:layout_constraintHorizontal_weight
 
 刚才我们说了，3个tab两两设置了依赖，即类似下图：
 
-![img](https://img-blog.csdn.net/20170917221527191?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112737.png)
 
 横向的相当于组成了一个链(Chains)。在这个链的最左侧的元素成为链头，我们可以在其身上设置一些属性，来决定这个链的展示效果：
 
@@ -399,22 +399,22 @@ chainStyle=”spread”，所有控件宽度设置为`match_constraint`，因为
 
 1. spread + 宽度非0
 
-![img](https://img-blog.csdn.net/20170917221836747?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112754.png)
 
 1. spread + 宽度为0，且可以通过weight控制分配比例（上例）
 2. spread_inside + 宽度非0
 
-![img](https://img-blog.csdn.net/20170917222017211?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112811.png)
 
 1. packed + 宽度非0
 
-![img](https://img-blog.csdn.net/20170917222130590?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112825.png)
 
 好了，差不多了，我们可以在横向或者纵向组成一个Chain，然后在Chain head设置chainStyle来搞一些事情。
 
 官网有个图：
 
-![img](https://img-blog.csdn.net/20170917222312991?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112848.png)
 
 前四个我们都演示了，最后一个设计到一个新的bias属性，别急，咱们慢慢说~~
 
@@ -464,7 +464,7 @@ layout_constraintVertical_bias
 
 我们看一下效果图：
 
-![img](https://img-blog.csdn.net/20170917222509804?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112913.png)
 
 那么到这里，ConstraintLayout的属性我们基本上介绍完了：
 
@@ -567,7 +567,7 @@ percent=0.8即为距离顶部80%。
 
 我感觉都不用解释了~~看眼效果图吧：
 
-![img](https://img-blog.csdn.net/20170917222615812?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG1qNjIzNTY1Nzkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20210401112930.png)
 
 到此，属性基本上讲完啦~
 
