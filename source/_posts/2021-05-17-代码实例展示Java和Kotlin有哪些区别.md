@@ -555,7 +555,7 @@ data class Developer(var name: String, var age: Int)
 ```
 
 
-## 构造器
+## 类方法
 
 ```java
 // java
@@ -581,4 +581,122 @@ fun Int.triple(): Int {
 }
 
 var result = 3.triple()
+```
+
+## 枚举
+```java
+// java
+public enum Direction {
+        NORTH(1),
+        SOUTH(2),
+        WEST(3),
+        EAST(4);
+
+        int direction;
+
+        Direction(int direction) {
+            this.direction = direction;
+        }
+
+        public int getDirection() {
+            return direction;
+        }
+    }
+```
+
+```kotlin
+// kotlin
+enum class Direction(val direction: Int) {
+    NORTH(1),
+    SOUTH(2),
+    WEST(3),
+    EAST(4);
+}
+```
+
+## 定义未初始化的对象
+```java
+// java
+Person person;
+```
+
+```kotlin
+// kotlin
+internal lateinit var person: Person
+```
+
+## 排序
+```java
+// java
+List<Profile> profiles = loadProfiles(context);
+Collections.sort(profiles, new Comparator<Profile>() {
+    @Override
+    public int compare(Profile profile1, Profile profile2) {
+        if (profile1.getAge() > profile2.getAge()) return 1;
+        if (profile1.getAge() < profile2.getAge()) return -1;
+        return 0;
+    }
+});
+```
+
+```kotlin
+// kotlin
+val profile = loadProfiles(context)
+profile.sortedWith(Comparator({ profile1, profile2 ->
+    if (profile1.age > profile2.age) return@Comparator 1
+    if (profile1.age < profile2.age) return@Comparator -1
+    return@Comparator 0
+}))
+```
+
+## 匿名类
+```java
+// java
+ AsyncTask<Void, Void, Profile> task = new AsyncTask<Void, Void, Profile>() {
+    @Override
+    protected Profile doInBackground(Void... voids) {
+        // fetch profile from API or DB
+        return null;
+    }
+
+    @Override
+    protected void onPreExecute() {
+        super.onPreExecute();
+        // do something
+    }
+};
+```
+
+```kotlin
+// kotlin
+val task = object : AsyncTask<Void, Void, Profile>() {
+    override fun doInBackground(vararg voids: Void): Profile? {
+        // fetch profile from API or DB
+        return null
+    }
+
+    override fun onPreExecute() {
+        super.onPreExecute()
+        // do something
+    }
+}
+```
+
+## 初始化块
+```java
+// java
+public class User {
+    {  //Initialization block
+        System.out.println("Init block");
+    }
+}
+```
+
+```kotlin
+// kotlin
+   class User {
+        init { // Initialization block
+            println("Init block")
+        }
+    }
 ```
