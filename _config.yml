@@ -89,7 +89,7 @@ theme: hexo-theme-next-master
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/zhangmiaocc/zm.blog
+  repo: git@github.com:zhangmiaocc/zm.blog.git
   branch: master
 
 search:
