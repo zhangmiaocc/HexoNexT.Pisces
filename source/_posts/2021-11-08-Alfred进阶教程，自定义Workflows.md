@@ -18,6 +18,8 @@ date: 2021-11-08 16:25:42
 
 ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20211108163119.png)
 
+<!--more-->
+
 然后为你的工作流编辑名称、图标等信息，便于识别。（图标可以直接拖入）
 
 ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20211108165131.png)
