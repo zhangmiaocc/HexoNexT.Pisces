@@ -2,8 +2,10 @@
 title: Mac Os，iphone，ipad绑定阿里云邮箱
 tags:
   - Mac
+  - 其他
 categories:
   - Mac
+  - 其他
 abbrlink: 94899ee0
 date: 2019-08-21 15:15:28
 ---
