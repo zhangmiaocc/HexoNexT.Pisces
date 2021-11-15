@@ -241,11 +241,11 @@ Modifier.padding(InnerPadding(10.dp, 11.dp, 12.dp, 13.dp))// 分别为上下左�
 ```kotlin
 Modifier.plus(otherModifier) // 把otherModifier的信息加入到现有的modifier中
 ```
-#### fillMaxHeight,fillMaxWidth,fillMaxSize 类似于match_parent,填充整个父layout。
+#### fillMaxHeight、fillMaxWidth、fillMaxSize 类似于match_parent、填充整个父layout。
 ```kotlin
 Modifier.fillMaxHeight() // 填充整个高度
 ```
-#### width,heigh,size 设置Content的宽度和高度。
+#### width、heigh、size 设置Content的宽度和高度。
 ```kotlin
 Modifier.width(2.dp) // 设置宽度
 Modifier.height(3.dp)  // 设置高度
@@ -263,7 +263,7 @@ Modifier.gravity(Alignment.CenterHorizontally) // 横向居中
 Modifier.gravity(Alignment.Start) // 横向居左
 Modifier.gravity(Alignment.End) // 横向居右
 ```
-#### rtl, ltr 开始布局UI的方向。
+#### rtl、ltr 开始布局UI的方向。
 ```kotlin
 Modifier.rtl  // 从右到左
 Modifier.ltr  // 从左到右
@@ -277,8 +277,9 @@ fun Greeting(name: String) {
 
 ```
 ### Column，Row
-Column 线性布局 ≈ Android LinearLayout-VERTICAL
-Row 水平布局 ≈ Android LinearLayout-HORIZONTAL
+> Column 线性布局 ≈ Android LinearLayout-VERTICAL
+> Row 水平布局 ≈ Android LinearLayout-HORIZONTAL
+
 Column和Row可以理解为在View/Layout体系中的纵向和横向的ViewGroup。
 - Modifier 用上述的方法传入已经按需求设置好的Modifier即可。
 - Arrangement.Horizontal, Arrangement.Vertical 需要给Row传入Arrangement.Horizontal，为Column传入Arrangement.Vertical。 这些值决定如何布置内部UI组件。
