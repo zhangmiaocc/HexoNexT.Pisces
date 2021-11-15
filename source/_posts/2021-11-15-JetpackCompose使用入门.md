@@ -266,7 +266,7 @@ Modifier.gravity(Alignment.End) // 横向居右
 #### rtl, ltr 开始布局UI的方向。
 ```kotlin
 Modifier.rtl  // 从右到左
-Modifier.ltr  // 从左到右 复制代码`</pre>
+Modifier.ltr  // 从左到右
 
 Modifier的方法都返回Modifier的实例的链式调用，所以只要连续调用想要使用的方法即可。
 
@@ -299,7 +299,7 @@ Column {
 ### ConstraintLayout
 需要引入`implementation "androidx.constraintlayout:constraintlayout-compose:1.0.0-beta02"`
 
-#### 列表
+### 列表
 - 可以滚动的布局
 	```kotlin
 	//我们可以使用 verticalScroll() 修饰符使 Column 可滚动，但以上布局并无法实现重用，可能导致性能问题
@@ -377,3 +377,10 @@ Canvas(modifier = Modifier.fillMaxSize()) {
 ```
 ![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20211115161558.png)
 
+## 结束语
+- `Compose`整体来看，布局实现上相对于xml更加简单高效，也是官方日后力推的开发方式。
+- `Compose`写法与`Flutter`代码上有很高的相似之处，都是通过响应式的快速搭建UI布局。
+（PS：响应式的UI开发模式在大前端的各个语言中越来越相似了）
+
+## 参考文献
+https://developer.android.com/jetpack/compose
