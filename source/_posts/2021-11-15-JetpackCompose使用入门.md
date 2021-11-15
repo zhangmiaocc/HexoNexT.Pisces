@@ -10,7 +10,7 @@ abbrlink: 7b2baf2a
 date: 2021-11-15 11:40:42
 ---
 
-## Compose简介
+## 简介
 
 - Jetpack Compose：利用声明式编程构建Android原生界面（UI）的 工具包
 
@@ -21,7 +21,7 @@ date: 2021-11-15 11:40:42
 - 直观的 Kotlin API
 - 简单易用
 
-## Compose 编程思想
+## 编程思想
 - **声明性编程范式**：声明性的函数构建一个简单的界面组件，无需修改任何 XML 布局，也不需要使用布局编辑器，只需要调用 Jetpack Compose 函数来声明想要的元素，Compose 编译器即会完成后面的所有工作。
 
 - **简单的组合函数**
@@ -46,6 +46,7 @@ date: 2021-11-15 11:40:42
   - 重组是乐观的操作
   - 可组合函数可能会非常频繁地运行
 
+<!--more-->
 
 ## 开发环境
 
@@ -132,7 +133,7 @@ date: 2021-11-15 11:40:42
 - @Preview生效，则环境正常
 	![](https://raw.githubusercontent.com/zhangmiaocc/blogImageResource/master/img/20211115150241.png)
 
-## ComposeUI布局
+## UI布局
 ### @Compose
 所有关于构建View的方法都必须添加`@Compose`注解才可以。并且`@Compose`协程的`Suspend`的使用方法比较类似,被`@Compose`注解的方法只能在同样被`@Comopse`解的方法中才能被调用。
 ```kotlin
