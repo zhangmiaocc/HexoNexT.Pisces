@@ -10,14 +10,14 @@ abbrlink: dffd90b2
 date: 2020-03-10 11:56:49
 ---
 
-### 1：被重绘的tab页要 混入AutomaticKeepAliveClientMixin
+### 被重绘的tab页要 混入AutomaticKeepAliveClientMixin
 
 ```dart
 // with 混入
 class DevicePageLayout extends  WidgetState<DevicePage>  with AutomaticKeepAliveClientMixin
 ```
 
-###2：实现wantKeepAlive方法 ，返回值改成true
+### 实现wantKeepAlive方法 ，返回值改成true
 
 ```dart
   @override
@@ -25,7 +25,7 @@ class DevicePageLayout extends  WidgetState<DevicePage>  with AutomaticKeepAlive
   bool get wantKeepAlive => true;
 ```
 
-###3：build中加入 super.build(context);
+### build中加入 super.build(context);
 
 ```java
 @override
