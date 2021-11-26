@@ -11,10 +11,10 @@ comments: true
 
 ### 自我认知
 - 综合能力: 个人能力 | 责任心 | 适应能力 | 团队精神 | 执行力 | OKR 管理 
-- 定位:主攻 Android，熟悉前端具备 Flutter、Weex 跨平台开发，希望全栈; 
-- 态度:高效完成 => 追求完美 => 互相提升;
-- 困难:Google && Stack Overflow，阅读文档源码;
-- 视野:CSDN / 掘金 / 简书 / GitHub;
+- 定位: 主攻 Android，熟悉前端具备 Flutter、Weex 跨平台开发，希望全栈; 
+- 态度: 高效完成 => 追求完美 => 互相提升;
+- 困难: Google && Stack Overflow，阅读文档源码;
+- 视野: CSDN / 掘金 / 简书 / GitHub;
 
 ### 写给自己
 > 我们每个人由我们一再重复的行为所铸造的，因而优秀不是一种行为，而是一种习惯。
