@@ -18,7 +18,7 @@ baidu_analytics: 64a1d6b8fd3f610a210ef1ef8372bd3d
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://zhangmiao.cc
+url: https://zhangmiao.space
 root: /
 # permalink: :year/:month/:day/:title/
 # permalink_defaults:
